@@ -1,0 +1,2716 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="path" attr.type="string" for="node" id="d1" />
+  <key attr.name="project" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="directed">
+    <node id="python-dogpile-cache" />
+    <node id="python-XStatic-JQuery-TableSorter" />
+    <node id="shadow-utils-config">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/config-files/shadow-utils-config/centos/shadow-utils-config.spec</data>
+    </node>
+    <node id="python2-osc-lib-tests" />
+    <node id="python-oslo-policy" />
+    <node id="ima-evm-utils" />
+    <node id="python2-XStatic-Angular-Bootstrap" />
+    <node id="%{bdbname}-devel" />
+    <node id="libevent-devel" />
+    <node id="python-oslo-config" />
+    <node id="python-keystoneclient">
+      <data key="d0">stx-upstream</data>
+      <data key="d1">./cgcs-root/stx/stx-upstream/openstack/python-keystoneclient/centos/python-keystoneclient.spec</data>
+    </node>
+    <node id="python-eventlet" />
+    <node id="python3-simplejson" />
+    <node id="python2-decorator" />
+    <node id="python2-django-pyscss &gt;= 2.0.2" />
+    <node id="python3-greenlet" />
+    <node id="python-XStatic-Angular-lrdragndrop" />
+    <node id="perl(IPC::Open3)" />
+    <node id="helm">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/kubernetes/helm/centos/helm.spec</data>
+    </node>
+    <node id="augeas" />
+    <node id="python3-iso8601 &gt;= 0.1.11" />
+    <node id="ceph-manager">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/ceph/ceph-manager/centos/ceph-manager.spec</data>
+    </node>
+    <node id="stx-openstack-helm">
+      <data key="d0">stx-config</data>
+      <data key="d1">./cgcs-root/stx/stx-config/kubernetes/applications/stx-openstack/stx-openstack-helm/centos/stx-openstack-helm.spec</data>
+    </node>
+    <node id="python2-novaclient" />
+    <node id="xen-devel" />
+    <node id="C">
+      <data key="d0">stx-update</data>
+      <data key="d1">./cgcs-root/stx/stx-update/patch-scripts/test-patches/C/centos/C.spec</data>
+    </node>
+    <node id="python3-stevedore" />
+    <node id="python2-fixtures" />
+    <node id="iptables-ipv6" />
+    <node id="libtpms">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/security/libtpms/centos/libtpms.spec</data>
+    </node>
+    <node id="xfsprogs" />
+    <node id="perl(Data::Dumper)" />
+    <node id="python2-XStatic-roboto-fontface" />
+    <node id="binutils-devel" />
+    <node id="python3-paramiko" />
+    <node id="INSVC_ALLNODES">
+      <data key="d0">stx-update</data>
+      <data key="d1">./cgcs-root/stx/stx-update/patch-scripts/test-patches/INSVC_ALLNODES/centos/INSVC_ALLNODES.spec</data>
+    </node>
+    <node id="INSVC_COMPUTE">
+      <data key="d0">stx-update</data>
+      <data key="d1">./cgcs-root/stx/stx-update/patch-scripts/test-patches/INSVC_COMPUTE/centos/INSVC_COMPUTE.spec</data>
+    </node>
+    <node id="python-pip" />
+    <node id="zlib-devel" />
+    <node id="python2-XStatic-D3" />
+    <node id="xmlstarlet" />
+    <node id="storageconfig">
+      <data key="d0">stx-config</data>
+      <data key="d1">./cgcs-root/stx/stx-config/storageconfig/centos/storageconfig.spec</data>
+    </node>
+    <node id="pam-config">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/config-files/pam-config/centos/pam-config.spec</data>
+    </node>
+    <node id="python-keyring" />
+    <node id="syslinux" />
+    <node id="python2-testrepository" />
+    <node id="golang(google.golang.org/cloud/storage)" />
+    <node id="PyYAML" />
+    <node id="python3-pbr" />
+    <node id="cgcs-users">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/base/cgcs-users/centos/cgcs-users.spec</data>
+    </node>
+    <node id="python-selenium" />
+    <node id="libbabeltrace-devel" />
+    <node id="config-gate">
+      <data key="d0">stx-config</data>
+      <data key="d1">./cgcs-root/stx/stx-config/config-gate/centos/config-gate.spec</data>
+    </node>
+    <node id="/usr/share/selinux/devel/policyhelp" />
+    <node id="EXAMPLE_SERVICE">
+      <data key="d0">stx-update</data>
+      <data key="d1">./cgcs-root/stx/stx-update/patch-scripts/EXAMPLE_SERVICE/centos/EXAMPLE_SERVICE.spec</data>
+    </node>
+    <node id="iscsi-initiator-utils" />
+    <node id="python3-novaclient" />
+    <node id="golang &gt;= 1.2-7" />
+    <node id="python-3parclient">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/storage-drivers/python-3parclient/centos/python-3parclient.spec</data>
+    </node>
+    <node id="INSVC_RESTART_FAILURE">
+      <data key="d0">stx-update</data>
+      <data key="d1">./cgcs-root/stx/stx-update/patch-scripts/test-patches/INSVC_RESTART_FAILURE/centos/INSVC_RESTART_FAILURE.spec</data>
+    </node>
+    <node id="python2-oslo-serialization" />
+    <node id="golang(github.com/AdRoll/goamz/s3)" />
+    <node id="python-netaddr" />
+    <node id="Judy-devel" />
+    <node id="perl(Sys::Hostname)" />
+    <node id="libudev-devel &gt;= 145" />
+    <node id="libusbx-devel &gt;= 1.0.19" />
+    <node id="libxslt" />
+    <node id="kubernetes-cni">
+      <data key="d0">git</data>
+      <data key="d1">./cgcs-root/stx/git/kubernetes/build/rpms/kubernetes-cni.spec</data>
+    </node>
+    <node id="gnutls-devel" />
+    <node id="collector">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/tools/collector/centos/collector.spec</data>
+    </node>
+    <node id="python3-eventlet" />
+    <node id="python2-requests-mock &gt;= 1.1" />
+    <node id="python-XStatic-jQuery" />
+    <node id="python3-oauthlib" />
+    <node id="python3-openstacksdk" />
+    <node id="python2-XStatic-Angular-Gettext" />
+    <node id="spice-protocol &gt;= 0.12.2" />
+    <node id="nss-softokn-freebl-devel &gt;= 3.12.9-2" />
+    <node id="grub2-efi-x64-pxeboot" />
+    <node id="multilib-rpm-config" />
+    <node id="cyrus-sasl-devel" />
+    <node id="bzip2-devel &gt;= 0.9.0c-2" />
+    <node id="python-sqlalchemy" />
+    <node id="python3-betamax &gt;= 0.7.0" />
+    <node id="SDL-devel" />
+    <node id="boost-random" />
+    <node id="python-lxml" />
+    <node id="texinfo" />
+    <node id="fm-mgr">
+      <data key="d0">stx-fault</data>
+      <data key="d1">./cgcs-root/stx/stx-fault/fm-mgr/centos/fm-mgr.spec</data>
+    </node>
+    <node id="python-oslo-service" />
+    <node id="golang(github.com/mitchellh/mapstructure)" />
+    <node id="openstack-ras">
+      <data key="d0">stx-upstream</data>
+      <data key="d1">./cgcs-root/stx/stx-upstream/openstack/openstack-ras/centos/openstack-ras.spec</data>
+    </node>
+    <node id="lua-devel" />
+    <node id="python3-sphinx" />
+    <node id="net-tools" />
+    <node id="python3-deprecation" />
+    <node id="sm-common">
+      <data key="d0">stx-ha</data>
+      <data key="d1">./cgcs-root/stx/stx-ha/service-mgmt/sm-common-1.0.0/centos/sm-common.spec</data>
+    </node>
+    <node id="python2-django-compressor &gt;= 2.0" />
+    <node id="fm-common">
+      <data key="d0">stx-fault</data>
+      <data key="d1">./cgcs-root/stx/stx-fault/fm-common/centos/fm-common.spec</data>
+    </node>
+    <node id="xhtml1-dtds" />
+    <node id="python3-keystoneclient" />
+    <node id="libwsman-devel &gt;= 2.2.3" />
+    <node id="nss-softokn-devel &gt;= 3.12.9-2, gmp-devel" />
+    <node id="python-wheel" />
+    <node id="python2-mock" />
+    <node id="python2-neutronclient" />
+    <node id="util-linux-config">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/config-files/util-linux-config/centos/util-linux-config.spec</data>
+    </node>
+    <node id="pam-devel" />
+    <node id="initscripts-config">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/base/initscripts-config/centos/initscripts-config.spec</data>
+    </node>
+    <node id="automake" />
+    <node id="pyOpenSSL" />
+    <node id="sm-db">
+      <data key="d0">stx-ha</data>
+      <data key="d1">./cgcs-root/stx/stx-ha/service-mgmt/sm-db-1.0.0/centos/sm-db.spec</data>
+    </node>
+    <node id="puppet-dcmanager">
+      <data key="d0">stx-config</data>
+      <data key="d1">./cgcs-root/stx/stx-config/puppet-modules-wrs/puppet-dcmanager/centos/puppet-dcmanager.spec</data>
+    </node>
+    <node id="python-iso8601" />
+    <node id="python-XStatic-Spin" />
+    <node id="gnulib" />
+    <node id="python-openstackclient">
+      <data key="d0">stx-upstream</data>
+      <data key="d1">./cgcs-root/stx/stx-upstream/openstack/python-openstackclient/centos/python-openstackclient.spec</data>
+    </node>
+    <node id="python3-testscenarios" />
+    <node id="nfs-utils-config">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/filesystem/nfs-utils-config/centos/nfs-utils-config.spec</data>
+    </node>
+    <node id="libssh2-devel" />
+    <node id="perl(Env)" />
+    <node id="python-XStatic-JQuery-quicksearch" />
+    <node id="glibc" />
+    <node id="libatomic_ops-devel" />
+    <node id="systemtap" />
+    <node id="perl-generators" />
+    <node id="python-oslo-db" />
+    <node id="python3-munch" />
+    <node id="libssh2" />
+    <node id="ntp-config">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/config-files/ntp-config/centos/ntp-config.spec</data>
+    </node>
+    <node id="python3-decorator" />
+    <node id="chkconfig" />
+    <node id="puppet-boolean">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/config/puppet-modules/puppet-boolean-1.0.2/centos/puppet-boolean.spec</data>
+    </node>
+    <node id="readline-devel" />
+    <node id="python-six &gt;= 1.10.0" />
+    <node id="python-semantic_version" />
+    <node id="python3-osprofiler" />
+    <node id="libarchive-devel" />
+    <node id="python2-XStatic-tv4" />
+    <node id="gawk" />
+    <node id="python3-testresources" />
+    <node id="python2-stestr" />
+    <node id="keyutils-devel" />
+    <node id="dhcp-config">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/base/dhcp-config/centos/dhcp-config.spec</data>
+    </node>
+    <node id="ceph">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/ceph/ceph/centos/ceph.spec</data>
+    </node>
+    <node id="pulseaudio-libs-devel" />
+    <node id="postgresql" />
+    <node id="puppet-ldap">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/config/puppet-modules/puppet-ldap/centos/puppet-ldap.spec</data>
+    </node>
+    <node id="python2-osc-lib &gt;= 1.10.0" />
+    <node id="sm-db-dev" />
+    <node id="libssh2-devel &gt;= 1.3.0" />
+    <node id="SUITE_B_PATCH_F">
+      <data key="d0">stx-update</data>
+      <data key="d1">./cgcs-root/stx/stx-update/patch-scripts/test-patches-suite-b/SUITE_B_PATCH_F/centos/SUITE_B_PATCH_F.spec</data>
+    </node>
+    <node id="libiscsi-devel" />
+    <node id="python2-sphinx" />
+    <node id="redhat-lsb-core" />
+    <node id="python3-testtools" />
+    <node id="python-pep8" />
+    <node id="python-decorator" />
+    <node id="python-webob" />
+    <node id="python2-osc-lib" />
+    <node id="python2-subunit" />
+    <node id="tpm-kmod">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/kernel/kernel-modules/tpmdd/centos/tpm-kmod.spec</data>
+    </node>
+    <node id="libacl-devel" />
+    <node id="qemu-kvm">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/virt/qemu/centos/qemu-kvm.spec</data>
+    </node>
+    <node id="puppet-lvm">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/config/puppet-modules/puppet-lvm/centos/puppet-lvm.spec</data>
+    </node>
+    <node id="python-XStatic-Rickshaw" />
+    <node id="python-oslo-concurrency" />
+    <node id="python2-osprofiler" />
+    <node id="python2-setuptools" />
+    <node id="python-aodhclient">
+      <data key="d0">stx-upstream</data>
+      <data key="d1">./cgcs-root/stx/stx-upstream/openstack/python-aodhclient/centos/python-aodhclient.spec</data>
+    </node>
+    <node id="sanlock-devel &gt;= 2.4" />
+    <node id="tis-extensions">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/utilities/tis-extensions/centos/tis-extensions.spec</data>
+    </node>
+    <node id="python2-XStatic-smart-table" />
+    <node id="monitor-tools">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/tools/monitor-tools/centos/monitor-tools.spec</data>
+    </node>
+    <node id="python2-XStatic" />
+    <node id="python-paramiko" />
+    <node id="python3-os-client-config" />
+    <node id="which" />
+    <node id="python-devel" />
+    <node id="python-inventoryclient">
+      <data key="d0">stx-metal</data>
+      <data key="d1">./cgcs-root/stx/stx-metal/python-inventoryclient/centos/python-inventoryclient.spec</data>
+    </node>
+    <node id="libuuid" />
+    <node id="python-formencode" />
+    <node id="python2-cliff" />
+    <node id="python2-oslo-utils" />
+    <node id="automake autoconf bash coreutils libtool sed" />
+    <node id="python-muranoclient">
+      <data key="d0">stx-upstream</data>
+      <data key="d1">./cgcs-root/stx/stx-upstream/openstack/python-muranoclient/centos/python-muranoclient.spec</data>
+    </node>
+    <node id="python-glanceclient">
+      <data key="d0">stx-upstream</data>
+      <data key="d1">./cgcs-root/stx/stx-upstream/openstack/python-glanceclient/centos/python-glanceclient.spec</data>
+    </node>
+    <node id="libseccomp-devel &gt;= 1.0.0" />
+    <node id="sm-tools">
+      <data key="d0">stx-ha</data>
+      <data key="d1">./cgcs-root/stx/stx-ha/service-mgmt-tools/centos/sm-tools.spec</data>
+    </node>
+    <node id="python-django" />
+    <node id="distributedcloud">
+      <data key="d0">stx-upstream</data>
+      <data key="d1">./cgcs-root/stx/stx-upstream/openstack/distributedcloud/centos/distributedcloud.spec</data>
+    </node>
+    <node id="perl(Exporter)" />
+    <node id="cpp" />
+    <node id="python2-mox3" />
+    <node id="python3-mock" />
+    <node id="perl(Test::More)" />
+    <node id="python3-nose" />
+    <node id="pkgconfig gawk sed" />
+    <node id="python3-cliff" />
+    <node id="libtasn1-tools" />
+    <node id="python-pbr" />
+    <node id="nss-softokn-freebl-static &gt;= 3.12.9-2" />
+    <node id="gettext-devel" />
+    <node id="python3-glanceclient" />
+    <node id="workerconfig">
+      <data key="d0">stx-config</data>
+      <data key="d1">./cgcs-root/stx/stx-config/workerconfig/centos/workerconfig.spec</data>
+    </node>
+    <node id="yasm" />
+    <node id="kernel%{?bt_ext}-devel, redhat-rpm-config, perl, openssl" />
+    <node id="ncurses-devel" />
+    <node id="logrotate-config">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/logging/logrotate-config/centos/logrotate-config.spec</data>
+    </node>
+    <node id="libevent" />
+    <node id="python2-oslo-log" />
+    <node id="flex" />
+    <node id="numactl-devel" />
+    <node id="libvirt">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/virt/libvirt/centos/libvirt.spec</data>
+    </node>
+    <node id="docker-config">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/config-files/docker-config/centos/docker-config.spec</data>
+    </node>
+    <node id="golang(golang.org/x/crypto/bcrypt)" />
+    <node id="readline-devel zlib-devel" />
+    <node id="python-oslo-messaging" />
+    <node id="glusterfs-devel &gt;= 3.4.1" />
+    <node id="python2-os-service-types" />
+    <node id="kernel-devel" />
+    <node id="puppet-nfv">
+      <data key="d0">stx-config</data>
+      <data key="d1">./cgcs-root/stx/stx-config/puppet-modules-wrs/puppet-nfv/centos/puppet-nfv.spec</data>
+    </node>
+    <node id="filesystem-scripts">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/filesystem/filesystem-scripts/centos/filesystem-scripts.spec</data>
+    </node>
+    <node id="pciutils-devel" />
+    <node id="net-snmp-devel" />
+    <node id="puppet-smapi">
+      <data key="d0">stx-config</data>
+      <data key="d1">./cgcs-root/stx/stx-config/puppet-modules-wrs/puppet-smapi/centos/puppet-smapi.spec</data>
+    </node>
+    <node id="binutils" />
+    <node id="lttng-ust-devel" />
+    <node id="EXAMPLE_0001">
+      <data key="d0">stx-update</data>
+      <data key="d1">./cgcs-root/stx/stx-update/patch-scripts/EXAMPLE_0001/centos/EXAMPLE_0001.spec</data>
+    </node>
+    <node id="python-keystoneauth1">
+      <data key="d0">stx-upstream</data>
+      <data key="d1">./cgcs-root/stx/stx-upstream/openstack/python-keystoneauth1/centos/python-keystoneauth1.spec</data>
+    </node>
+    <node id="python-crypto" />
+    <node id="mtce-storage">
+      <data key="d0">stx-metal</data>
+      <data key="d1">./cgcs-root/stx/stx-metal/mtce-storage/centos/mtce-storage.spec</data>
+    </node>
+    <node id="perl-version" />
+    <node id="perl-XML-XPath" />
+    <node id="boost-devel" />
+    <node id="swtpm">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/security/swtpm/centos/swtpm.spec</data>
+    </node>
+    <node id="io-scheduler">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/config-files/io-scheduler/centos/io-scheduler.spec</data>
+    </node>
+    <node id="dbus-devel" />
+    <node id="perl-podlators" />
+    <node id="python2-openstacksdk" />
+    <node id="python-nose-exclude" />
+    <node id="pytz" />
+    <node id="enable-dev-patch">
+      <data key="d0">stx-update</data>
+      <data key="d1">./cgcs-root/stx/stx-update/enable-dev-patch/centos/enable-dev-patch.spec</data>
+    </node>
+    <node id="python3-reno" />
+    <node id="perl" />
+    <node id="wireshark-devel &gt;= 2.1.0" />
+    <node id="golang(github.com/AdRoll/goamz/aws)" />
+    <node id="python-stevedore" />
+    <node id="python2-munch" />
+    <node id="i40e-kmod">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/kernel/kernel-modules/intel-i40e/centos/i40e-kmod.spec</data>
+    </node>
+    <node id="snappy-devel" />
+    <node id="python2-futurist" />
+    <node id="python-anyjson" />
+    <node id="python-XStatic-Hogan" />
+    <node id="python-openstack-doc-tools" />
+    <node id="krb5-devel" />
+    <node id="golang(github.com/Sirupsen/logrus)" />
+    <node id="check-devel" />
+    <node id="python2-XStatic-Font-Awesome" />
+    <node id="module-init-tools" />
+    <node id="/usr/bin/qemu-img" />
+    <node id="python2-glanceclient" />
+    <node id="python3-jsonschema" />
+    <node id="avahi-devel" />
+    <node id="git" />
+    <node id="python3-tools" />
+    <node id="python2-XStatic-mdi" />
+    <node id="cryptsetup" />
+    <node id="netcf-devel &gt;= 0.1.8" />
+    <node id="mtce-control">
+      <data key="d0">stx-metal</data>
+      <data key="d1">./cgcs-root/stx/stx-metal/mtce-control/centos/mtce-control.spec</data>
+    </node>
+    <node id="libarchive libarchive-devel" />
+    <node id="systemd = 219-62.el7" />
+    <node id="gcc-c++" />
+    <node id="golang-dep">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/base/golang-dep/centos/golang-dep.spec</data>
+    </node>
+    <node id="python2-XStatic-termjs" />
+    <node id="perl(Socket)" />
+    <node id="golang(github.com/gorilla/mux)" />
+    <node id="junit" />
+    <node id="polkit &gt;= 0.112" />
+    <node id="python2-openstackdocstheme" />
+    <node id="etcd">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/kubernetes/etcd/centos/etcd.spec</data>
+    </node>
+    <node id="puppet-network">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/config/puppet-modules/puppet-network/centos/puppet-network.spec</data>
+    </node>
+    <node id="python-pankoclient">
+      <data key="d0">stx-upstream</data>
+      <data key="d1">./cgcs-root/stx/stx-upstream/openstack/python-pankoclient/centos/python-pankoclient.spec</data>
+    </node>
+    <node id="libcap-devel" />
+    <node id="python2-requestsexceptions" />
+    <node id="puppet-create_resources">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/config/puppet-modules/puppet-create_resources/centos/puppet-create_resources.spec</data>
+    </node>
+    <node id="python3-openstackclient" />
+    <node id="systemd-devel &gt;= 185" />
+    <node id="autoconf" />
+    <node id="perl(Getopt::Long)" />
+    <node id="python-Cython" />
+    <node id="EXAMPLE_RR">
+      <data key="d0">stx-update</data>
+      <data key="d1">./cgcs-root/stx/stx-update/patch-scripts/EXAMPLE_RR/centos/EXAMPLE_RR.spec</data>
+    </node>
+    <node id="pytest" />
+    <node id="python2-oslotest" />
+    <node id="python3-os-testr" />
+    <node id="python" />
+    <node id="sm-api">
+      <data key="d0">stx-ha</data>
+      <data key="d1">./cgcs-root/stx/stx-ha/service-mgmt-api/centos/sm-api.spec</data>
+    </node>
+    <node id="python-pbr &gt;= 1.8" />
+    <node id="brlapi-devel" />
+    <node id="libpng-devel" />
+    <node id="nova-utils">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/utilities/nova-utils/centos/nova-utils.spec</data>
+    </node>
+    <node id="libtasn1-devel libtasn1" />
+    <node id="parted" />
+    <node id="mlx4-config">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/networking/mellanox/mlx4-config/centos/mlx4-config.spec</data>
+    </node>
+    <node id="haproxy-config">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/base/haproxy-config/centos/haproxy-config.spec</data>
+    </node>
+    <node id="golang(golang.org/x/net/context)" />
+    <node id="/usr/bin/pod2man" />
+    <node id="json-c-devel" />
+    <node id="python-sphinx" />
+    <node id="audit-libs-devel" />
+    <node id="libpciaccess-devel &gt;= 0.10.9" />
+    <node id="python-requests-kerberos" />
+    <node id="fuse-devel &gt;= 2.8.6" />
+    <node id="python3-pep8" />
+    <node id="openstack-macros" />
+    <node id="expect bash net-tools nss-devel socat python-twisted" />
+    <node id="automake autoconf libtool bash coreutils" />
+    <node id="python-sphinx &gt;= 1.1.3" />
+    <node id="python2-hacking" />
+    <node id="python-d2to1" />
+    <node id="expat-devel" />
+    <node id="redhat-rpm-config" />
+    <node id="RR_CONTROLLER">
+      <data key="d0">stx-update</data>
+      <data key="d1">./cgcs-root/stx/stx-update/patch-scripts/test-patches/RR_CONTROLLER/centos/RR_CONTROLLER.spec</data>
+    </node>
+    <node id="python2-keyring &gt;= 5.5.1" />
+    <node id="uuid" />
+    <node id="cppcheck" />
+    <node id="python-os-testr" />
+    <node id="python2-XStatic-Angular-FileUpload" />
+    <node id="libpcap-devel" />
+    <node id="polkit-devel &gt;= 0.112" />
+    <node id="sm">
+      <data key="d0">stx-ha</data>
+      <data key="d1">./cgcs-root/stx/stx-ha/service-mgmt/sm-1.0.0/centos/sm.spec</data>
+    </node>
+    <node id="openstack-helm">
+      <data key="d0">stx-upstream</data>
+      <data key="d1">./cgcs-root/stx/stx-upstream/openstack/openstack-helm/centos/openstack-helm.spec</data>
+    </node>
+    <node id="make" />
+    <node id="python-keystonemiddleware" />
+    <node id="btrfs-progs" />
+    <node id="FastCGI-devel" />
+    <node id="pixman-devel" />
+    <node id="python-retrying" />
+    <node id="SUITE_B_PATCH_B">
+      <data key="d0">stx-update</data>
+      <data key="d1">./cgcs-root/stx/stx-update/patch-scripts/test-patches-suite-b/SUITE_B_PATCH_B/centos/SUITE_B_PATCH_B.spec</data>
+    </node>
+    <node id="pxe-network-installer">
+      <data key="d0">stx-metal</data>
+      <data key="d1">./cgcs-root/stx/stx-metal/installer/pxe-network-installer/centos/pxe-network-installer.spec</data>
+    </node>
+    <node id="python3-tinyrpc" />
+    <node id="SUITE_B_PATCH_D">
+      <data key="d0">stx-update</data>
+      <data key="d1">./cgcs-root/stx/stx-update/patch-scripts/test-patches-suite-b/SUITE_B_PATCH_D/centos/SUITE_B_PATCH_D.spec</data>
+    </node>
+    <node id="libjpeg-devel" />
+    <node id="librados2-devel" />
+    <node id="python-cryptography" />
+    <node id="python-smartpm">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/python/python-smartpm/centos/python-smartpm.spec</data>
+    </node>
+    <node id="python3-routes" />
+    <node id="golang(gopkg.in/check.v1)" />
+    <node id="golang(github.com/bugsnag/bugsnag-go)" />
+    <node id="pkgconfig" />
+    <node id="golang(github.com/gorilla/handlers)" />
+    <node id="libxio-devel" />
+    <node id="python-osc-lib" />
+    <node id="nfs-utils" />
+    <node id="puppet-patching">
+      <data key="d0">stx-config</data>
+      <data key="d1">./cgcs-root/stx/stx-config/puppet-modules-wrs/puppet-patching/centos/puppet-patching.spec</data>
+    </node>
+    <node id="puppet-sysinv">
+      <data key="d0">stx-config</data>
+      <data key="d1">./cgcs-root/stx/stx-config/puppet-modules-wrs/puppet-sysinv/centos/puppet-sysinv.spec</data>
+    </node>
+    <node id="golang &gt;= 1.6" />
+    <node id="selinux-policy-devel" />
+    <node id="kernel%{?bt_ext}-devel, redhat-rpm-config, perl, tpm-kmod%{?bt_ext}-symbols, openssl" />
+    <node id="python-openstacksdk">
+      <data key="d0">stx-upstream</data>
+      <data key="d1">./cgcs-root/stx/stx-upstream/openstack/python-openstacksdk/centos/python-openstacksdk.spec</data>
+    </node>
+    <node id="libnl-devel" />
+    <node id="ryu-manager">
+      <data key="d0">git</data>
+      <data key="d1">./cgcs-root/stx/git/ryu/tools/ryu-manager.spec</data>
+    </node>
+    <node id="python2-pbr" />
+    <node id="wireshark-devel &gt;= 1.12.1" />
+    <node id="build-info-dev" />
+    <node id="golang(github.com/garyburd/redigo/redis)" />
+    <node id="python-lefthandclient">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/storage-drivers/python-lefthandclient/centos/python-lefthandclient.spec</data>
+    </node>
+    <node id="python2-keystoneclient" />
+    <node id="platform-kickstarts">
+      <data key="d0">stx-metal</data>
+      <data key="d1">./cgcs-root/stx/stx-metal/kickstart/centos/platform-kickstarts.spec</data>
+    </node>
+    <node id="python-oslo-sphinx" />
+    <node id="libblkid-devel &gt;= 2.17" />
+    <node id="python2-pyOpenSSL &gt;= 17.1.0" />
+    <node id="python2-scss &gt;= 1.3.4" />
+    <node id="polkit-devel &gt;= 0.93" />
+    <node id="libtool" />
+    <node id="python-cephclient">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/ceph/python-cephclient/centos/python-cephclient.spec</data>
+    </node>
+    <node id="python-msgpack" />
+    <node id="nss-devel" />
+    <node id="openldap-config">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/ldap/openldap-config/centos/openldap-config.spec</data>
+    </node>
+    <node id="tss2">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/security/tss2/centos/tss2.spec</data>
+    </node>
+    <node id="python-oslotest" />
+    <node id="python-oslo-serialization" />
+    <node id="drbd">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/filesystem/drbd/drbd-tools/centos/drbd.spec</data>
+    </node>
+    <node id="iptables" />
+    <node id="python-ipaddress" />
+    <node id="python-pecan" />
+    <node id="puppet-drbd">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/config/puppet-modules/puppet-drbd-0.3.1/centos/puppet-drbd.spec</data>
+    </node>
+    <node id="python2-tools" />
+    <node id="python-devel &gt;= 2.6" />
+    <node id="rsync-config">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/config-files/rsync-config/centos/rsync-config.spec</data>
+    </node>
+    <node id="python-osprofiler" />
+    <node id="python3-devel" />
+    <node id="python2-requests-kerberos" />
+    <node id="golang(golang.org/x/oauth2/jwt)" />
+    <node id="golang(github.com/Sirupsen/logrus/formatters/logstash)" />
+    <node id="glib2-devel" />
+    <node id="INSVC_STORAGE">
+      <data key="d0">stx-update</data>
+      <data key="d1">./cgcs-root/stx/stx-update/patch-scripts/test-patches/INSVC_STORAGE/centos/INSVC_STORAGE.spec</data>
+    </node>
+    <node id="ima-evm-utils-devel" />
+    <node id="gperftools-devel" />
+    <node id="python3-oslo-log" />
+    <node id="pkgconfig(systemd)" />
+    <node id="centos-release-config">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/base/centos-release-config/centos/centos-release-config.spec</data>
+    </node>
+    <node id="grub2" />
+    <node id="golang(google.golang.org/api/storage/v1)" />
+    <node id="python2-iso8601" />
+    <node id="keyutils-libs-devel" />
+    <node id="usbredir-devel &gt;= 0.7.1" />
+    <node id="python2-fixtures &gt;= 1.3.1" />
+    <node id="python2-keystoneauth1" />
+    <node id="python3-prettytable" />
+    <node id="cgcs-patch">
+      <data key="d0">stx-update</data>
+      <data key="d1">./cgcs-root/stx/stx-update/cgcs-patch/centos/cgcs-patch.spec</data>
+    </node>
+    <node id="scrub" />
+    <node id="fcgi-devel" />
+    <node id="python3-cinderclient" />
+    <node id="checkpolicy" />
+    <node id="python2-appdirs" />
+    <node id="cmake" />
+    <node id="openssl-devel" />
+    <node id="worker-utils">
+      <data key="d0">stx-config</data>
+      <data key="d1">./cgcs-root/stx/stx-config/worker-utils/centos/worker-utils.spec</data>
+    </node>
+    <node id="tss2-devel" />
+    <node id="i40evf-kmod">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/kernel/kernel-modules/intel-i40evf/centos/i40evf-kmod.spec</data>
+    </node>
+    <node id="python2-pip" />
+    <node id="python3-coverage" />
+    <node id="golang(golang.org/x/oauth2/google)" />
+    <node id="python-virtualenv" />
+    <node id="python2-jsonschema" />
+    <node id="python2-sphinxcontrib-apidoc" />
+    <node id="nss-devel &gt;= 3.12.9-2" />
+    <node id="python2-XStatic-bootswatch" />
+    <node id="perl(Time::HiRes)" />
+    <node id="update-motd">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/utilities/update-motd/centos/update-motd.spec</data>
+    </node>
+    <node id="spectre-meltdown-checker">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/security/spectre-meltdown-checker/centos/spectre-meltdown-checker.spec</data>
+    </node>
+    <node id="nspr-devel" />
+    <node id="python2-wheel" />
+    <node id="bluez-libs-devel" />
+    <node id="python-yaml" />
+    <node id="ixgbevf-kmod">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/kernel/kernel-modules/intel-ixgbevf/centos/ixgbevf-kmod.spec</data>
+    </node>
+    <node id="patch-alarm">
+      <data key="d0">stx-update</data>
+      <data key="d1">./cgcs-root/stx/stx-update/patch-alarm/centos/patch-alarm.spec</data>
+    </node>
+    <node id="SUITE_B_PATCH_C">
+      <data key="d0">stx-update</data>
+      <data key="d1">./cgcs-root/stx/stx-update/patch-scripts/test-patches-suite-b/SUITE_B_PATCH_C/centos/SUITE_B_PATCH_C.spec</data>
+    </node>
+    <node id="mtce-common-dev &gt;= 1.0" />
+    <node id="python-netifaces" />
+    <node id="golang(github.com/spf13/cobra)" />
+    <node id="python3-keystoneauth1" />
+    <node id="python2-d2to1" />
+    <node id="go-md2man" />
+    <node id="libsemanage-devel" />
+    <node id="python2-prettytable" />
+    <node id="python2-novaclient &gt;= 1:9.1.0" />
+    <node id="kernel%{?bt_ext}-devel" />
+    <node id="valgrind-devel" />
+    <node id="libcap-ng-devel" />
+    <node id="python3-osc-lib-tests" />
+    <node id="xfsprogs-devel" />
+    <node id="platform-util">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/utilities/platform-util/centos/platform-util.spec</data>
+    </node>
+    <node id="python-gnocchiclient">
+      <data key="d0">stx-upstream</data>
+      <data key="d1">./cgcs-root/stx/stx-upstream/openstack/python-gnocchiclient/centos/python-gnocchiclient.spec</data>
+    </node>
+    <node id="fm-api">
+      <data key="d0">stx-fault</data>
+      <data key="d1">./cgcs-root/stx/stx-fault/fm-api/centos/fm-api.spec</data>
+    </node>
+    <node id="fm-api-doc" />
+    <node id="influxdb-extensions">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/monitoring/influxdb-extensions/centos/influxdb-extensions.spec</data>
+    </node>
+    <node id="vm-topology">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/tools/vm-topology/centos/vm-topology.spec</data>
+    </node>
+    <node id="puppet-dnsmasq">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/config/puppet-modules/puppet-dnsmasq/centos/puppet-dnsmasq.spec</data>
+    </node>
+    <node id="python2-testtools" />
+    <node id="syslog-ng-config">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/config-files/syslog-ng-config/centos/syslog-ng-config.spec</data>
+    </node>
+    <node id="python2-XStatic-JSEncrypt" />
+    <node id="openstack-helm-infra">
+      <data key="d0">stx-upstream</data>
+      <data key="d1">./cgcs-root/stx/stx-upstream/openstack/openstack-helm-infra/centos/openstack-helm-infra.spec</data>
+    </node>
+    <node id="iscsi-initiator-utils-config">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/filesystem/iscsi-initiator-utils-config/centos/iscsi-initiator-utils-config.spec</data>
+    </node>
+    <node id="python2-oslo-i18n" />
+    <node id="audit-config">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/config-files/audit-config/centos/audit-config.spec</data>
+    </node>
+    <node id="python2-testresources" />
+    <node id="perl(Fcntl)" />
+    <node id="openldap-devel" />
+    <node id="golang(google.golang.org/cloud)" />
+    <node id="openssl" />
+    <node id="openldap2-devel" />
+    <node id="dpkg">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/base/dpkg/centos/dpkg.spec</data>
+    </node>
+    <node id="python-XStatic-jquery-ui" />
+    <node id="requests-toolbelt">
+      <data key="d0">stx-update</data>
+      <data key="d1">./cgcs-root/stx/stx-update/requests-toolbelt/centos/requests-toolbelt.spec</data>
+    </node>
+    <node id="mariadb">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/database/mariadb/centos/mariadb.spec</data>
+    </node>
+    <node id="python-openstackdocstheme" />
+    <node id="device-mapper-devel" />
+    <node id="python2-iso8601 &gt;= 0.1.11" />
+    <node id="nfv">
+      <data key="d0">stx-nfv</data>
+      <data key="d1">./cgcs-root/stx/stx-nfv/nfv/centos/nfv.spec</data>
+    </node>
+    <node id="snmp-ext">
+      <data key="d0">stx-fault</data>
+      <data key="d1">./cgcs-root/stx/stx-fault/snmp-ext/centos/snmp-ext.spec</data>
+    </node>
+    <node id="python3-stestr" />
+    <node id="dnsmasq &gt;= 2.41" />
+    <node id="python2-oauthlib" />
+    <node id="golang(github.com/docker/libtrust)" />
+    <node id="libbz2-devel" />
+    <node id="libssh-devel &gt;= 0.7.0" />
+    <node id="python3-pip" />
+    <node id="python-oslo-middleware" />
+    <node id="python-betamax &gt;= 0.7.0" />
+    <node id="golang(gopkg.in/yaml.v2)" />
+    <node id="bash-completion &gt;= 2.0" />
+    <node id="sm-common-dev" />
+    <node id="lua-devel &gt;= 5.1" />
+    <node id="RR_COMPUTE">
+      <data key="d0">stx-update</data>
+      <data key="d1">./cgcs-root/stx/stx-update/patch-scripts/test-patches/RR_COMPUTE/centos/RR_COMPUTE.spec</data>
+    </node>
+    <node id="golang(github.com/Azure/azure-sdk-for-go/storage)" />
+    <node id="libtasn1-devel" />
+    <node id="golang(golang.org/x/oauth2)" />
+    <node id="rabbitmq-server-config">
+      <data key="d0">stx-upstream</data>
+      <data key="d1">./cgcs-root/stx/stx-upstream/openstack/rabbitmq-server-config/centos/rabbitmq-server-config.spec</data>
+    </node>
+    <node id="python3-testrepository" />
+    <node id="python3-oslo-sphinx" />
+    <node id="systemd-units" />
+    <node id="expect" />
+    <node id="glusterfs-devel" />
+    <node id="puppet-postgresql">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/config/puppet-modules/puppet-postgresql-4.8.0/centos/puppet-postgresql.spec</data>
+    </node>
+    <node id="kubectl">
+      <data key="d0">git</data>
+      <data key="d1">./cgcs-root/stx/git/kubernetes/build/rpms/kubectl.spec</data>
+    </node>
+    <node id="python3-formencode" />
+    <node id="kubernetes">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/kubernetes/kubernetes/centos/kubernetes.spec</data>
+    </node>
+    <node id="inventory">
+      <data key="d0">stx-metal</data>
+      <data key="d1">./cgcs-root/stx/stx-metal/inventory/centos/inventory.spec</data>
+    </node>
+    <node id="python3-d2to1" />
+    <node id="lldpd">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/networking/lldpd/centos/lldpd.spec</data>
+    </node>
+    <node id="python-jsonschema &gt;= 2.0.0" />
+    <node id="python2-oslo-policy" />
+    <node id="babeltrace-devel" />
+    <node id="puppet-fm">
+      <data key="d0">stx-config</data>
+      <data key="d1">./cgcs-root/stx/stx-config/puppet-modules-wrs/puppet-fm/centos/puppet-fm.spec</data>
+    </node>
+    <node id="python3-lxml" />
+    <node id="python2-testscenarios" />
+    <node id="python-routes &gt;= 1.12.3" />
+    <node id="python-oslo-i18n" />
+    <node id="openvswitch-config">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/networking/openvswitch-config/centos/openvswitch-config.spec</data>
+    </node>
+    <node id="python-django-nose" />
+    <node id="python2-pep8" />
+    <node id="sudo-config">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/config-files/sudo-config/centos/sudo-config.spec</data>
+    </node>
+    <node id="numad" />
+    <node id="librdmacm-devel" />
+    <node id="sharutils" />
+    <node id="golang(github.com/ncw/swift)" />
+    <node id="gcc" />
+    <node id="python-requests" />
+    <node id="python-keyring &gt;= 5.5.1" />
+    <node id="puppet-filemapper">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/config/puppet-modules/puppet-filemapper/centos/puppet-filemapper.spec</data>
+    </node>
+    <node id="python2-os-client-config" />
+    <node id="python2-pbr &gt;= 2.0.0" />
+    <node id="python-babel" />
+    <node id="yajl-devel" />
+    <node id="python-oslo-rootwrap" />
+    <node id="perl(Memoize)" />
+    <node id="python3-requests-mock &gt;= 1.1" />
+    <node id="python-tools" />
+    <node id="json-c" />
+    <node id="python2-ujson" />
+    <node id="glusterfs-api-devel &gt;= 3.6.0" />
+    <node id="python2-XStatic-Angular-Schema-Form" />
+    <node id="libudev-devel" />
+    <node id="golang" />
+    <node id="kernel-modules-extra" />
+    <node id="hdparm" />
+    <node id="puppet-manifests">
+      <data key="d0">stx-config</data>
+      <data key="d1">./cgcs-root/stx/stx-config/puppet-manifests/centos/puppet-manifests.spec</data>
+    </node>
+    <node id="mtce">
+      <data key="d0">stx-metal</data>
+      <data key="d1">./cgcs-root/stx/stx-metal/mtce/centos/mtce.spec</data>
+    </node>
+    <node id="libaio-devel" />
+    <node id="python-psutil" />
+    <node id="/usr/bin/openssl" />
+    <node id="mozilla-nss-devel" />
+    <node id="python2-cliff &gt;= 2.10" />
+    <node id="netcf-devel &gt;= 0.2.2" />
+    <node id="python2-simplejson" />
+    <node id="mtce-guest">
+      <data key="d0">stx-nfv</data>
+      <data key="d1">./cgcs-root/stx/stx-nfv/mtce-guest/centos/mtce-guest.spec</data>
+    </node>
+    <node id="rsync" />
+    <node id="integrity-kmod">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/kernel/kernel-modules/integrity/centos/integrity-kmod.spec</data>
+    </node>
+    <node id="fm-rest-api">
+      <data key="d0">stx-fault</data>
+      <data key="d1">./cgcs-root/stx/stx-fault/fm-rest-api/centos/fm-rest-api.spec</data>
+    </node>
+    <node id="tpm2-openssl-engine">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/security/tpm2-openssl-engine/centos/tpm2-openssl-engine.spec</data>
+    </node>
+    <node id="collectd-extensions">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/monitoring/collectd-extensions/centos/collectd-extensions.spec</data>
+    </node>
+    <node id="python2-oslo-config" />
+    <node id="btrfsprogs" />
+    <node id="python-mock" />
+    <node id="python2-XStatic-Angular &gt;= 1:1.5.8.0" />
+    <node id="python-ironicclient">
+      <data key="d0">stx-upstream</data>
+      <data key="d1">./cgcs-root/stx/stx-upstream/openstack/python-ironicclient/centos/python-ironicclient.spec</data>
+    </node>
+    <node id="golang(google.golang.org/api/googleapi)" />
+    <node id="python-simplejson" />
+    <node id="go-bindata" />
+    <node id="python3-requests-mock" />
+    <node id="udev" />
+    <node id="ebtables" />
+    <node id="namespace-utils">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/utilities/namespace-utils/centos/namespace-utils.spec</data>
+    </node>
+    <node id="libcurl-devel" />
+    <node id="lvm2" />
+    <node id="RR_ALLNODES">
+      <data key="d0">stx-update</data>
+      <data key="d1">./cgcs-root/stx/stx-update/patch-scripts/test-patches/RR_ALLNODES/centos/RR_ALLNODES.spec</data>
+    </node>
+    <node id="python-greenlet" />
+    <node id="python3-os-service-types" />
+    <node id="python-django-appconf" />
+    <node id="python3-repoze-lru" />
+    <node id="python-heatclient">
+      <data key="d0">stx-upstream</data>
+      <data key="d1">./cgcs-root/stx/stx-upstream/openstack/python-heatclient/centos/python-heatclient.spec</data>
+    </node>
+    <node id="python2-dogpile-cache" />
+    <node id="python-requests-mock &gt;= 1.1" />
+    <node id="python-jsonpatch" />
+    <node id="ncurses-static" />
+    <node id="sheepdog" />
+    <node id="systemd-rpm-macros" />
+    <node id="python3-fixtures &gt;= 1.3.1" />
+    <node id="python-barbicanclient">
+      <data key="d0">stx-upstream</data>
+      <data key="d1">./cgcs-root/stx/stx-upstream/openstack/python-barbicanclient/centos/python-barbicanclient.spec</data>
+    </node>
+    <node id="libexpat-devel" />
+    <node id="python2-oslo-concurrency" />
+    <node id="python2-pyyaml" />
+    <node id="python3-fixtures" />
+    <node id="puppet-dcorch">
+      <data key="d0">stx-config</data>
+      <data key="d1">./cgcs-root/stx/stx-config/puppet-modules-wrs/puppet-dcorch/centos/puppet-dcorch.spec</data>
+    </node>
+    <node id="python-cliff" />
+    <node id="wrs-ssl">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/security/wrs-ssl/centos/wrs-ssl.spec</data>
+    </node>
+    <node id="A">
+      <data key="d0">stx-update</data>
+      <data key="d1">./cgcs-root/stx/stx-update/patch-scripts/test-patches/A/centos/A.spec</data>
+    </node>
+    <node id="stx-ocf-scripts">
+      <data key="d0">stx-upstream</data>
+      <data key="d1">./cgcs-root/stx/stx-upstream/openstack/stx-ocf-scripts/centos/stx-ocf-scripts.spec</data>
+    </node>
+    <node id="EXAMPLE_SYSINV">
+      <data key="d0">stx-update</data>
+      <data key="d1">./cgcs-root/stx/stx-update/patch-scripts/EXAMPLE_SYSINV/centos/EXAMPLE_SYSINV.spec</data>
+    </node>
+    <node id="python3-appdirs" />
+    <node id="python2-os-testr" />
+    <node id="python3-subunit" />
+    <node id="kubeadm">
+      <data key="d0">git</data>
+      <data key="d1">./cgcs-root/stx/git/kubernetes/build/rpms/kubeadm.spec</data>
+    </node>
+    <node id="golang(github.com/stevvooe/resumable/sha256)" />
+    <node id="mtce-compute">
+      <data key="d0">stx-metal</data>
+      <data key="d1">./cgcs-root/stx/stx-metal/mtce-compute/centos/mtce-compute.spec</data>
+    </node>
+    <node id="popt-devel" />
+    <node id="python2-devel" />
+    <node id="distributedcloud-client">
+      <data key="d0">stx-upstream</data>
+      <data key="d1">./cgcs-root/stx/stx-upstream/openstack/distributedcloud-client/centos/distributedcloud-client.spec</data>
+    </node>
+    <node id="puppet-puppi">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/config/puppet-modules/puppet-puppi/centos/puppet-puppi.spec</data>
+    </node>
+    <node id="sysinv-agent">
+      <data key="d0">stx-config</data>
+      <data key="d1">./cgcs-root/stx/stx-config/sysinv/sysinv-agent/centos/sysinv-agent.spec</data>
+    </node>
+    <node id="controllerconfig">
+      <data key="d0">stx-config</data>
+      <data key="d1">./cgcs-root/stx/stx-config/controllerconfig/centos/controllerconfig.spec</data>
+    </node>
+    <node id="rpm">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/base/rpm/centos/rpm.spec</data>
+    </node>
+    <node id="memcached-custom">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/config-files/memcached-custom/centos/memcached-custom.spec</data>
+    </node>
+    <node id="systemd-devel" />
+    <node id="radvd" />
+    <node id="sqlite-devel" />
+    <node id="golang &gt;=  1.10.2" />
+    <node id="python-tinyrpc" />
+    <node id="elfutils-devel &gt;= 0.112" />
+    <node id="EXAMPLE_0002">
+      <data key="d0">stx-update</data>
+      <data key="d1">./cgcs-root/stx/stx-update/patch-scripts/EXAMPLE_0002/centos/EXAMPLE_0002.spec</data>
+    </node>
+    <node id="texi2html" />
+    <node id="pciutils" />
+    <node id="nfscheck">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/filesystem/nfscheck/centos/nfscheck.spec</data>
+    </node>
+    <node id="perl(POSIX)" />
+    <node id="iptables-config">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/config-files/iptables-config/centos/iptables-config.spec</data>
+    </node>
+    <node id="SUITE_B_KERNEL">
+      <data key="d0">stx-update</data>
+      <data key="d1">./cgcs-root/stx/stx-update/patch-scripts/test-patches-suite-b/SUITE_B_KERNEL/centos/SUITE_B_KERNEL.spec</data>
+    </node>
+    <node id="python3-requests" />
+    <node id="python3-oslo-config" />
+    <node id="python2-openstackclient" />
+    <node id="python-XStatic-Bootstrap-Datepicker" />
+    <node id="libcacard-devel" />
+    <node id="mtce-common">
+      <data key="d0">stx-metal</data>
+      <data key="d1">./cgcs-root/stx/stx-metal/mtce-common/centos/mtce-common.spec</data>
+    </node>
+    <node id="pylint" />
+    <node id="gettext" />
+    <node id="python-reno" />
+    <node id="python3-debtcollector" />
+    <node id="python-cinderclient">
+      <data key="d0">stx-upstream</data>
+      <data key="d1">./cgcs-root/stx/stx-upstream/openstack/python-cinderclient/centos/python-cinderclient.spec</data>
+    </node>
+    <node id="ceph-devel" />
+    <node id="snmp-audittrail">
+      <data key="d0">stx-fault</data>
+      <data key="d1">./cgcs-root/stx/stx-fault/snmp-audittrail/centos/snmp-audittrail.spec</data>
+    </node>
+    <node id="nss-softokn-freebl-devel" />
+    <node id="qat17">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/kernel/kernel-modules/qat17/centos/qat17.spec</data>
+    </node>
+    <node id="libselinux-devel" />
+    <node id="python-setuptools">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/python/python-setuptools/centos/python-setuptools.spec</data>
+    </node>
+    <node id="python3-msgpack" />
+    <node id="python-XStatic-JQuery-Migrate" />
+    <node id="postgresql-devel" />
+    <node id="python3-hacking" />
+    <node id="ixgbe-kmod">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/kernel/kernel-modules/intel-ixgbe/centos/ixgbe-kmod.spec</data>
+    </node>
+    <node id="python2-XStatic-Jasmine" />
+    <node id="python3-pbr &gt;= 2.0.0" />
+    <node id="golang(github.com/AdRoll/goamz/cloudfront)" />
+    <node id="python2-deprecation" />
+    <node id="python-warlock" />
+    <node id="golang(github.com/denverdino/aliyungo/oss)" />
+    <node id="EXAMPLE_VIM">
+      <data key="d0">stx-update</data>
+      <data key="d1">./cgcs-root/stx/stx-update/patch-scripts/EXAMPLE_VIM/centos/EXAMPLE_VIM.spec</data>
+    </node>
+    <node id="procps" />
+    <node id="gnutls &gt;= 3.1.0 gnutls-devel gnutls-utils" />
+    <node id="python2-six" />
+    <node id="lighttpd-config">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/base/lighttpd-config/centos/lighttpd-config.spec</data>
+    </node>
+    <node id="python-XStatic-Magic-Search" />
+    <node id="build-info">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/utilities/build-info/centos/build-info.spec</data>
+    </node>
+    <node id="libopenssl-devel" />
+    <node id="puppet-mtce">
+      <data key="d0">stx-config</data>
+      <data key="d1">./cgcs-root/stx/stx-config/puppet-modules-wrs/puppet-mtce/centos/puppet-mtce.spec</data>
+    </node>
+    <node id="golang(github.com/stevvooe/resumable)" />
+    <node id="python3-requestsexceptions" />
+    <node id="openssh-config">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/base/openssh-config/centos/openssh-config.spec</data>
+    </node>
+    <node id="python-fmclient">
+      <data key="d0">stx-fault</data>
+      <data key="d1">./cgcs-root/stx/stx-fault/python-fmclient/centos/python-fmclient.spec</data>
+    </node>
+    <node id="playbookconfig">
+      <data key="d0">stx-config</data>
+      <data key="d1">./cgcs-root/stx/stx-config/playbookconfig/centos/playbookconfig.spec</data>
+    </node>
+    <node id="fontawesome-fonts-web &gt;= 4.1.0" />
+    <node id="leveldb-devel &gt; 1.2" />
+    <node id="fakechroot" />
+    <node id="python-wsme" />
+    <node id="logmgmt">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/logging/logmgmt/centos/logmgmt.spec</data>
+    </node>
+    <node id="sysinv">
+      <data key="d0">stx-config</data>
+      <data key="d1">./cgcs-root/stx/stx-config/sysinv/sysinv/centos/sysinv.spec</data>
+    </node>
+    <node id="python2-jsonpatch &gt;= 1.6" />
+    <node id="python2-warlock" />
+    <node id="python3-oslo-utils" />
+    <node id="python2-XStatic-Bootstrap-SCSS" />
+    <node id="python-neutronclient">
+      <data key="d0">stx-upstream</data>
+      <data key="d1">./cgcs-root/stx/stx-upstream/openstack/python-neutronclient/centos/python-neutronclient.spec</data>
+    </node>
+    <node id="EXAMPLE_MTCE">
+      <data key="d0">stx-update</data>
+      <data key="d1">./cgcs-root/stx/stx-update/patch-scripts/EXAMPLE_MTCE/centos/EXAMPLE_MTCE.spec</data>
+    </node>
+    <node id="tsconfig">
+      <data key="d0">stx-update</data>
+      <data key="d1">./cgcs-root/stx/stx-update/tsconfig/centos/tsconfig.spec</data>
+    </node>
+    <node id="fm-doc">
+      <data key="d0">stx-fault</data>
+      <data key="d1">./cgcs-root/stx/stx-fault/fm-doc/centos/fm-doc.spec</data>
+    </node>
+    <node id="systemtap-sdt-devel" />
+    <node id="libnl3-devel" />
+    <node id="python2-requests" />
+    <node id="python3-six" />
+    <node id="kubelet">
+      <data key="d0">git</data>
+      <data key="d1">./cgcs-root/stx/git/kubernetes/build/rpms/kubelet.spec</data>
+    </node>
+    <node id="lzo-devel snappy-devel" />
+    <node id="python-routes" />
+    <node id="mtce-dev" />
+    <node id="registry-token-server">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/kubernetes/registry-token-server/centos/registry-token-server.spec</data>
+    </node>
+    <node id="setup-config">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/base/setup-config/centos/setup-config.spec</data>
+    </node>
+    <node id="libfdt-devel &gt;= 1.4.2" />
+    <node id="python2-sphinx_rtd_theme" />
+    <node id="e1000e-kmod">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/kernel/kernel-modules/intel-e1000e/centos/e1000e-kmod.spec</data>
+    </node>
+    <node id="fm-common-dev" />
+    <node id="docker-distribution">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/kubernetes/docker-distribution/centos/docker-distribution.spec</data>
+    </node>
+    <node id="python-lesscpy" />
+    <node id="python-oslo-utils" />
+    <node id="librbd1-devel" />
+    <node id="python-magnumclient">
+      <data key="d0">stx-upstream</data>
+      <data key="d1">./cgcs-root/stx/stx-upstream/openstack/python-magnumclient/centos/python-magnumclient.spec</data>
+    </node>
+    <node id="gdbm" />
+    <node id="collect-engtools">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/tools/engtools/hostdata-collectors/centos/collect-engtools.spec</data>
+    </node>
+    <node id="python3-oslo-serialization" />
+    <node id="B">
+      <data key="d0">stx-update</data>
+      <data key="d1">./cgcs-root/stx/stx-update/patch-scripts/test-patches/B/centos/B.spec</data>
+    </node>
+    <node id="systemd" />
+    <node id="libtpms-devel &gt;= 0.6.0 fuse-devel glib2-devel gmp-devel" />
+    <node id="parted-devel" />
+    <node id="golang(github.com/noahdesu/go-ceph/rados)" />
+    <node id="util-linux" />
+    <node id="spice-server-devel &gt;= 0.12.0" />
+    <node id="python3-wheel" />
+    <node id="python-nose" />
+    <node id="Cython" />
+    <node id="RR_STORAGE">
+      <data key="d0">stx-update</data>
+      <data key="d1">./cgcs-root/stx/stx-update/patch-scripts/test-patches/RR_STORAGE/centos/RR_STORAGE.spec</data>
+    </node>
+    <node id="python2-XStatic-objectpath" />
+    <node id="python3-pytest" />
+    <node id="python-pbr &gt;= 2.0.0" />
+    <node id="glusterfs-api-devel &gt;= 3.4.1" />
+    <node id="libuuid-devel" />
+    <node id="INSVC_CONTROLLER">
+      <data key="d0">stx-update</data>
+      <data key="d1">./cgcs-root/stx/stx-update/patch-scripts/test-patches/INSVC_CONTROLLER/centos/INSVC_CONTROLLER.spec</data>
+    </node>
+    <node id="%{?go_compiler:compiler(go-compiler)}%{!?go_compiler:golang}" />
+    <node id="libedit-devel" />
+    <node id="fm-common-doc" />
+    <node id="python2-lxml" />
+    <node id="python2-reno" />
+    <node id="time" />
+    <node id="python-pint" />
+    <node id="sm-client">
+      <data key="d0">stx-ha</data>
+      <data key="d1">./cgcs-root/stx/stx-ha/service-mgmt-client/centos/sm-client.spec</data>
+    </node>
+    <node id="libdb-devel" />
+    <node id="python-repoze-lru" />
+    <node id="puppet-nslcd">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/config/puppet-modules/puppet-nslcd/centos/puppet-nslcd.spec</data>
+    </node>
+    <node id="libattr-devel" />
+    <node id="SUITE_B_PATCH_E">
+      <data key="d0">stx-update</data>
+      <data key="d1">./cgcs-root/stx/stx-update/patch-scripts/test-patches-suite-b/SUITE_B_PATCH_E/centos/SUITE_B_PATCH_E.spec</data>
+    </node>
+    <node id="python3-netifaces" />
+    <node id="xz-devel &gt;= 4.999.8" />
+    <node id="puppet-sshd">
+      <data key="d0">stx-config</data>
+      <data key="d1">./cgcs-root/stx/stx-config/puppet-modules-wrs/puppet-sshd/centos/puppet-sshd.spec</data>
+    </node>
+    <node id="python-coverage" />
+    <node id="python3-dogpile-cache" />
+    <node id="python2-cinderclient" />
+    <node id="SUITE_B_PATCH_A">
+      <data key="d0">stx-update</data>
+      <data key="d1">./cgcs-root/stx/stx-update/patch-scripts/test-patches-suite-b/SUITE_B_PATCH_A/centos/SUITE_B_PATCH_A.spec</data>
+    </node>
+    <node id="systemd-config">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/base/systemd-config/centos/systemd-config.spec</data>
+    </node>
+    <node id="cgts-client">
+      <data key="d0">stx-config</data>
+      <data key="d1">./cgcs-root/stx/stx-config/sysinv/cgts-client/centos/cgts-client.spec</data>
+    </node>
+    <node id="python3-oslo-i18n" />
+    <node id="python3-jmespath" />
+    <node id="uuid-devel" />
+    <node id="popt-devel &gt;= 1.10.2" />
+    <node id="lsb-release" />
+    <node id="python3-PyYAML" />
+    <node id="/usr/sbin/qcow-create" />
+    <node id="python-keystoneauth1 &gt;= 3.1.0" />
+    <node id="python3-babel" />
+    <node id="golang(github.com/ncw/swift/swifttest)" />
+    <node id="libxml2-devel" />
+    <node id="python-oslo-versionedobjects" />
+    <node id="python-pecan &gt;= 1.0.0" />
+    <node id="python-novaclient">
+      <data key="d0">stx-upstream</data>
+      <data key="d1">./cgcs-root/stx/stx-upstream/openstack/python-novaclient/centos/python-novaclient.spec</data>
+    </node>
+    <node id="python3-webob" />
+    <node id="LARGE">
+      <data key="d0">stx-update</data>
+      <data key="d1">./cgcs-root/stx/stx-update/patch-scripts/test-patches/LARGE/centos/LARGE.spec</data>
+    </node>
+    <node id="python-django-horizon">
+      <data key="d0">stx-upstream</data>
+      <data key="d1">./cgcs-root/stx/stx-upstream/openstack/python-horizon/centos/python-django-horizon.spec</data>
+    </node>
+    <node id="starlingx-dashboard">
+      <data key="d0">stx-gui</data>
+      <data key="d1">./cgcs-root/stx/stx-gui/starlingx-dashboard/centos/starlingx-dashboard.spec</data>
+    </node>
+    <node id="elfutils-libelf-devel" />
+    <node id="python-oslo-db-tests" />
+    <node id="drbd-kernel">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/kernel/kernel-modules/drbd/centos/drbd-kernel.spec</data>
+    </node>
+    <node id="net-snmp-config">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/base/net-snmp-config/centos/net-snmp-config.spec</data>
+    </node>
+    <node id="python2-netifaces" />
+    <node id="python3-oslotest" />
+    <node id="libfdt">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/base/libfdt/centos/libfdt.spec</data>
+    </node>
+    <node id="python2-ipaddress" />
+    <node id="python-six" />
+    <node id="libgcrypt-devel" />
+    <node id="python-oslo-context" />
+    <node id="python-oslo-log" />
+    <node id="python-debtcollector" />
+    <node id="golang(github.com/yvasiyarov/gorelic)" />
+    <node id="perl(Symbol)" />
+    <node id="libcap-ng-devel &gt;= 0.5.0" />
+    <node id="python2-swiftclient" />
+    <node id="dnsmasq-config">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/base/dnsmasq-config/centos/dnsmasq-config.spec</data>
+    </node>
+    <node id="python2-futures" />
+    <node id="bison" />
+    <node id="perl(File::Temp)" />
+    <node id="python-mox3" />
+    <node id="fuse-devel" />
+    <node id="python3-jsonpatch &gt;= 1.6" />
+    <node id="python2-babel" />
+    <node id="nova-api-proxy">
+      <data key="d0">stx-nfv</data>
+      <data key="d1">./cgcs-root/stx/stx-nfv/nova-api-proxy/centos/nova-api-proxy.spec</data>
+    </node>
+    <node id="python2-dateutil" />
+    <node id="python-ryu">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/networking/python-ryu/centos/python-ryu.spec</data>
+    </node>
+    <node id="file-devel" />
+    <node id="python-sphinxcontrib-httpdomain" />
+    <node id="python2-requests-mock" />
+    <node id="python3-keyring &gt;= 5.5.1" />
+    <node id="python-requests-mock" />
+    <node id="golang(github.com/stevvooe/resumable/sha512)" />
+    <node id="compat-openssl10-devel" />
+    <node id="python2-jmespath" />
+    <node id="python2-stevedore" />
+    <node id="java-devel" />
+    <node id="ldapscripts">
+      <data key="d0">stx-integ</data>
+      <data key="d1">./cgcs-root/stx/stx-integ/ldap/ldapscripts/centos/ldapscripts.spec</data>
+    </node>
+    <node id="iasl" />
+    <node id="python3-setuptools" />
+    <edge source="shadow-utils-config" target="systemd" />
+    <edge source="python-keystoneclient" target="python2-mock" />
+    <edge source="python-keystoneclient" target="python2-keyring &gt;= 5.5.1" />
+    <edge source="python-keystoneclient" target="python2-oslo-i18n" />
+    <edge source="python-keystoneclient" target="python3-lxml" />
+    <edge source="python-keystoneclient" target="python2-testscenarios" />
+    <edge source="python-keystoneclient" target="python2-oslo-config" />
+    <edge source="python-keystoneclient" target="python2-fixtures" />
+    <edge source="python-keystoneclient" target="python2-wheel" />
+    <edge source="python-keystoneclient" target="python2-sphinx" />
+    <edge source="python-keystoneclient" target="python3-testtools" />
+    <edge source="python-keystoneclient" target="python3-testscenarios" />
+    <edge source="python-keystoneclient" target="python2-hacking" />
+    <edge source="python-keystoneclient" target="python3-stestr" />
+    <edge source="python-keystoneclient" target="python-keyring &gt;= 5.5.1" />
+    <edge source="python-keystoneclient" target="python2-oauthlib" />
+    <edge source="python-keystoneclient" target="python3-oauthlib" />
+    <edge source="python-keystoneclient" target="python3-pbr &gt;= 2.0.0" />
+    <edge source="python-keystoneclient" target="git" />
+    <edge source="python-keystoneclient" target="python2-pbr &gt;= 2.0.0" />
+    <edge source="python-keystoneclient" target="python3-oslo-config" />
+    <edge source="python-keystoneclient" target="python3-keystoneauth1" />
+    <edge source="python-keystoneclient" target="python2-oslotest" />
+    <edge source="python-keystoneclient" target="python2-lxml" />
+    <edge source="python-keystoneclient" target="python3-hacking" />
+    <edge source="python-keystoneclient" target="python3-devel" />
+    <edge source="python-keystoneclient" target="python2-setuptools" />
+    <edge source="python-keystoneclient" target="python2-oslo-utils" />
+    <edge source="python-keystoneclient" target="python3-requests-mock" />
+    <edge source="python-keystoneclient" target="python3-oslo-utils" />
+    <edge source="python-keystoneclient" target="python2-oslo-serialization" />
+    <edge source="python-keystoneclient" target="python-lxml" />
+    <edge source="python-keystoneclient" target="python2-openstackdocstheme" />
+    <edge source="python-keystoneclient" target="python-requests-mock" />
+    <edge source="python-keystoneclient" target="python3-fixtures" />
+    <edge source="python-keystoneclient" target="python2-keystoneauth1" />
+    <edge source="python-keystoneclient" target="python2-testtools" />
+    <edge source="python-keystoneclient" target="python2-requests-mock" />
+    <edge source="python-keystoneclient" target="/usr/bin/openssl" />
+    <edge source="python-keystoneclient" target="python3-keyring &gt;= 5.5.1" />
+    <edge source="python-keystoneclient" target="python3-testresources" />
+    <edge source="python-keystoneclient" target="python3-oslo-i18n" />
+    <edge source="python-keystoneclient" target="python2-stestr" />
+    <edge source="python-keystoneclient" target="python2-devel" />
+    <edge source="python-keystoneclient" target="python2-testresources" />
+    <edge source="python-keystoneclient" target="python2-pip" />
+    <edge source="python-keystoneclient" target="python3-setuptools" />
+    <edge source="python-keystoneclient" target="python3-mock" />
+    <edge source="python-keystoneclient" target="python3-oslo-serialization" />
+    <edge source="python-keystoneclient" target="python3-oslotest" />
+    <edge source="ceph-manager" target="systemd-units" />
+    <edge source="ceph-manager" target="python2-wheel" />
+    <edge source="ceph-manager" target="python-setuptools" />
+    <edge source="ceph-manager" target="systemd-devel" />
+    <edge source="ceph-manager" target="python2-pip" />
+    <edge source="stx-openstack-helm" target="openstack-helm-infra" />
+    <edge source="stx-openstack-helm" target="helm" />
+    <edge source="libtpms" target="nss-softokn-freebl-static &gt;= 3.12.9-2" />
+    <edge source="libtpms" target="nss-softokn-freebl-devel &gt;= 3.12.9-2" />
+    <edge source="libtpms" target="nss-devel &gt;= 3.12.9-2" />
+    <edge source="libtpms" target="pkgconfig gawk sed" />
+    <edge source="libtpms" target="openssl-devel" />
+    <edge source="libtpms" target="nss-softokn-devel &gt;= 3.12.9-2, gmp-devel" />
+    <edge source="libtpms" target="automake autoconf libtool bash coreutils" />
+    <edge source="python-3parclient" target="python2-devel" />
+    <edge source="python-3parclient" target="python2-wheel" />
+    <edge source="python-3parclient" target="python-setuptools" />
+    <edge source="python-3parclient" target="python2-pip" />
+    <edge source="fm-mgr" target="fm-common-dev" />
+    <edge source="fm-mgr" target="libuuid-devel" />
+    <edge source="fm-mgr" target="systemd-devel" />
+    <edge source="sm-common" target="gcc" />
+    <edge source="sm-common" target="glib2-devel" />
+    <edge source="sm-common" target="systemd-devel" />
+    <edge source="sm-common" target="systemd" />
+    <edge source="sm-common" target="sqlite-devel" />
+    <edge source="sm-common" target="util-linux" />
+    <edge source="sm-common" target="libuuid-devel" />
+    <edge source="sm-common" target="build-info-dev" />
+    <edge source="fm-common" target="postgresql-devel" />
+    <edge source="fm-common" target="python-setuptools" />
+    <edge source="fm-common" target="python2-pip" />
+    <edge source="fm-common" target="python-devel" />
+    <edge source="fm-common" target="python2-wheel" />
+    <edge source="fm-common" target="libuuid-devel" />
+    <edge source="fm-common" target="util-linux" />
+    <edge source="sm-db" target="gcc" />
+    <edge source="sm-db" target="glib2-devel" />
+    <edge source="sm-db" target="sm-common-dev" />
+    <edge source="sm-db" target="sqlite-devel" />
+    <edge source="sm-db" target="libuuid-devel" />
+    <edge source="sm-db" target="glibc" />
+    <edge source="puppet-dcmanager" target="python2-devel" />
+    <edge source="python-openstackclient" target="python2-mock" />
+    <edge source="python-openstackclient" target="python3-novaclient" />
+    <edge source="python-openstackclient" target="python-simplejson" />
+    <edge source="python-openstackclient" target="python3-cliff" />
+    <edge source="python-openstackclient" target="python2-keystoneclient" />
+    <edge source="python-openstackclient" target="python3-requests-mock" />
+    <edge source="python-openstackclient" target="python-cliff" />
+    <edge source="python-openstackclient" target="python3-oslo-i18n" />
+    <edge source="python-openstackclient" target="python2-six" />
+    <edge source="python-openstackclient" target="python3-simplejson" />
+    <edge source="python-openstackclient" target="python2-wheel" />
+    <edge source="python-openstackclient" target="python3-requestsexceptions" />
+    <edge source="python-openstackclient" target="python3-openstacksdk" />
+    <edge source="python-openstackclient" target="python2-sphinx" />
+    <edge source="python-openstackclient" target="python3-oslotest" />
+    <edge source="python-openstackclient" target="python2-pbr" />
+    <edge source="python-openstackclient" target="python3-oslo-sphinx" />
+    <edge source="python-openstackclient" target="python2-novaclient" />
+    <edge source="python-openstackclient" target="python-d2to1" />
+    <edge source="python-openstackclient" target="python2-glanceclient" />
+    <edge source="python-openstackclient" target="python2-os-client-config" />
+    <edge source="python-openstackclient" target="python2-fixtures" />
+    <edge source="python-openstackclient" target="git" />
+    <edge source="python-openstackclient" target="python2-osc-lib-tests" />
+    <edge source="python-openstackclient" target="python2-d2to1" />
+    <edge source="python-openstackclient" target="python2-reno" />
+    <edge source="python-openstackclient" target="python3-devel" />
+    <edge source="python-openstackclient" target="python2-setuptools" />
+    <edge source="python-openstackclient" target="python2-oslo-utils" />
+    <edge source="python-openstackclient" target="python3-oslo-utils" />
+    <edge source="python-openstackclient" target="python3-cinderclient" />
+    <edge source="python-openstackclient" target="python2-pip" />
+    <edge source="python-openstackclient" target="python3-reno" />
+    <edge source="python-openstackclient" target="python2-openstackdocstheme" />
+    <edge source="python-openstackclient" target="python-requests-mock" />
+    <edge source="python-openstackclient" target="python2-babel" />
+    <edge source="python-openstackclient" target="python3-os-client-config" />
+    <edge source="python-openstackclient" target="python2-sphinxcontrib-apidoc" />
+    <edge source="python-openstackclient" target="python3-fixtures" />
+    <edge source="python-openstackclient" target="python2-requests" />
+    <edge source="python-openstackclient" target="python2-requestsexceptions" />
+    <edge source="python-openstackclient" target="python3-osc-lib-tests" />
+    <edge source="python-openstackclient" target="python3-six" />
+    <edge source="python-openstackclient" target="python2-cliff" />
+    <edge source="python-openstackclient" target="python2-requests-mock" />
+    <edge source="python-openstackclient" target="python2-cinderclient" />
+    <edge source="python-openstackclient" target="python2-osprofiler" />
+    <edge source="python-openstackclient" target="python2-os-testr" />
+    <edge source="python-openstackclient" target="python3-requests" />
+    <edge source="python-openstackclient" target="python3-pbr" />
+    <edge source="python-openstackclient" target="python3-coverage" />
+    <edge source="python-openstackclient" target="python2-openstacksdk" />
+    <edge source="python-openstackclient" target="python2-simplejson" />
+    <edge source="python-openstackclient" target="python3-glanceclient" />
+    <edge source="python-openstackclient" target="openstack-macros" />
+    <edge source="python-openstackclient" target="python2-oslo-i18n" />
+    <edge source="python-openstackclient" target="python2-devel" />
+    <edge source="python-openstackclient" target="python2-oslotest" />
+    <edge source="python-openstackclient" target="python3-os-testr" />
+    <edge source="python-openstackclient" target="python3-d2to1" />
+    <edge source="python-openstackclient" target="python3-setuptools" />
+    <edge source="python-openstackclient" target="python3-mock" />
+    <edge source="python-openstackclient" target="python3-osprofiler" />
+    <edge source="python-openstackclient" target="python3-babel" />
+    <edge source="python-openstackclient" target="python3-keystoneclient" />
+    <edge source="puppet-boolean" target="python2-devel" />
+    <edge source="ceph" target="libexpat-devel" />
+    <edge source="ceph" target="openldap2-devel" />
+    <edge source="ceph" target="babeltrace-devel" />
+    <edge source="ceph" target="gdbm" />
+    <edge source="ceph" target="fcgi-devel" />
+    <edge source="ceph" target="btrfs-progs" />
+    <edge source="ceph" target="parted" />
+    <edge source="ceph" target="libxml2-devel" />
+    <edge source="ceph" target="snappy-devel" />
+    <edge source="ceph" target="xfsprogs-devel" />
+    <edge source="ceph" target="openldap-devel" />
+    <edge source="ceph" target="libblkid-devel &gt;= 2.17" />
+    <edge source="ceph" target="python-sphinx" />
+    <edge source="ceph" target="libudev-devel" />
+    <edge source="ceph" target="systemd" />
+    <edge source="ceph" target="yasm" />
+    <edge source="ceph" target="libtool" />
+    <edge source="ceph" target="sharutils" />
+    <edge source="ceph" target="boost-devel" />
+    <edge source="ceph" target="Cython" />
+    <edge source="ceph" target="python-nose" />
+    <edge source="ceph" target="systemd-rpm-macros" />
+    <edge source="ceph" target="gperftools-devel" />
+    <edge source="ceph" target="python-requests" />
+    <edge source="ceph" target="util-linux" />
+    <edge source="ceph" target="net-tools" />
+    <edge source="ceph" target="expat-devel" />
+    <edge source="ceph" target="java-devel" />
+    <edge source="ceph" target="libbz2-devel" />
+    <edge source="ceph" target="libatomic_ops-devel" />
+    <edge source="ceph" target="cryptsetup" />
+    <edge source="ceph" target="leveldb-devel &gt; 1.2" />
+    <edge source="ceph" target="xfsprogs" />
+    <edge source="ceph" target="make" />
+    <edge source="ceph" target="libopenssl-devel" />
+    <edge source="ceph" target="gcc-c++" />
+    <edge source="ceph" target="lttng-ust-devel" />
+    <edge source="ceph" target="valgrind-devel" />
+    <edge source="ceph" target="FastCGI-devel" />
+    <edge source="ceph" target="libcurl-devel" />
+    <edge source="ceph" target="redhat-lsb-core" />
+    <edge source="ceph" target="boost-random" />
+    <edge source="ceph" target="udev" />
+    <edge source="ceph" target="fuse-devel" />
+    <edge source="ceph" target="xmlstarlet" />
+    <edge source="ceph" target="keyutils-libs-devel" />
+    <edge source="ceph" target="python-devel" />
+    <edge source="ceph" target="hdparm" />
+    <edge source="ceph" target="python-Cython" />
+    <edge source="ceph" target="pkgconfig" />
+    <edge source="ceph" target="nss-devel" />
+    <edge source="ceph" target="libaio-devel" />
+    <edge source="ceph" target="pkgconfig(systemd)" />
+    <edge source="ceph" target="mozilla-nss-devel" />
+    <edge source="ceph" target="btrfsprogs" />
+    <edge source="ceph" target="checkpolicy" />
+    <edge source="ceph" target="junit" />
+    <edge source="ceph" target="cmake" />
+    <edge source="ceph" target="libbabeltrace-devel" />
+    <edge source="ceph" target="selinux-policy-devel" />
+    <edge source="ceph" target="redhat-rpm-config" />
+    <edge source="ceph" target="python" />
+    <edge source="ceph" target="libxio-devel" />
+    <edge source="ceph" target="keyutils-devel" />
+    <edge source="ceph" target="/usr/share/selinux/devel/policyhelp" />
+    <edge source="ceph" target="lsb-release" />
+    <edge source="ceph" target="perl" />
+    <edge source="ceph" target="openssl-devel" />
+    <edge source="ceph" target="python-virtualenv" />
+    <edge source="puppet-ldap" target="python2-devel" />
+    <edge source="tpm-kmod" target="kernel%{?bt_ext}-devel, redhat-rpm-config, perl, openssl" />
+    <edge source="qemu-kvm" target="librbd1-devel" />
+    <edge source="qemu-kvm" target="libiscsi-devel" />
+    <edge source="qemu-kvm" target="kernel-devel" />
+    <edge source="qemu-kvm" target="spice-protocol &gt;= 0.12.2" />
+    <edge source="qemu-kvm" target="libusbx-devel &gt;= 1.0.19" />
+    <edge source="qemu-kvm" target="texi2html" />
+    <edge source="qemu-kvm" target="libtool" />
+    <edge source="qemu-kvm" target="libcap-ng-devel" />
+    <edge source="qemu-kvm" target="ncurses-devel" />
+    <edge source="qemu-kvm" target="spice-server-devel &gt;= 0.12.0" />
+    <edge source="qemu-kvm" target="librdmacm-devel" />
+    <edge source="qemu-kvm" target="texinfo" />
+    <edge source="qemu-kvm" target="nss-devel" />
+    <edge source="qemu-kvm" target="gperftools-devel" />
+    <edge source="qemu-kvm" target="glusterfs-devel" />
+    <edge source="qemu-kvm" target="libssh2-devel" />
+    <edge source="qemu-kvm" target="cpp" />
+    <edge source="qemu-kvm" target="libuuid-devel" />
+    <edge source="qemu-kvm" target="libgcrypt-devel" />
+    <edge source="qemu-kvm" target="gnutls-devel" />
+    <edge source="qemu-kvm" target="systemtap" />
+    <edge source="qemu-kvm" target="pciutils-devel" />
+    <edge source="qemu-kvm" target="libjpeg-devel" />
+    <edge source="qemu-kvm" target="binutils" />
+    <edge source="qemu-kvm" target="glusterfs-api-devel &gt;= 3.6.0" />
+    <edge source="qemu-kvm" target="libcurl-devel" />
+    <edge source="qemu-kvm" target="SDL-devel" />
+    <edge source="qemu-kvm" target="libcacard-devel" />
+    <edge source="qemu-kvm" target="zlib-devel" />
+    <edge source="qemu-kvm" target="brlapi-devel" />
+    <edge source="qemu-kvm" target="check-devel" />
+    <edge source="qemu-kvm" target="libseccomp-devel &gt;= 1.0.0" />
+    <edge source="qemu-kvm" target="libattr-devel" />
+    <edge source="qemu-kvm" target="systemtap-sdt-devel" />
+    <edge source="qemu-kvm" target="usbredir-devel &gt;= 0.7.1" />
+    <edge source="qemu-kvm" target="which" />
+    <edge source="qemu-kvm" target="numactl-devel" />
+    <edge source="qemu-kvm" target="pixman-devel" />
+    <edge source="qemu-kvm" target="librados2-devel" />
+    <edge source="qemu-kvm" target="libaio-devel" />
+    <edge source="qemu-kvm" target="lzo-devel snappy-devel" />
+    <edge source="qemu-kvm" target="perl-podlators" />
+    <edge source="qemu-kvm" target="cyrus-sasl-devel" />
+    <edge source="qemu-kvm" target="libfdt-devel &gt;= 1.4.2" />
+    <edge source="qemu-kvm" target="rsync" />
+    <edge source="qemu-kvm" target="python" />
+    <edge source="qemu-kvm" target="systemd-devel" />
+    <edge source="qemu-kvm" target="iasl" />
+    <edge source="qemu-kvm" target="libcap-devel" />
+    <edge source="qemu-kvm" target="bluez-libs-devel" />
+    <edge source="qemu-kvm" target="pulseaudio-libs-devel" />
+    <edge source="qemu-kvm" target="libpng-devel" />
+    <edge source="puppet-lvm" target="python2-devel" />
+    <edge source="python-aodhclient" target="python3-setuptools" />
+    <edge source="python-aodhclient" target="python-cliff" />
+    <edge source="python-aodhclient" target="python-oslo-serialization" />
+    <edge source="python-aodhclient" target="python3-pbr" />
+    <edge source="python-aodhclient" target="python3-devel" />
+    <edge source="python-aodhclient" target="python-keystoneauth1" />
+    <edge source="python-aodhclient" target="python-pbr" />
+    <edge source="python-aodhclient" target="git" />
+    <edge source="python-aodhclient" target="python-sphinx" />
+    <edge source="python-aodhclient" target="python2-devel" />
+    <edge source="python-aodhclient" target="python-oslo-sphinx" />
+    <edge source="python-aodhclient" target="python2-wheel" />
+    <edge source="python-aodhclient" target="python-setuptools" />
+    <edge source="python-aodhclient" target="python2-pip" />
+    <edge source="python-aodhclient" target="python-openstackdocstheme" />
+    <edge source="python-aodhclient" target="python-oslo-utils" />
+    <edge source="python-inventoryclient" target="python2-pip" />
+    <edge source="python-inventoryclient" target="git" />
+    <edge source="python-inventoryclient" target="python-pbr &gt;= 2.0.0" />
+    <edge source="python-inventoryclient" target="python-setuptools" />
+    <edge source="python-muranoclient" target="python-tools" />
+    <edge source="python-muranoclient" target="python2-openstackdocstheme" />
+    <edge source="python-muranoclient" target="python3-pbr &gt;= 2.0.0" />
+    <edge source="python-muranoclient" target="git" />
+    <edge source="python-muranoclient" target="python2-pbr &gt;= 2.0.0" />
+    <edge source="python-muranoclient" target="openstack-macros" />
+    <edge source="python-muranoclient" target="python2-devel" />
+    <edge source="python-muranoclient" target="python2-wheel" />
+    <edge source="python-muranoclient" target="python3-setuptools" />
+    <edge source="python-muranoclient" target="python2-sphinx" />
+    <edge source="python-muranoclient" target="python3-devel" />
+    <edge source="python-muranoclient" target="python2-setuptools" />
+    <edge source="python-glanceclient" target="python2-oslo-utils" />
+    <edge source="python-glanceclient" target="python2-pbr" />
+    <edge source="python-glanceclient" target="python2-openstackdocstheme" />
+    <edge source="python-glanceclient" target="python2-warlock" />
+    <edge source="python-glanceclient" target="python3-pbr" />
+    <edge source="python-glanceclient" target="python-warlock" />
+    <edge source="python-glanceclient" target="git" />
+    <edge source="python-glanceclient" target="openstack-macros" />
+    <edge source="python-glanceclient" target="python2-keystoneauth1" />
+    <edge source="python-glanceclient" target="python2-devel" />
+    <edge source="python-glanceclient" target="python2-wheel" />
+    <edge source="python-glanceclient" target="python2-sphinxcontrib-apidoc" />
+    <edge source="python-glanceclient" target="python2-pip" />
+    <edge source="python-glanceclient" target="python2-pyOpenSSL &gt;= 17.1.0" />
+    <edge source="python-glanceclient" target="python3-setuptools" />
+    <edge source="python-glanceclient" target="python2-sphinx" />
+    <edge source="python-glanceclient" target="python3-devel" />
+    <edge source="python-glanceclient" target="python2-setuptools" />
+    <edge source="python-glanceclient" target="python2-prettytable" />
+    <edge source="sm-tools" target="python" />
+    <edge source="sm-tools" target="python2-wheel" />
+    <edge source="sm-tools" target="python-setuptools" />
+    <edge source="sm-tools" target="python2-pip" />
+    <edge source="distributedcloud" target="python-keystoneauth1 &gt;= 3.1.0" />
+    <edge source="distributedcloud" target="python-pecan &gt;= 1.0.0" />
+    <edge source="distributedcloud" target="python-oslo-versionedobjects" />
+    <edge source="distributedcloud" target="python-crypto" />
+    <edge source="distributedcloud" target="python-oslo-policy" />
+    <edge source="distributedcloud" target="python2-pip" />
+    <edge source="distributedcloud" target="python-oslo-config" />
+    <edge source="distributedcloud" target="python-netaddr" />
+    <edge source="distributedcloud" target="python-eventlet" />
+    <edge source="distributedcloud" target="python-routes &gt;= 1.12.3" />
+    <edge source="distributedcloud" target="python-cryptography" />
+    <edge source="distributedcloud" target="python-setuptools" />
+    <edge source="distributedcloud" target="python-pbr &gt;= 1.8" />
+    <edge source="distributedcloud" target="python-keyring" />
+    <edge source="distributedcloud" target="python-sphinxcontrib-httpdomain" />
+    <edge source="distributedcloud" target="python-oslo-i18n" />
+    <edge source="distributedcloud" target="python-oslo-utils" />
+    <edge source="distributedcloud" target="python-oslo-serialization" />
+    <edge source="distributedcloud" target="python2-devel" />
+    <edge source="distributedcloud" target="systemd" />
+    <edge source="distributedcloud" target="pyOpenSSL" />
+    <edge source="distributedcloud" target="python-oslo-log" />
+    <edge source="distributedcloud" target="python-oslo-messaging" />
+    <edge source="distributedcloud" target="python-oslo-rootwrap" />
+    <edge source="distributedcloud" target="python-babel" />
+    <edge source="distributedcloud" target="python-oslo-context" />
+    <edge source="distributedcloud" target="python-oslo-middleware" />
+    <edge source="distributedcloud" target="python-oslo-db" />
+    <edge source="distributedcloud" target="python2-wheel" />
+    <edge source="distributedcloud" target="python-oslo-concurrency" />
+    <edge source="distributedcloud" target="python-keystonemiddleware" />
+    <edge source="distributedcloud" target="python-jsonschema &gt;= 2.0.0" />
+    <edge source="distributedcloud" target="python-sphinx" />
+    <edge source="distributedcloud" target="python-oslo-service" />
+    <edge source="libvirt" target="librbd1-devel" />
+    <edge source="libvirt" target="netcf-devel &gt;= 0.2.2" />
+    <edge source="libvirt" target="augeas" />
+    <edge source="libvirt" target="radvd" />
+    <edge source="libvirt" target="libpcap-devel" />
+    <edge source="libvirt" target="libgcrypt-devel" />
+    <edge source="libvirt" target="libxml2-devel" />
+    <edge source="libvirt" target="libnl3-devel" />
+    <edge source="libvirt" target="glusterfs-api-devel &gt;= 3.4.1" />
+    <edge source="libvirt" target="/usr/bin/pod2man" />
+    <edge source="libvirt" target="automake" />
+    <edge source="libvirt" target="libcurl-devel" />
+    <edge source="libvirt" target="audit-libs-devel" />
+    <edge source="libvirt" target="ebtables" />
+    <edge source="libvirt" target="libudev-devel &gt;= 145" />
+    <edge source="libvirt" target="polkit-devel &gt;= 0.93" />
+    <edge source="libvirt" target="libxslt" />
+    <edge source="libvirt" target="numad" />
+    <edge source="libvirt" target="libtool" />
+    <edge source="libvirt" target="parted-devel" />
+    <edge source="libvirt" target="ncurses-devel" />
+    <edge source="libvirt" target="util-linux" />
+    <edge source="libvirt" target="lvm2" />
+    <edge source="libvirt" target="gnutls-devel" />
+    <edge source="libvirt" target="numactl-devel" />
+    <edge source="libvirt" target="module-init-tools" />
+    <edge source="libvirt" target="xen-devel" />
+    <edge source="libvirt" target="iptables" />
+    <edge source="libvirt" target="avahi-devel" />
+    <edge source="libvirt" target="git" />
+    <edge source="libvirt" target="python" />
+    <edge source="libvirt" target="glusterfs-devel &gt;= 3.4.1" />
+    <edge source="libvirt" target="iptables-ipv6" />
+    <edge source="libvirt" target="yajl-devel" />
+    <edge source="libvirt" target="xhtml1-dtds" />
+    <edge source="libvirt" target="gnulib" />
+    <edge source="libvirt" target="scrub" />
+    <edge source="libvirt" target="netcf-devel &gt;= 0.1.8" />
+    <edge source="libvirt" target="libcap-ng-devel &gt;= 0.5.0" />
+    <edge source="libvirt" target="nfs-utils" />
+    <edge source="libvirt" target="dbus-devel" />
+    <edge source="libvirt" target="gettext" />
+    <edge source="libvirt" target="iscsi-initiator-utils" />
+    <edge source="libvirt" target="sheepdog" />
+    <edge source="libvirt" target="libpciaccess-devel &gt;= 0.10.9" />
+    <edge source="libvirt" target="bash-completion &gt;= 2.0" />
+    <edge source="libvirt" target="ceph-devel" />
+    <edge source="libvirt" target="polkit &gt;= 0.112" />
+    <edge source="libvirt" target="libacl-devel" />
+    <edge source="libvirt" target="libselinux-devel" />
+    <edge source="libvirt" target="libtasn1-devel" />
+    <edge source="libvirt" target="libattr-devel" />
+    <edge source="libvirt" target="libblkid-devel &gt;= 2.17" />
+    <edge source="libvirt" target="wireshark-devel &gt;= 2.1.0" />
+    <edge source="libvirt" target="systemd-devel &gt;= 185" />
+    <edge source="libvirt" target="readline-devel" />
+    <edge source="libvirt" target="perl-XML-XPath" />
+    <edge source="libvirt" target="device-mapper-devel" />
+    <edge source="libvirt" target="autoconf" />
+    <edge source="libvirt" target="librados2-devel" />
+    <edge source="libvirt" target="gawk" />
+    <edge source="libvirt" target="libssh2-devel &gt;= 1.3.0" />
+    <edge source="libvirt" target="cyrus-sasl-devel" />
+    <edge source="libvirt" target="dnsmasq &gt;= 2.41" />
+    <edge source="libvirt" target="libssh-devel &gt;= 0.7.0" />
+    <edge source="libvirt" target="sanlock-devel &gt;= 2.4" />
+    <edge source="libvirt" target="/usr/bin/qemu-img" />
+    <edge source="libvirt" target="systemtap-sdt-devel" />
+    <edge source="libvirt" target="gettext-devel" />
+    <edge source="libvirt" target="fuse-devel &gt;= 2.8.6" />
+    <edge source="libvirt" target="libnl-devel" />
+    <edge source="libvirt" target="systemd-units" />
+    <edge source="libvirt" target="polkit-devel &gt;= 0.112" />
+    <edge source="libvirt" target="perl" />
+    <edge source="libvirt" target="libwsman-devel &gt;= 2.2.3" />
+    <edge source="libvirt" target="wireshark-devel &gt;= 1.12.1" />
+    <edge source="libvirt" target="/usr/sbin/qcow-create" />
+    <edge source="puppet-nfv" target="python2-devel" />
+    <edge source="filesystem-scripts" target="systemd-devel" />
+    <edge source="puppet-smapi" target="python2-devel" />
+    <edge source="python-keystoneauth1" target="python2-mock" />
+    <edge source="python-keystoneauth1" target="python-requests-kerberos" />
+    <edge source="python-keystoneauth1" target="python3-lxml" />
+    <edge source="python-keystoneauth1" target="python2-six" />
+    <edge source="python-keystoneauth1" target="python2-pep8" />
+    <edge source="python-keystoneauth1" target="python2-sphinx" />
+    <edge source="python-keystoneauth1" target="python-pep8" />
+    <edge source="python-keystoneauth1" target="python3-oslotest" />
+    <edge source="python-keystoneauth1" target="python2-oauthlib" />
+    <edge source="python-keystoneauth1" target="python3-oauthlib" />
+    <edge source="python-keystoneauth1" target="python2-fixtures" />
+    <edge source="python-keystoneauth1" target="git" />
+    <edge source="python-keystoneauth1" target="python2-pbr &gt;= 2.0.0" />
+    <edge source="python-keystoneauth1" target="python2-os-service-types" />
+    <edge source="python-keystoneauth1" target="python3-requests-mock &gt;= 1.1" />
+    <edge source="python-keystoneauth1" target="python-betamax &gt;= 0.7.0" />
+    <edge source="python-keystoneauth1" target="python2-lxml" />
+    <edge source="python-keystoneauth1" target="python3-betamax &gt;= 0.7.0" />
+    <edge source="python-keystoneauth1" target="python3-devel" />
+    <edge source="python-keystoneauth1" target="python2-setuptools" />
+    <edge source="python-keystoneauth1" target="python3-os-testr" />
+    <edge source="python-keystoneauth1" target="python3-oslo-utils" />
+    <edge source="python-keystoneauth1" target="python3-fixtures &gt;= 1.3.1" />
+    <edge source="python-keystoneauth1" target="python-lxml" />
+    <edge source="python-keystoneauth1" target="python2-openstackdocstheme" />
+    <edge source="python-keystoneauth1" target="python3-sphinx" />
+    <edge source="python-keystoneauth1" target="python2-iso8601" />
+    <edge source="python-keystoneauth1" target="python2-pyyaml" />
+    <edge source="python-keystoneauth1" target="python3-setuptools" />
+    <edge source="python-keystoneauth1" target="python2-fixtures &gt;= 1.3.1" />
+    <edge source="python-keystoneauth1" target="python2-requests" />
+    <edge source="python-keystoneauth1" target="python2-oslo-utils" />
+    <edge source="python-keystoneauth1" target="PyYAML" />
+    <edge source="python-keystoneauth1" target="python2-os-testr" />
+    <edge source="python-keystoneauth1" target="python-requests-mock &gt;= 1.1" />
+    <edge source="python-keystoneauth1" target="python3-pbr &gt;= 2.0.0" />
+    <edge source="python-keystoneauth1" target="python2-stevedore" />
+    <edge source="python-keystoneauth1" target="python2-devel" />
+    <edge source="python-keystoneauth1" target="python2-oslotest" />
+    <edge source="python-keystoneauth1" target="python2-requests-kerberos" />
+    <edge source="python-keystoneauth1" target="python2-mox3" />
+    <edge source="python-keystoneauth1" target="python2-oslo-config" />
+    <edge source="python-keystoneauth1" target="python3-PyYAML" />
+    <edge source="python-keystoneauth1" target="python2-requests-mock &gt;= 1.1" />
+    <edge source="mtce-storage" target="systemd" />
+    <edge source="mtce-storage" target="systemd-devel" />
+    <edge source="swtpm" target="selinux-policy-devel" />
+    <edge source="swtpm" target="automake autoconf bash coreutils libtool sed" />
+    <edge source="swtpm" target="gnutls &gt;= 3.1.0 gnutls-devel gnutls-utils" />
+    <edge source="swtpm" target="libtasn1-devel libtasn1" />
+    <edge source="swtpm" target="libtasn1-tools" />
+    <edge source="swtpm" target="openssl-devel" />
+    <edge source="swtpm" target="expect bash net-tools nss-devel socat python-twisted" />
+    <edge source="swtpm" target="libtpms-devel &gt;= 0.6.0 fuse-devel glib2-devel gmp-devel" />
+    <edge source="swtpm" target="kernel-modules-extra" />
+    <edge source="i40e-kmod" target="kernel%{?bt_ext}-devel, redhat-rpm-config, perl, openssl" />
+    <edge source="mtce-control" target="systemd" />
+    <edge source="mtce-control" target="systemd-devel" />
+    <edge source="golang-dep" target="golang" />
+    <edge source="etcd" target="libpcap-devel" />
+    <edge source="etcd" target="systemd" />
+    <edge source="etcd" target="%{?go_compiler:compiler(go-compiler)}%{!?go_compiler:golang}" />
+    <edge source="puppet-network" target="python2-devel" />
+    <edge source="python-pankoclient" target="python-tools" />
+    <edge source="python-pankoclient" target="python3-tools" />
+    <edge source="python-pankoclient" target="python3-pbr" />
+    <edge source="python-pankoclient" target="python-osc-lib" />
+    <edge source="python-pankoclient" target="python-babel" />
+    <edge source="python-pankoclient" target="git" />
+    <edge source="python-pankoclient" target="python-pbr" />
+    <edge source="python-pankoclient" target="python-sphinx" />
+    <edge source="python-pankoclient" target="python2-devel" />
+    <edge source="python-pankoclient" target="python-oslo-sphinx" />
+    <edge source="python-pankoclient" target="python2-wheel" />
+    <edge source="python-pankoclient" target="python-setuptools" />
+    <edge source="python-pankoclient" target="python2-pip" />
+    <edge source="python-pankoclient" target="python-openstackdocstheme" />
+    <edge source="python-pankoclient" target="python-openstack-doc-tools" />
+    <edge source="python-pankoclient" target="python3-devel" />
+    <edge source="python-pankoclient" target="python3-setuptools" />
+    <edge source="puppet-create_resources" target="python2-devel" />
+    <edge source="sm-api" target="python" />
+    <edge source="sm-api" target="python2-wheel" />
+    <edge source="sm-api" target="python-setuptools" />
+    <edge source="sm-api" target="python2-pip" />
+    <edge source="sm-api" target="systemd" />
+    <edge source="sm-api" target="util-linux" />
+    <edge source="sm-api" target="systemd-devel" />
+    <edge source="mlx4-config" target="systemd-devel" />
+    <edge source="mlx4-config" target="chkconfig" />
+    <edge source="sm" target="gcc" />
+    <edge source="sm" target="glib2-devel" />
+    <edge source="sm" target="systemd-devel" />
+    <edge source="sm" target="sm-common-dev" />
+    <edge source="sm" target="sqlite-devel" />
+    <edge source="sm" target="json-c-devel" />
+    <edge source="sm" target="glibc" />
+    <edge source="sm" target="openssl-devel" />
+    <edge source="sm" target="sm-db-dev" />
+    <edge source="sm" target="fm-common-dev" />
+    <edge source="sm" target="systemd" />
+    <edge source="sm" target="json-c" />
+    <edge source="sm" target="mtce-dev" />
+    <edge source="sm" target="libuuid-devel" />
+    <edge source="openstack-helm" target="openstack-helm-infra" />
+    <edge source="openstack-helm" target="helm" />
+    <edge source="pxe-network-installer" target="syslinux" />
+    <edge source="pxe-network-installer" target="grub2-efi-x64-pxeboot" />
+    <edge source="pxe-network-installer" target="grub2" />
+    <edge source="python-smartpm" target="python-devel" />
+    <edge source="python-smartpm" target="rpm" />
+    <edge source="python-smartpm" target="python" />
+    <edge source="python-smartpm" target="gettext" />
+    <edge source="puppet-patching" target="python2-devel" />
+    <edge source="puppet-sysinv" target="python2-devel" />
+    <edge source="python-openstacksdk" target="python2-mock" />
+    <edge source="python-openstacksdk" target="python2-jsonschema" />
+    <edge source="python-openstacksdk" target="python3-pbr &gt;= 2.0.0" />
+    <edge source="python-openstacksdk" target="python2-munch" />
+    <edge source="python-openstacksdk" target="python3-requests-mock" />
+    <edge source="python-openstacksdk" target="python2-testscenarios" />
+    <edge source="python-openstacksdk" target="python-dogpile-cache" />
+    <edge source="python-openstacksdk" target="git" />
+    <edge source="python-openstacksdk" target="python2-wheel" />
+    <edge source="python-openstacksdk" target="python2-decorator" />
+    <edge source="python-openstacksdk" target="python2-sphinx" />
+    <edge source="python-openstacksdk" target="python3-jmespath" />
+    <edge source="python-openstacksdk" target="python2-requestsexceptions" />
+    <edge source="python-openstacksdk" target="python2-iso8601 &gt;= 0.1.11" />
+    <edge source="python-openstacksdk" target="python2-netifaces" />
+    <edge source="python-openstacksdk" target="python3-iso8601 &gt;= 0.1.11" />
+    <edge source="python-openstacksdk" target="python3-stestr" />
+    <edge source="python-openstacksdk" target="python-decorator" />
+    <edge source="python-openstacksdk" target="python3-jsonschema" />
+    <edge source="python-openstacksdk" target="python2-ipaddress" />
+    <edge source="python-openstacksdk" target="python-netifaces" />
+    <edge source="python-openstacksdk" target="python2-devel" />
+    <edge source="python-openstacksdk" target="python-ipaddress" />
+    <edge source="python-openstacksdk" target="python2-subunit" />
+    <edge source="python-openstacksdk" target="python2-pbr &gt;= 2.0.0" />
+    <edge source="python-openstacksdk" target="python3-testtools" />
+    <edge source="python-openstacksdk" target="python2-os-service-types" />
+    <edge source="python-openstacksdk" target="python3-keystoneauth1" />
+    <edge source="python-openstacksdk" target="python2-oslotest" />
+    <edge source="python-openstacksdk" target="python2-testrepository" />
+    <edge source="python-openstacksdk" target="python2-dogpile-cache" />
+    <edge source="python-openstacksdk" target="python3-munch" />
+    <edge source="python-openstacksdk" target="python3-devel" />
+    <edge source="python-openstacksdk" target="python3-os-service-types" />
+    <edge source="python-openstacksdk" target="python2-jsonpatch &gt;= 1.6" />
+    <edge source="python-openstacksdk" target="python2-futures" />
+    <edge source="python-openstacksdk" target="python3-requestsexceptions" />
+    <edge source="python-openstacksdk" target="python3-decorator" />
+    <edge source="python-openstacksdk" target="python2-openstackdocstheme" />
+    <edge source="python-openstacksdk" target="python-requests-mock" />
+    <edge source="python-openstacksdk" target="python3-jsonpatch &gt;= 1.6" />
+    <edge source="python-openstacksdk" target="python3-netifaces" />
+    <edge source="python-openstacksdk" target="python3-testrepository" />
+    <edge source="python-openstacksdk" target="python2-keystoneauth1" />
+    <edge source="python-openstacksdk" target="python3-dogpile-cache" />
+    <edge source="python-openstacksdk" target="python2-testtools" />
+    <edge source="python-openstacksdk" target="python2-requests-mock" />
+    <edge source="python-openstacksdk" target="python3-appdirs" />
+    <edge source="python-openstacksdk" target="python3-subunit" />
+    <edge source="python-openstacksdk" target="python3-deprecation" />
+    <edge source="python-openstacksdk" target="python2-appdirs" />
+    <edge source="python-openstacksdk" target="python2-jmespath" />
+    <edge source="python-openstacksdk" target="python2-stestr" />
+    <edge source="python-openstacksdk" target="python2-glanceclient" />
+    <edge source="python-openstacksdk" target="python2-deprecation" />
+    <edge source="python-openstacksdk" target="python2-pip" />
+    <edge source="python-openstacksdk" target="python3-glanceclient" />
+    <edge source="python-openstacksdk" target="python3-mock" />
+    <edge source="python-openstacksdk" target="python3-testscenarios" />
+    <edge source="python-openstacksdk" target="python3-oslotest" />
+    <edge source="python-lefthandclient" target="python2-devel" />
+    <edge source="python-lefthandclient" target="python2-wheel" />
+    <edge source="python-lefthandclient" target="python-setuptools" />
+    <edge source="python-lefthandclient" target="python2-pip" />
+    <edge source="platform-kickstarts" target="perl(Getopt::Long)" />
+    <edge source="platform-kickstarts" target="perl" />
+    <edge source="platform-kickstarts" target="perl(POSIX)" />
+    <edge source="python-cephclient" target="ceph" />
+    <edge source="python-cephclient" target="python" />
+    <edge source="python-cephclient" target="python2-wheel" />
+    <edge source="python-cephclient" target="python2-pip" />
+    <edge source="tss2" target="openssl-devel" />
+    <edge source="drbd" target="udev" />
+    <edge source="drbd" target="flex" />
+    <edge source="drbd" target="systemd-devel" />
+    <edge source="puppet-drbd" target="python2-devel" />
+    <edge source="cgcs-patch" target="systemd-units" />
+    <edge source="cgcs-patch" target="python2-wheel" />
+    <edge source="cgcs-patch" target="python-setuptools" />
+    <edge source="cgcs-patch" target="systemd-devel" />
+    <edge source="cgcs-patch" target="python2-pip" />
+    <edge source="worker-utils" target="systemd-devel" />
+    <edge source="i40evf-kmod" target="kernel%{?bt_ext}-devel, redhat-rpm-config, perl, openssl" />
+    <edge source="ixgbevf-kmod" target="kernel%{?bt_ext}-devel" />
+    <edge source="ixgbevf-kmod" target="kernel%{?bt_ext}-devel, redhat-rpm-config, perl, openssl" />
+    <edge source="patch-alarm" target="python2-wheel" />
+    <edge source="patch-alarm" target="python-setuptools" />
+    <edge source="patch-alarm" target="python2-pip" />
+    <edge source="platform-util" target="python2-wheel" />
+    <edge source="platform-util" target="python-setuptools" />
+    <edge source="platform-util" target="python2-pip" />
+    <edge source="python-gnocchiclient" target="python2-pbr" />
+    <edge source="python-gnocchiclient" target="python2-babel" />
+    <edge source="python-gnocchiclient" target="python3-tools" />
+    <edge source="python-gnocchiclient" target="python3-pbr" />
+    <edge source="python-gnocchiclient" target="python2-ujson" />
+    <edge source="python-gnocchiclient" target="python2-osc-lib" />
+    <edge source="python-gnocchiclient" target="python3-devel" />
+    <edge source="python-gnocchiclient" target="python2-cliff &gt;= 2.10" />
+    <edge source="python-gnocchiclient" target="python2-futurist" />
+    <edge source="python-gnocchiclient" target="python2-sphinx_rtd_theme" />
+    <edge source="python-gnocchiclient" target="python2-six" />
+    <edge source="python-gnocchiclient" target="python2-devel" />
+    <edge source="python-gnocchiclient" target="python3-setuptools" />
+    <edge source="python-gnocchiclient" target="python2-wheel" />
+    <edge source="python-gnocchiclient" target="python2-dateutil" />
+    <edge source="python-gnocchiclient" target="python2-pip" />
+    <edge source="python-gnocchiclient" target="python2-tools" />
+    <edge source="python-gnocchiclient" target="python2-keystoneauth1" />
+    <edge source="python-gnocchiclient" target="python2-sphinx" />
+    <edge source="python-gnocchiclient" target="python2-setuptools" />
+    <edge source="fm-api" target="python2-wheel" />
+    <edge source="fm-api" target="python-setuptools" />
+    <edge source="fm-api" target="python2-pip" />
+    <edge source="vm-topology" target="python" />
+    <edge source="vm-topology" target="python2-wheel" />
+    <edge source="vm-topology" target="python-setuptools" />
+    <edge source="vm-topology" target="python-keyring" />
+    <edge source="vm-topology" target="libvirt" />
+    <edge source="vm-topology" target="python2-pip" />
+    <edge source="puppet-dnsmasq" target="python2-devel" />
+    <edge source="syslog-ng-config" target="systemd" />
+    <edge source="openstack-helm-infra" target="helm" />
+    <edge source="dpkg" target="gcc" />
+    <edge source="dpkg" target="ncurses-static" />
+    <edge source="dpkg" target="gcc-c++" />
+    <edge source="dpkg" target="perl-version" />
+    <edge source="requests-toolbelt" target="python2-wheel" />
+    <edge source="requests-toolbelt" target="python-setuptools" />
+    <edge source="requests-toolbelt" target="python2-pip" />
+    <edge source="mariadb" target="procps" />
+    <edge source="mariadb" target="bison" />
+    <edge source="mariadb" target="pam-devel" />
+    <edge source="mariadb" target="perl(Env)" />
+    <edge source="mariadb" target="zlib-devel" />
+    <edge source="mariadb" target="perl(Sys::Hostname)" />
+    <edge source="mariadb" target="systemtap-sdt-devel" />
+    <edge source="mariadb" target="perl(File::Temp)" />
+    <edge source="mariadb" target="perl(Symbol)" />
+    <edge source="mariadb" target="Judy-devel" />
+    <edge source="mariadb" target="ncurses-devel" />
+    <edge source="mariadb" target="perl(Time::HiRes)" />
+    <edge source="mariadb" target="krb5-devel" />
+    <edge source="mariadb" target="boost-devel" />
+    <edge source="mariadb" target="openssl-devel" />
+    <edge source="mariadb" target="perl(Socket)" />
+    <edge source="mariadb" target="openssl" />
+    <edge source="mariadb" target="libaio-devel" />
+    <edge source="mariadb" target="perl" />
+    <edge source="mariadb" target="cmake" />
+    <edge source="mariadb" target="compat-openssl10-devel" />
+    <edge source="mariadb" target="perl(Exporter)" />
+    <edge source="mariadb" target="selinux-policy-devel" />
+    <edge source="mariadb" target="libedit-devel" />
+    <edge source="mariadb" target="perl(IPC::Open3)" />
+    <edge source="mariadb" target="libarchive libarchive-devel" />
+    <edge source="mariadb" target="perl-generators" />
+    <edge source="mariadb" target="perl(Data::Dumper)" />
+    <edge source="mariadb" target="multilib-rpm-config" />
+    <edge source="mariadb" target="perl(Fcntl)" />
+    <edge source="mariadb" target="perl(Memoize)" />
+    <edge source="mariadb" target="perl(Getopt::Long)" />
+    <edge source="mariadb" target="gcc-c++" />
+    <edge source="mariadb" target="time" />
+    <edge source="mariadb" target="perl(Test::More)" />
+    <edge source="nfv" target="python2-wheel" />
+    <edge source="nfv" target="python-setuptools" />
+    <edge source="nfv" target="python2-pip" />
+    <edge source="snmp-ext" target="net-snmp-devel" />
+    <edge source="snmp-ext" target="fm-common-dev" />
+    <edge source="snmp-ext" target="libuuid-devel" />
+    <edge source="puppet-postgresql" target="python2-devel" />
+    <edge source="kubernetes" target="rsync" />
+    <edge source="kubernetes" target="systemd" />
+    <edge source="kubernetes" target="golang &gt;= 1.2-7" />
+    <edge source="kubernetes" target="go-md2man" />
+    <edge source="kubernetes" target="golang &gt;=  1.10.2" />
+    <edge source="kubernetes" target="go-bindata" />
+    <edge source="inventory" target="python-oslo-db" />
+    <edge source="inventory" target="python-retrying" />
+    <edge source="inventory" target="python-oslo-versionedobjects" />
+    <edge source="inventory" target="python-stevedore" />
+    <edge source="inventory" target="python-oslo-policy" />
+    <edge source="inventory" target="python-psutil" />
+    <edge source="inventory" target="python-keystoneauth1" />
+    <edge source="inventory" target="python-neutronclient" />
+    <edge source="inventory" target="python-oslo-config" />
+    <edge source="inventory" target="python-pbr" />
+    <edge source="inventory" target="python-oslo-i18n" />
+    <edge source="inventory" target="python-six" />
+    <edge source="inventory" target="python-setuptools" />
+    <edge source="inventory" target="python-jsonpatch" />
+    <edge source="inventory" target="systemd-devel" />
+    <edge source="inventory" target="python-requests" />
+    <edge source="inventory" target="python-oslotest" />
+    <edge source="inventory" target="python-oslo-serialization" />
+    <edge source="inventory" target="python-webob" />
+    <edge source="inventory" target="python-osprofiler" />
+    <edge source="inventory" target="python-oslo-db-tests" />
+    <edge source="inventory" target="cgts-client" />
+    <edge source="inventory" target="python-os-testr" />
+    <edge source="inventory" target="python-oslo-log" />
+    <edge source="inventory" target="python-oslo-messaging" />
+    <edge source="inventory" target="python-oslo-utils" />
+    <edge source="inventory" target="python-oslo-context" />
+    <edge source="inventory" target="python-oslo-middleware" />
+    <edge source="inventory" target="python-oslo-rootwrap" />
+    <edge source="inventory" target="python-wsme" />
+    <edge source="inventory" target="systemd" />
+    <edge source="inventory" target="python-oslo-concurrency" />
+    <edge source="inventory" target="python-sqlalchemy" />
+    <edge source="inventory" target="python-keystonemiddleware" />
+    <edge source="inventory" target="python-mock" />
+    <edge source="inventory" target="python-pecan" />
+    <edge source="inventory" target="python-oslo-service" />
+    <edge source="lldpd" target="pkgconfig" />
+    <edge source="lldpd" target="systemd" />
+    <edge source="lldpd" target="json-c-devel" />
+    <edge source="lldpd" target="systemd-devel" />
+    <edge source="lldpd" target="systemd-units" />
+    <edge source="lldpd" target="net-snmp-devel" />
+    <edge source="lldpd" target="readline-devel" />
+    <edge source="lldpd" target="pciutils-devel" />
+    <edge source="lldpd" target="libevent-devel" />
+    <edge source="lldpd" target="libxml2-devel" />
+    <edge source="lldpd" target="openssl-devel" />
+    <edge source="puppet-fm" target="python2-devel" />
+    <edge source="puppet-filemapper" target="python2-devel" />
+    <edge source="mtce" target="postgresql" />
+    <edge source="mtce" target="libssh2" />
+    <edge source="mtce" target="expect" />
+    <edge source="mtce" target="json-c" />
+    <edge source="mtce" target="json-c-devel" />
+    <edge source="mtce" target="libssh2-devel" />
+    <edge source="mtce" target="libuuid-devel" />
+    <edge source="mtce" target="fm-common-dev" />
+    <edge source="mtce" target="libevent-devel" />
+    <edge source="mtce" target="fm-mgr" />
+    <edge source="mtce" target="fm-common" />
+    <edge source="mtce" target="mtce-common-dev &gt;= 1.0" />
+    <edge source="mtce" target="cppcheck" />
+    <edge source="mtce" target="openssl" />
+    <edge source="mtce" target="openssl-devel" />
+    <edge source="mtce" target="libevent" />
+    <edge source="mtce" target="systemd-devel" />
+    <edge source="mtce-guest" target="openssl" />
+    <edge source="mtce-guest" target="json-c" />
+    <edge source="mtce-guest" target="json-c-devel" />
+    <edge source="mtce-guest" target="mtce-common-dev &gt;= 1.0" />
+    <edge source="mtce-guest" target="libuuid-devel" />
+    <edge source="mtce-guest" target="fm-common-dev" />
+    <edge source="mtce-guest" target="libevent-devel" />
+    <edge source="mtce-guest" target="fm-common" />
+    <edge source="mtce-guest" target="cppcheck" />
+    <edge source="mtce-guest" target="libuuid" />
+    <edge source="mtce-guest" target="openssl-devel" />
+    <edge source="mtce-guest" target="libevent" />
+    <edge source="mtce-guest" target="systemd-devel" />
+    <edge source="integrity-kmod" target="kernel%{?bt_ext}-devel, redhat-rpm-config, perl, tpm-kmod%{?bt_ext}-symbols, openssl" />
+    <edge source="fm-rest-api" target="python-oslo-log" />
+    <edge source="fm-rest-api" target="python2-wheel" />
+    <edge source="fm-rest-api" target="python-setuptools" />
+    <edge source="fm-rest-api" target="python-oslo-messaging" />
+    <edge source="fm-rest-api" target="python-oslo-db" />
+    <edge source="fm-rest-api" target="systemd" />
+    <edge source="fm-rest-api" target="python2-pip" />
+    <edge source="fm-rest-api" target="python-oslo-middleware" />
+    <edge source="fm-rest-api" target="python-oslo-config" />
+    <edge source="tpm2-openssl-engine" target="tss2-devel" />
+    <edge source="tpm2-openssl-engine" target="openssl" />
+    <edge source="tpm2-openssl-engine" target="openssl-devel" />
+    <edge source="collectd-extensions" target="systemd-devel" />
+    <edge source="python-ironicclient" target="python2-devel" />
+    <edge source="python-ironicclient" target="python2-wheel" />
+    <edge source="python-ironicclient" target="python2-pbr &gt;= 2.0.0" />
+    <edge source="python-ironicclient" target="python2-pip" />
+    <edge source="python-ironicclient" target="python3-setuptools" />
+    <edge source="python-ironicclient" target="python3-pbr &gt;= 2.0.0" />
+    <edge source="python-ironicclient" target="python3-devel" />
+    <edge source="python-ironicclient" target="python2-setuptools" />
+    <edge source="python-heatclient" target="python2-oslo-serialization" />
+    <edge source="python-heatclient" target="python2-openstackdocstheme" />
+    <edge source="python-heatclient" target="python2-six" />
+    <edge source="python-heatclient" target="python2-babel" />
+    <edge source="python-heatclient" target="python2-iso8601" />
+    <edge source="python-heatclient" target="python2-wheel" />
+    <edge source="python-heatclient" target="python2-sphinxcontrib-apidoc" />
+    <edge source="python-heatclient" target="python2-requests" />
+    <edge source="python-heatclient" target="python2-keystoneauth1" />
+    <edge source="python-heatclient" target="python2-sphinx" />
+    <edge source="python-heatclient" target="python2-prettytable" />
+    <edge source="python-heatclient" target="python2-oslo-utils" />
+    <edge source="python-heatclient" target="python2-pbr" />
+    <edge source="python-heatclient" target="python3-pbr" />
+    <edge source="python-heatclient" target="python2-osc-lib" />
+    <edge source="python-heatclient" target="git" />
+    <edge source="python-heatclient" target="python2-oslo-i18n" />
+    <edge source="python-heatclient" target="python2-devel" />
+    <edge source="python-heatclient" target="python2-cliff" />
+    <edge source="python-heatclient" target="python2-pip" />
+    <edge source="python-heatclient" target="python3-setuptools" />
+    <edge source="python-heatclient" target="python2-swiftclient" />
+    <edge source="python-heatclient" target="python3-devel" />
+    <edge source="python-heatclient" target="python2-setuptools" />
+    <edge source="python-barbicanclient" target="python2-oslo-utils" />
+    <edge source="python-barbicanclient" target="python2-pbr" />
+    <edge source="python-barbicanclient" target="python3-pbr" />
+    <edge source="python-barbicanclient" target="python2-openstackdocstheme" />
+    <edge source="python-barbicanclient" target="git" />
+    <edge source="python-barbicanclient" target="python2-oslo-i18n" />
+    <edge source="python-barbicanclient" target="python2-devel" />
+    <edge source="python-barbicanclient" target="python2-wheel" />
+    <edge source="python-barbicanclient" target="python2-pip" />
+    <edge source="python-barbicanclient" target="python3-setuptools" />
+    <edge source="python-barbicanclient" target="python2-sphinx" />
+    <edge source="python-barbicanclient" target="python3-devel" />
+    <edge source="python-barbicanclient" target="python2-setuptools" />
+    <edge source="python-barbicanclient" target="python2-prettytable" />
+    <edge source="puppet-dcorch" target="python2-devel" />
+    <edge source="wrs-ssl" target="openssl" />
+    <edge source="mtce-compute" target="systemd" />
+    <edge source="mtce-compute" target="systemd-devel" />
+    <edge source="distributedcloud-client" target="python-oslo-db" />
+    <edge source="distributedcloud-client" target="python-oslo-policy" />
+    <edge source="distributedcloud-client" target="python-oslo-versionedobjects" />
+    <edge source="distributedcloud-client" target="python-oslo-config" />
+    <edge source="distributedcloud-client" target="git" />
+    <edge source="distributedcloud-client" target="python-oslo-i18n" />
+    <edge source="distributedcloud-client" target="python-routes &gt;= 1.12.3" />
+    <edge source="distributedcloud-client" target="python2-wheel" />
+    <edge source="distributedcloud-client" target="python-setuptools" />
+    <edge source="distributedcloud-client" target="systemd" />
+    <edge source="distributedcloud-client" target="python2-pip" />
+    <edge source="distributedcloud-client" target="python-sphinxcontrib-httpdomain" />
+    <edge source="distributedcloud-client" target="python-sphinx" />
+    <edge source="distributedcloud-client" target="python-oslo-serialization" />
+    <edge source="distributedcloud-client" target="python2-devel" />
+    <edge source="distributedcloud-client" target="pyOpenSSL" />
+    <edge source="distributedcloud-client" target="python-oslo-log" />
+    <edge source="distributedcloud-client" target="python-oslo-messaging" />
+    <edge source="distributedcloud-client" target="python-jsonschema &gt;= 2.0.0" />
+    <edge source="distributedcloud-client" target="python-babel" />
+    <edge source="distributedcloud-client" target="python-oslo-context" />
+    <edge source="distributedcloud-client" target="python-oslo-middleware" />
+    <edge source="distributedcloud-client" target="python-oslo-rootwrap" />
+    <edge source="distributedcloud-client" target="python-pbr &gt;= 1.8" />
+    <edge source="distributedcloud-client" target="python-oslo-concurrency" />
+    <edge source="distributedcloud-client" target="python-keystonemiddleware" />
+    <edge source="distributedcloud-client" target="python-oslo-utils" />
+    <edge source="distributedcloud-client" target="python-oslo-service" />
+    <edge source="puppet-puppi" target="python2-devel" />
+    <edge source="sysinv-agent" target="systemd-devel" />
+    <edge source="controllerconfig" target="python2-wheel" />
+    <edge source="controllerconfig" target="python-setuptools" />
+    <edge source="controllerconfig" target="python2-pip" />
+    <edge source="rpm" target="ima-evm-utils-devel" />
+    <edge source="rpm" target="libdb-devel" />
+    <edge source="rpm" target="lua-devel &gt;= 5.1" />
+    <edge source="rpm" target="ima-evm-utils" />
+    <edge source="rpm" target="nss-softokn-freebl-devel" />
+    <edge source="rpm" target="%{bdbname}-devel" />
+    <edge source="rpm" target="libacl-devel" />
+    <edge source="rpm" target="automake" />
+    <edge source="rpm" target="libselinux-devel" />
+    <edge source="rpm" target="libtool" />
+    <edge source="rpm" target="libattr-devel" />
+    <edge source="rpm" target="gettext-devel" />
+    <edge source="rpm" target="python-devel &gt;= 2.6" />
+    <edge source="rpm" target="ncurses-devel" />
+    <edge source="rpm" target="elfutils-libelf-devel" />
+    <edge source="rpm" target="xz-devel &gt;= 4.999.8" />
+    <edge source="rpm" target="nss-devel" />
+    <edge source="rpm" target="elfutils-devel &gt;= 0.112" />
+    <edge source="rpm" target="autoconf" />
+    <edge source="rpm" target="lua-devel" />
+    <edge source="rpm" target="file-devel" />
+    <edge source="rpm" target="gawk" />
+    <edge source="rpm" target="redhat-rpm-config" />
+    <edge source="rpm" target="libarchive-devel" />
+    <edge source="rpm" target="nspr-devel" />
+    <edge source="rpm" target="readline-devel zlib-devel" />
+    <edge source="rpm" target="popt-devel" />
+    <edge source="rpm" target="libsemanage-devel" />
+    <edge source="rpm" target="fakechroot" />
+    <edge source="rpm" target="popt-devel &gt;= 1.10.2" />
+    <edge source="rpm" target="libcap-devel" />
+    <edge source="rpm" target="bzip2-devel &gt;= 0.9.0c-2" />
+    <edge source="rpm" target="dbus-devel" />
+    <edge source="rpm" target="openssl-devel" />
+    <edge source="rpm" target="binutils-devel" />
+    <edge source="rpm" target="zlib-devel" />
+    <edge source="mtce-common" target="postgresql" />
+    <edge source="mtce-common" target="libssh2" />
+    <edge source="mtce-common" target="expect" />
+    <edge source="mtce-common" target="json-c" />
+    <edge source="mtce-common" target="json-c-devel" />
+    <edge source="mtce-common" target="libssh2-devel" />
+    <edge source="mtce-common" target="libuuid-devel" />
+    <edge source="mtce-common" target="fm-common-dev" />
+    <edge source="mtce-common" target="libevent-devel" />
+    <edge source="mtce-common" target="fm-mgr" />
+    <edge source="mtce-common" target="fm-common" />
+    <edge source="mtce-common" target="cppcheck" />
+    <edge source="mtce-common" target="openssl" />
+    <edge source="mtce-common" target="openssl-devel" />
+    <edge source="mtce-common" target="libevent" />
+    <edge source="mtce-common" target="systemd-devel" />
+    <edge source="python-cinderclient" target="python2-pbr" />
+    <edge source="python-cinderclient" target="python-d2to1" />
+    <edge source="python-cinderclient" target="python3-pbr" />
+    <edge source="python-cinderclient" target="python3-d2to1" />
+    <edge source="python-cinderclient" target="git" />
+    <edge source="python-cinderclient" target="python-sphinx" />
+    <edge source="python-cinderclient" target="python2-devel" />
+    <edge source="python-cinderclient" target="python2-wheel" />
+    <edge source="python-cinderclient" target="python2-d2to1" />
+    <edge source="python-cinderclient" target="python2-pip" />
+    <edge source="python-cinderclient" target="python-openstackdocstheme" />
+    <edge source="python-cinderclient" target="python3-setuptools" />
+    <edge source="python-cinderclient" target="python3-devel" />
+    <edge source="python-cinderclient" target="python2-setuptools" />
+    <edge source="python-cinderclient" target="python-reno" />
+    <edge source="snmp-audittrail" target="net-snmp-devel" />
+    <edge source="snmp-audittrail" target="fm-common-dev" />
+    <edge source="snmp-audittrail" target="uuid" />
+    <edge source="snmp-audittrail" target="libuuid-devel" />
+    <edge source="snmp-audittrail" target="uuid-devel" />
+    <edge source="qat17" target="libudev-devel" />
+    <edge source="qat17" target="pciutils" />
+    <edge source="qat17" target="perl" />
+    <edge source="qat17" target="openssl" />
+    <edge source="qat17" target="zlib-devel" />
+    <edge source="qat17" target="openssl-devel" />
+    <edge source="qat17" target="boost-devel" />
+    <edge source="qat17" target="kernel%{?bt_ext}-devel" />
+    <edge source="python-setuptools" target="pytest" />
+    <edge source="python-setuptools" target="python2-devel" />
+    <edge source="python-setuptools" target="python3-pytest" />
+    <edge source="python-setuptools" target="python-wheel" />
+    <edge source="python-setuptools" target="python3-mock" />
+    <edge source="python-setuptools" target="python3-pip" />
+    <edge source="python-setuptools" target="python-pip" />
+    <edge source="python-setuptools" target="python-mock" />
+    <edge source="python-setuptools" target="python3-wheel" />
+    <edge source="python-setuptools" target="python3-devel" />
+    <edge source="ixgbe-kmod" target="kernel%{?bt_ext}-devel" />
+    <edge source="ixgbe-kmod" target="kernel%{?bt_ext}-devel, redhat-rpm-config, perl, openssl" />
+    <edge source="puppet-mtce" target="python2-devel" />
+    <edge source="python-fmclient" target="python2-pip" />
+    <edge source="python-fmclient" target="python2-wheel" />
+    <edge source="python-fmclient" target="git" />
+    <edge source="python-fmclient" target="python-pbr &gt;= 2.0.0" />
+    <edge source="python-fmclient" target="python-setuptools" />
+    <edge source="logmgmt" target="python2-wheel" />
+    <edge source="logmgmt" target="python-setuptools" />
+    <edge source="logmgmt" target="systemd-devel" />
+    <edge source="logmgmt" target="python2-pip" />
+    <edge source="sysinv" target="systemd" />
+    <edge source="sysinv" target="python2-pip" />
+    <edge source="sysinv" target="python2-wheel" />
+    <edge source="sysinv" target="python-setuptools" />
+    <edge source="sysinv" target="python-pbr" />
+    <edge source="python-neutronclient" target="python3-testscenarios" />
+    <edge source="python-neutronclient" target="python3-osc-lib-tests" />
+    <edge source="python-neutronclient" target="python2-osc-lib-tests" />
+    <edge source="python-neutronclient" target="python2-osc-lib &gt;= 1.10.0" />
+    <edge source="python-neutronclient" target="python2-testscenarios" />
+    <edge source="python-neutronclient" target="python2-openstackdocstheme" />
+    <edge source="python-neutronclient" target="python2-keystoneclient" />
+    <edge source="python-neutronclient" target="python2-wheel" />
+    <edge source="python-neutronclient" target="python2-oslo-utils" />
+    <edge source="python-neutronclient" target="python3-testrepository" />
+    <edge source="python-neutronclient" target="python2-sphinx" />
+    <edge source="python-neutronclient" target="python3-testtools" />
+    <edge source="python-neutronclient" target="python2-testrepository" />
+    <edge source="python-neutronclient" target="python2-testtools" />
+    <edge source="python-neutronclient" target="python3-oslotest" />
+    <edge source="python-neutronclient" target="python2-pbr" />
+    <edge source="python-neutronclient" target="python3-pbr" />
+    <edge source="python-neutronclient" target="python2-os-client-config" />
+    <edge source="python-neutronclient" target="git" />
+    <edge source="python-neutronclient" target="openstack-macros" />
+    <edge source="python-neutronclient" target="python2-keystoneauth1" />
+    <edge source="python-neutronclient" target="python2-devel" />
+    <edge source="python-neutronclient" target="python2-oslo-serialization" />
+    <edge source="python-neutronclient" target="python2-oslotest" />
+    <edge source="python-neutronclient" target="python2-cliff" />
+    <edge source="python-neutronclient" target="python2-pip" />
+    <edge source="python-neutronclient" target="python3-setuptools" />
+    <edge source="python-neutronclient" target="python2-reno" />
+    <edge source="python-neutronclient" target="python3-devel" />
+    <edge source="python-neutronclient" target="python2-setuptools" />
+    <edge source="tsconfig" target="python2-wheel" />
+    <edge source="tsconfig" target="python-setuptools" />
+    <edge source="tsconfig" target="python2-pip" />
+    <edge source="fm-doc" target="fm-api-doc" />
+    <edge source="fm-doc" target="python-yaml" />
+    <edge source="fm-doc" target="fm-common-doc" />
+    <edge source="registry-token-server" target="systemd" />
+    <edge source="registry-token-server" target="golang &gt;= 1.6" />
+    <edge source="e1000e-kmod" target="kernel%{?bt_ext}-devel, redhat-rpm-config, perl, openssl" />
+    <edge source="docker-distribution" target="golang(github.com/Sirupsen/logrus/formatters/logstash)" />
+    <edge source="docker-distribution" target="golang(github.com/garyburd/redigo/redis)" />
+    <edge source="docker-distribution" target="golang(google.golang.org/api/googleapi)" />
+    <edge source="docker-distribution" target="golang(golang.org/x/crypto/bcrypt)" />
+    <edge source="docker-distribution" target="golang(github.com/gorilla/mux)" />
+    <edge source="docker-distribution" target="golang(github.com/ncw/swift/swifttest)" />
+    <edge source="docker-distribution" target="golang(golang.org/x/net/context)" />
+    <edge source="docker-distribution" target="golang(github.com/Azure/azure-sdk-for-go/storage)" />
+    <edge source="docker-distribution" target="golang(github.com/AdRoll/goamz/s3)" />
+    <edge source="docker-distribution" target="golang(golang.org/x/oauth2)" />
+    <edge source="docker-distribution" target="systemd" />
+    <edge source="docker-distribution" target="golang(github.com/AdRoll/goamz/aws)" />
+    <edge source="docker-distribution" target="golang(github.com/mitchellh/mapstructure)" />
+    <edge source="docker-distribution" target="golang(github.com/noahdesu/go-ceph/rados)" />
+    <edge source="docker-distribution" target="golang(github.com/ncw/swift)" />
+    <edge source="docker-distribution" target="golang(github.com/Sirupsen/logrus)" />
+    <edge source="docker-distribution" target="golang(github.com/bugsnag/bugsnag-go)" />
+    <edge source="docker-distribution" target="golang(github.com/gorilla/handlers)" />
+    <edge source="docker-distribution" target="golang(github.com/stevvooe/resumable)" />
+    <edge source="docker-distribution" target="golang(github.com/stevvooe/resumable/sha256)" />
+    <edge source="docker-distribution" target="golang(github.com/docker/libtrust)" />
+    <edge source="docker-distribution" target="%{?go_compiler:compiler(go-compiler)}%{!?go_compiler:golang}" />
+    <edge source="docker-distribution" target="golang(github.com/stevvooe/resumable/sha512)" />
+    <edge source="docker-distribution" target="golang(github.com/AdRoll/goamz/cloudfront)" />
+    <edge source="docker-distribution" target="golang(golang.org/x/oauth2/google)" />
+    <edge source="docker-distribution" target="golang(github.com/yvasiyarov/gorelic)" />
+    <edge source="docker-distribution" target="golang(github.com/denverdino/aliyungo/oss)" />
+    <edge source="docker-distribution" target="golang(google.golang.org/cloud)" />
+    <edge source="docker-distribution" target="golang(gopkg.in/check.v1)" />
+    <edge source="docker-distribution" target="golang(google.golang.org/cloud/storage)" />
+    <edge source="docker-distribution" target="golang(google.golang.org/api/storage/v1)" />
+    <edge source="docker-distribution" target="golang(github.com/spf13/cobra)" />
+    <edge source="docker-distribution" target="golang(gopkg.in/yaml.v2)" />
+    <edge source="docker-distribution" target="golang(golang.org/x/oauth2/jwt)" />
+    <edge source="python-magnumclient" target="python2-mock" />
+    <edge source="python-magnumclient" target="python3-osprofiler" />
+    <edge source="python-magnumclient" target="python3-oslo-utils" />
+    <edge source="python-magnumclient" target="python3-oslo-log" />
+    <edge source="python-magnumclient" target="python2-testtools" />
+    <edge source="python-magnumclient" target="python2-oslo-serialization" />
+    <edge source="python-magnumclient" target="python2-openstackdocstheme" />
+    <edge source="python-magnumclient" target="python3-oslo-i18n" />
+    <edge source="python-magnumclient" target="python3-oslo-serialization" />
+    <edge source="python-magnumclient" target="python2-wheel" />
+    <edge source="python-magnumclient" target="python2-decorator" />
+    <edge source="python-magnumclient" target="python3-fixtures" />
+    <edge source="python-magnumclient" target="python2-requests" />
+    <edge source="python-magnumclient" target="python2-keystoneauth1" />
+    <edge source="python-magnumclient" target="python3-prettytable" />
+    <edge source="python-magnumclient" target="python3-openstackclient" />
+    <edge source="python-magnumclient" target="python3-testtools" />
+    <edge source="python-magnumclient" target="python2-sphinx" />
+    <edge source="python-magnumclient" target="python2-prettytable" />
+    <edge source="python-magnumclient" target="python2-oslo-utils" />
+    <edge source="python-magnumclient" target="python2-pbr" />
+    <edge source="python-magnumclient" target="python2-oslo-log" />
+    <edge source="python-magnumclient" target="python-decorator" />
+    <edge source="python-magnumclient" target="python2-stevedore" />
+    <edge source="python-magnumclient" target="python3-pbr" />
+    <edge source="python-magnumclient" target="python3-stevedore" />
+    <edge source="python-magnumclient" target="python2-os-client-config" />
+    <edge source="python-magnumclient" target="python2-fixtures" />
+    <edge source="python-magnumclient" target="git" />
+    <edge source="python-magnumclient" target="openstack-macros" />
+    <edge source="python-magnumclient" target="python2-oslo-i18n" />
+    <edge source="python-magnumclient" target="python2-devel" />
+    <edge source="python-magnumclient" target="python3-keystoneauth1" />
+    <edge source="python-magnumclient" target="python2-openstackclient" />
+    <edge source="python-magnumclient" target="python3-requests" />
+    <edge source="python-magnumclient" target="python2-pip" />
+    <edge source="python-magnumclient" target="python3-setuptools" />
+    <edge source="python-magnumclient" target="python3-mock" />
+    <edge source="python-magnumclient" target="python2-osprofiler" />
+    <edge source="python-magnumclient" target="python3-devel" />
+    <edge source="python-magnumclient" target="python2-setuptools" />
+    <edge source="collect-engtools" target="systemd" />
+    <edge source="sm-client" target="python" />
+    <edge source="sm-client" target="python2-wheel" />
+    <edge source="sm-client" target="python-setuptools" />
+    <edge source="sm-client" target="python2-pip" />
+    <edge source="puppet-nslcd" target="python2-devel" />
+    <edge source="puppet-sshd" target="python2-devel" />
+    <edge source="systemd-config" target="systemd = 219-62.el7" />
+    <edge source="cgts-client" target="python-pbr" />
+    <edge source="cgts-client" target="python2-pip" />
+    <edge source="cgts-client" target="python2-wheel" />
+    <edge source="cgts-client" target="git" />
+    <edge source="cgts-client" target="python-setuptools" />
+    <edge source="python-novaclient" target="python2-oslo-utils" />
+    <edge source="python-novaclient" target="python2-pbr" />
+    <edge source="python-novaclient" target="python2-openstackdocstheme" />
+    <edge source="python-novaclient" target="python3-pbr" />
+    <edge source="python-novaclient" target="python2-oslo-serialization" />
+    <edge source="python-novaclient" target="git" />
+    <edge source="python-novaclient" target="openstack-macros" />
+    <edge source="python-novaclient" target="python2-keystoneauth1" />
+    <edge source="python-novaclient" target="python2-devel" />
+    <edge source="python-novaclient" target="python2-wheel" />
+    <edge source="python-novaclient" target="python2-sphinxcontrib-apidoc" />
+    <edge source="python-novaclient" target="python2-pip" />
+    <edge source="python-novaclient" target="python3-setuptools" />
+    <edge source="python-novaclient" target="python2-sphinx" />
+    <edge source="python-novaclient" target="python3-devel" />
+    <edge source="python-novaclient" target="python2-setuptools" />
+    <edge source="python-novaclient" target="python2-prettytable" />
+    <edge source="python-django-horizon" target="python-nose-exclude" />
+    <edge source="python-django-horizon" target="python2-XStatic-bootswatch" />
+    <edge source="python-django-horizon" target="systemd-devel" />
+    <edge source="python-django-horizon" target="python2-neutronclient" />
+    <edge source="python-django-horizon" target="python2-keystoneclient" />
+    <edge source="python-django-horizon" target="python-XStatic-jquery-ui" />
+    <edge source="python-django-horizon" target="python2-XStatic-Angular-Bootstrap" />
+    <edge source="python-django-horizon" target="python2-oslo-serialization" />
+    <edge source="python-django-horizon" target="python-pint" />
+    <edge source="python-django-horizon" target="python-netaddr" />
+    <edge source="python-django-horizon" target="python-anyjson" />
+    <edge source="python-django-horizon" target="python-XStatic-Hogan" />
+    <edge source="python-django-horizon" target="python-django-nose" />
+    <edge source="python-django-horizon" target="python2-wheel" />
+    <edge source="python-django-horizon" target="python2-XStatic-Angular &gt;= 1:1.5.8.0" />
+    <edge source="python-django-horizon" target="python2-django-pyscss &gt;= 2.0.2" />
+    <edge source="python-django-horizon" target="python-iso8601" />
+    <edge source="python-django-horizon" target="python-XStatic-Spin" />
+    <edge source="python-django-horizon" target="python-pep8" />
+    <edge source="python-django-horizon" target="python-nose" />
+    <edge source="python-django-horizon" target="python-sphinx &gt;= 1.1.3" />
+    <edge source="python-django-horizon" target="python2-XStatic-mdi" />
+    <edge source="python-django-horizon" target="python2-XStatic-Font-Awesome" />
+    <edge source="python-django-horizon" target="python-XStatic-Angular-lrdragndrop" />
+    <edge source="python-django-horizon" target="python2-XStatic-objectpath" />
+    <edge source="python-django-horizon" target="python-pbr &gt;= 2.0.0" />
+    <edge source="python-django-horizon" target="python2-devel" />
+    <edge source="python-django-horizon" target="python-XStatic-jQuery" />
+    <edge source="python-django-horizon" target="python-XStatic-Magic-Search" />
+    <edge source="python-django-horizon" target="git" />
+    <edge source="python-django-horizon" target="python2-oslo-policy" />
+    <edge source="python-django-horizon" target="python-django-appconf" />
+    <edge source="python-django-horizon" target="python2-XStatic-Angular-FileUpload" />
+    <edge source="python-django-horizon" target="fontawesome-fonts-web &gt;= 4.1.0" />
+    <edge source="python-django-horizon" target="python-XStatic-JQuery-quicksearch" />
+    <edge source="python-django-horizon" target="python-XStatic-Bootstrap-Datepicker" />
+    <edge source="python-django-horizon" target="python-XStatic-Rickshaw" />
+    <edge source="python-django-horizon" target="pytz" />
+    <edge source="python-django-horizon" target="python2-XStatic-JSEncrypt" />
+    <edge source="python-django-horizon" target="python-osprofiler" />
+    <edge source="python-django-horizon" target="gettext" />
+    <edge source="python-django-horizon" target="python2-XStatic-termjs" />
+    <edge source="python-django-horizon" target="python2-XStatic-tv4" />
+    <edge source="python-django-horizon" target="python2-babel" />
+    <edge source="python-django-horizon" target="python2-scss &gt;= 1.3.4" />
+    <edge source="python-django-horizon" target="python2-XStatic-smart-table" />
+    <edge source="python-django-horizon" target="python2-XStatic-Bootstrap-SCSS" />
+    <edge source="python-django-horizon" target="python2-glanceclient" />
+    <edge source="python-django-horizon" target="python-mox3" />
+    <edge source="python-django-horizon" target="python2-XStatic-D3" />
+    <edge source="python-django-horizon" target="python2-XStatic" />
+    <edge source="python-django-horizon" target="python2-XStatic-roboto-fontface" />
+    <edge source="python-django-horizon" target="python2-oslo-concurrency" />
+    <edge source="python-django-horizon" target="python2-XStatic-Angular-Schema-Form" />
+    <edge source="python-django-horizon" target="systemd" />
+    <edge source="python-django-horizon" target="python-six &gt;= 1.10.0" />
+    <edge source="python-django-horizon" target="python2-oslo-utils" />
+    <edge source="python-django-horizon" target="python2-cinderclient" />
+    <edge source="python-django-horizon" target="python2-openstackdocstheme" />
+    <edge source="python-django-horizon" target="python2-swiftclient" />
+    <edge source="python-django-horizon" target="python-XStatic-JQuery-Migrate" />
+    <edge source="python-django-horizon" target="python-semantic_version" />
+    <edge source="python-django-horizon" target="python-selenium" />
+    <edge source="python-django-horizon" target="python2-XStatic-Jasmine" />
+    <edge source="python-django-horizon" target="python-django" />
+    <edge source="python-django-horizon" target="cgts-client" />
+    <edge source="python-django-horizon" target="python2-oslo-i18n" />
+    <edge source="python-django-horizon" target="python-XStatic-JQuery-TableSorter" />
+    <edge source="python-django-horizon" target="python2-XStatic-Angular-Gettext" />
+    <edge source="python-django-horizon" target="python2-novaclient &gt;= 1:9.1.0" />
+    <edge source="python-django-horizon" target="python2-pip" />
+    <edge source="python-django-horizon" target="python-lesscpy" />
+    <edge source="python-django-horizon" target="python2-oslo-config" />
+    <edge source="python-django-horizon" target="python2-django-compressor &gt;= 2.0" />
+    <edge source="python-django-horizon" target="python-setuptools" />
+    <edge source="starlingx-dashboard" target="python2-pip" />
+    <edge source="starlingx-dashboard" target="python2-wheel" />
+    <edge source="starlingx-dashboard" target="python-setuptools" />
+    <edge source="starlingx-dashboard" target="python-pbr" />
+    <edge source="drbd-kernel" target="kernel%{?bt_ext}-devel" />
+    <edge source="drbd-kernel" target="kernel%{?bt_ext}-devel, redhat-rpm-config, perl, openssl" />
+    <edge source="libfdt" target="gcc" />
+    <edge source="libfdt" target="flex" />
+    <edge source="libfdt" target="bison" />
+    <edge source="nova-api-proxy" target="python2-wheel" />
+    <edge source="nova-api-proxy" target="python-setuptools" />
+    <edge source="nova-api-proxy" target="python2-pip" />
+    <edge source="python-ryu" target="python3-debtcollector" />
+    <edge source="python-ryu" target="python3-nose" />
+    <edge source="python-ryu" target="python3-paramiko" />
+    <edge source="python-ryu" target="python3-eventlet" />
+    <edge source="python-ryu" target="python-repoze-lru" />
+    <edge source="python-ryu" target="python-lxml" />
+    <edge source="python-ryu" target="python3-lxml" />
+    <edge source="python-ryu" target="python3-webob" />
+    <edge source="python-ryu" target="python-oslo-config" />
+    <edge source="python-ryu" target="python3-sphinx" />
+    <edge source="python-ryu" target="python-sphinx" />
+    <edge source="python-ryu" target="python-eventlet" />
+    <edge source="python-ryu" target="python3-repoze-lru" />
+    <edge source="python-ryu" target="python2-wheel" />
+    <edge source="python-ryu" target="python-tinyrpc" />
+    <edge source="python-ryu" target="python3-msgpack" />
+    <edge source="python-ryu" target="python-webob" />
+    <edge source="python-ryu" target="python3-greenlet" />
+    <edge source="python-ryu" target="python-msgpack" />
+    <edge source="python-ryu" target="python-coverage" />
+    <edge source="python-ryu" target="python-formencode" />
+    <edge source="python-ryu" target="python-nose" />
+    <edge source="python-ryu" target="python-paramiko" />
+    <edge source="python-ryu" target="python-greenlet" />
+    <edge source="python-ryu" target="python-routes" />
+    <edge source="python-ryu" target="python3-pep8" />
+    <edge source="python-ryu" target="python3-formencode" />
+    <edge source="python-ryu" target="python3-tinyrpc" />
+    <edge source="python-ryu" target="python3-devel" />
+    <edge source="python-ryu" target="python3-oslo-config" />
+    <edge source="python-ryu" target="python2-devel" />
+    <edge source="python-ryu" target="python-debtcollector" />
+    <edge source="python-ryu" target="python-pep8" />
+    <edge source="python-ryu" target="python3-mock" />
+    <edge source="python-ryu" target="python2-pip" />
+    <edge source="python-ryu" target="python3-setuptools" />
+    <edge source="python-ryu" target="python3-coverage" />
+    <edge source="python-ryu" target="pylint" />
+    <edge source="python-ryu" target="python-mock" />
+    <edge source="python-ryu" target="python3-routes" />
+    <edge source="python-ryu" target="python-setuptools" />
+  </graph>
+</graphml>

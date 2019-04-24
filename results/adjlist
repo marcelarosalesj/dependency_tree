@@ -1,0 +1,808 @@
+#stx_dependency_tree.py
+# GMT Wed Apr 24 17:55:11 2019
+# 
+python-dogpile-cache
+python-XStatic-JQuery-TableSorter
+shadow-utils-config systemd
+python2-osc-lib-tests
+python-oslo-policy
+ima-evm-utils
+python2-XStatic-Angular-Bootstrap
+%{bdbname}-devel
+libevent-devel
+python-oslo-config
+python-keystoneclient python2-mock python2-keyring >= 5.5.1 python2-oslo-i18n python3-lxml python2-testscenarios python2-oslo-config python2-fixtures python2-wheel python2-sphinx python3-testtools python3-testscenarios python2-hacking python3-stestr python-keyring >= 5.5.1 python2-oauthlib python3-oauthlib python3-pbr >= 2.0.0 git python2-pbr >= 2.0.0 python3-oslo-config python3-keystoneauth1 python2-oslotest python2-lxml python3-hacking python3-devel python2-setuptools python2-oslo-utils python3-requests-mock python3-oslo-utils python2-oslo-serialization python-lxml python2-openstackdocstheme python-requests-mock python3-fixtures python2-keystoneauth1 python2-testtools python2-requests-mock /usr/bin/openssl python3-keyring >= 5.5.1 python3-testresources python3-oslo-i18n python2-stestr python2-devel python2-testresources python2-pip python3-setuptools python3-mock python3-oslo-serialization python3-oslotest
+python-eventlet
+python3-simplejson
+python2-decorator
+python2-django-pyscss >= 2.0.2
+python3-greenlet
+python-XStatic-Angular-lrdragndrop
+perl(IPC::Open3)
+helm
+augeas
+python3-iso8601 >= 0.1.11
+ceph-manager systemd-units python2-wheel python-setuptools systemd-devel python2-pip
+stx-openstack-helm openstack-helm-infra helm
+python2-novaclient
+xen-devel
+C
+python3-stevedore
+python2-fixtures
+iptables-ipv6
+libtpms nss-softokn-freebl-static >= 3.12.9-2 nss-softokn-freebl-devel >= 3.12.9-2 nss-devel >= 3.12.9-2 pkgconfig gawk sed openssl-devel nss-softokn-devel >= 3.12.9-2, gmp-devel automake autoconf libtool bash coreutils
+xfsprogs
+perl(Data::Dumper)
+python2-XStatic-roboto-fontface
+binutils-devel
+python3-paramiko
+INSVC_ALLNODES
+INSVC_COMPUTE
+python-pip
+zlib-devel
+python2-XStatic-D3
+xmlstarlet
+storageconfig
+pam-config
+python-keyring
+syslinux
+python2-testrepository
+golang(google.golang.org/cloud/storage)
+PyYAML
+python3-pbr
+cgcs-users
+python-selenium
+libbabeltrace-devel
+config-gate
+/usr/share/selinux/devel/policyhelp
+EXAMPLE_SERVICE
+iscsi-initiator-utils
+python3-novaclient
+golang >= 1.2-7
+python-3parclient python2-devel python2-wheel python-setuptools python2-pip
+INSVC_RESTART_FAILURE
+python2-oslo-serialization
+golang(github.com/AdRoll/goamz/s3)
+python-netaddr
+Judy-devel
+perl(Sys::Hostname)
+libudev-devel >= 145
+libusbx-devel >= 1.0.19
+libxslt
+kubernetes-cni
+gnutls-devel
+collector
+python3-eventlet
+python2-requests-mock >= 1.1
+python-XStatic-jQuery
+python3-oauthlib
+python3-openstacksdk
+python2-XStatic-Angular-Gettext
+spice-protocol >= 0.12.2
+nss-softokn-freebl-devel >= 3.12.9-2
+grub2-efi-x64-pxeboot
+multilib-rpm-config
+cyrus-sasl-devel
+bzip2-devel >= 0.9.0c-2
+python-sqlalchemy
+python3-betamax >= 0.7.0
+SDL-devel
+boost-random
+python-lxml
+texinfo
+fm-mgr fm-common-dev libuuid-devel systemd-devel
+python-oslo-service
+golang(github.com/mitchellh/mapstructure)
+openstack-ras
+lua-devel
+python3-sphinx
+net-tools
+python3-deprecation
+sm-common gcc glib2-devel systemd-devel systemd sqlite-devel util-linux libuuid-devel build-info-dev
+python2-django-compressor >= 2.0
+fm-common postgresql-devel python-setuptools python2-pip python-devel python2-wheel libuuid-devel util-linux
+xhtml1-dtds
+python3-keystoneclient
+libwsman-devel >= 2.2.3
+nss-softokn-devel >= 3.12.9-2, gmp-devel
+python-wheel
+python2-mock
+python2-neutronclient
+util-linux-config
+pam-devel
+initscripts-config
+automake
+pyOpenSSL
+sm-db gcc glib2-devel sm-common-dev sqlite-devel libuuid-devel glibc
+puppet-dcmanager python2-devel
+python-iso8601
+python-XStatic-Spin
+gnulib
+python-openstackclient python2-mock python3-novaclient python-simplejson python3-cliff python2-keystoneclient python3-requests-mock python-cliff python3-oslo-i18n python2-six python3-simplejson python2-wheel python3-requestsexceptions python3-openstacksdk python2-sphinx python3-oslotest python2-pbr python3-oslo-sphinx python2-novaclient python-d2to1 python2-glanceclient python2-os-client-config python2-fixtures git python2-osc-lib-tests python2-d2to1 python2-reno python3-devel python2-setuptools python2-oslo-utils python3-oslo-utils python3-cinderclient python2-pip python3-reno python2-openstackdocstheme python-requests-mock python2-babel python3-os-client-config python2-sphinxcontrib-apidoc python3-fixtures python2-requests python2-requestsexceptions python3-osc-lib-tests python3-six python2-cliff python2-requests-mock python2-cinderclient python2-osprofiler python2-os-testr python3-requests python3-pbr python3-coverage python2-openstacksdk python2-simplejson python3-glanceclient openstack-macros python2-oslo-i18n python2-devel python2-oslotest python3-os-testr python3-d2to1 python3-setuptools python3-mock python3-osprofiler python3-babel python3-keystoneclient
+python3-testscenarios
+nfs-utils-config
+libssh2-devel
+perl(Env)
+python-XStatic-JQuery-quicksearch
+glibc
+libatomic_ops-devel
+systemtap
+perl-generators
+python-oslo-db
+python3-munch
+libssh2
+ntp-config
+python3-decorator
+chkconfig
+puppet-boolean python2-devel
+readline-devel
+python-six >= 1.10.0
+python-semantic_version
+python3-osprofiler
+libarchive-devel
+python2-XStatic-tv4
+gawk
+python3-testresources
+python2-stestr
+keyutils-devel
+dhcp-config
+ceph libexpat-devel openldap2-devel babeltrace-devel gdbm fcgi-devel btrfs-progs parted libxml2-devel snappy-devel xfsprogs-devel openldap-devel libblkid-devel >= 2.17 python-sphinx libudev-devel systemd yasm libtool sharutils boost-devel Cython python-nose systemd-rpm-macros gperftools-devel python-requests util-linux net-tools expat-devel java-devel libbz2-devel libatomic_ops-devel cryptsetup leveldb-devel > 1.2 xfsprogs make libopenssl-devel gcc-c++ lttng-ust-devel valgrind-devel FastCGI-devel libcurl-devel redhat-lsb-core boost-random udev fuse-devel xmlstarlet keyutils-libs-devel python-devel hdparm python-Cython pkgconfig nss-devel libaio-devel pkgconfig(systemd) mozilla-nss-devel btrfsprogs checkpolicy junit cmake libbabeltrace-devel selinux-policy-devel redhat-rpm-config python libxio-devel keyutils-devel /usr/share/selinux/devel/policyhelp lsb-release perl openssl-devel python-virtualenv
+pulseaudio-libs-devel
+postgresql
+puppet-ldap python2-devel
+python2-osc-lib >= 1.10.0
+sm-db-dev
+libssh2-devel >= 1.3.0
+SUITE_B_PATCH_F
+libiscsi-devel
+python2-sphinx
+redhat-lsb-core
+python3-testtools
+python-pep8
+python-decorator
+python-webob
+python2-osc-lib
+python2-subunit
+tpm-kmod kernel%{?bt_ext}-devel, redhat-rpm-config, perl, openssl
+libacl-devel
+qemu-kvm librbd1-devel libiscsi-devel kernel-devel spice-protocol >= 0.12.2 libusbx-devel >= 1.0.19 texi2html libtool libcap-ng-devel ncurses-devel spice-server-devel >= 0.12.0 librdmacm-devel texinfo nss-devel gperftools-devel glusterfs-devel libssh2-devel cpp libuuid-devel libgcrypt-devel gnutls-devel systemtap pciutils-devel libjpeg-devel binutils glusterfs-api-devel >= 3.6.0 libcurl-devel SDL-devel libcacard-devel zlib-devel brlapi-devel check-devel libseccomp-devel >= 1.0.0 libattr-devel systemtap-sdt-devel usbredir-devel >= 0.7.1 which numactl-devel pixman-devel librados2-devel libaio-devel lzo-devel snappy-devel perl-podlators cyrus-sasl-devel libfdt-devel >= 1.4.2 rsync python systemd-devel iasl libcap-devel bluez-libs-devel pulseaudio-libs-devel libpng-devel
+puppet-lvm python2-devel
+python-XStatic-Rickshaw
+python-oslo-concurrency
+python2-osprofiler
+python2-setuptools
+python-aodhclient python3-setuptools python-cliff python-oslo-serialization python3-pbr python3-devel python-keystoneauth1 python-pbr git python-sphinx python2-devel python-oslo-sphinx python2-wheel python-setuptools python2-pip python-openstackdocstheme python-oslo-utils
+sanlock-devel >= 2.4
+tis-extensions
+python2-XStatic-smart-table
+monitor-tools
+python2-XStatic
+python-paramiko
+python3-os-client-config
+which
+python-devel
+python-inventoryclient python2-pip git python-pbr >= 2.0.0 python-setuptools
+libuuid
+python-formencode
+python2-cliff
+python2-oslo-utils
+automake autoconf bash coreutils libtool sed
+python-muranoclient python-tools python2-openstackdocstheme python3-pbr >= 2.0.0 git python2-pbr >= 2.0.0 openstack-macros python2-devel python2-wheel python3-setuptools python2-sphinx python3-devel python2-setuptools
+python-glanceclient python2-oslo-utils python2-pbr python2-openstackdocstheme python2-warlock python3-pbr python-warlock git openstack-macros python2-keystoneauth1 python2-devel python2-wheel python2-sphinxcontrib-apidoc python2-pip python2-pyOpenSSL >= 17.1.0 python3-setuptools python2-sphinx python3-devel python2-setuptools python2-prettytable
+libseccomp-devel >= 1.0.0
+sm-tools python python2-wheel python-setuptools python2-pip
+python-django
+distributedcloud python-keystoneauth1 >= 3.1.0 python-pecan >= 1.0.0 python-oslo-versionedobjects python-crypto python-oslo-policy python2-pip python-oslo-config python-netaddr python-eventlet python-routes >= 1.12.3 python-cryptography python-setuptools python-pbr >= 1.8 python-keyring python-sphinxcontrib-httpdomain python-oslo-i18n python-oslo-utils python-oslo-serialization python2-devel systemd pyOpenSSL python-oslo-log python-oslo-messaging python-oslo-rootwrap python-babel python-oslo-context python-oslo-middleware python-oslo-db python2-wheel python-oslo-concurrency python-keystonemiddleware python-jsonschema >= 2.0.0 python-sphinx python-oslo-service
+perl(Exporter)
+cpp
+python2-mox3
+python3-mock
+perl(Test::More)
+python3-nose
+pkgconfig gawk sed
+python3-cliff
+libtasn1-tools
+python-pbr
+nss-softokn-freebl-static >= 3.12.9-2
+gettext-devel
+python3-glanceclient
+workerconfig
+yasm
+kernel%{?bt_ext}-devel, redhat-rpm-config, perl, openssl
+ncurses-devel
+logrotate-config
+libevent
+python2-oslo-log
+flex
+numactl-devel
+libvirt librbd1-devel netcf-devel >= 0.2.2 augeas radvd libpcap-devel libgcrypt-devel libxml2-devel libnl3-devel glusterfs-api-devel >= 3.4.1 /usr/bin/pod2man automake libcurl-devel audit-libs-devel ebtables libudev-devel >= 145 polkit-devel >= 0.93 libxslt numad libtool parted-devel ncurses-devel util-linux lvm2 gnutls-devel numactl-devel module-init-tools xen-devel iptables avahi-devel git python glusterfs-devel >= 3.4.1 iptables-ipv6 yajl-devel xhtml1-dtds gnulib scrub netcf-devel >= 0.1.8 libcap-ng-devel >= 0.5.0 nfs-utils dbus-devel gettext iscsi-initiator-utils sheepdog libpciaccess-devel >= 0.10.9 bash-completion >= 2.0 ceph-devel polkit >= 0.112 libacl-devel libselinux-devel libtasn1-devel libattr-devel libblkid-devel >= 2.17 wireshark-devel >= 2.1.0 systemd-devel >= 185 readline-devel perl-XML-XPath device-mapper-devel autoconf librados2-devel gawk libssh2-devel >= 1.3.0 cyrus-sasl-devel dnsmasq >= 2.41 libssh-devel >= 0.7.0 sanlock-devel >= 2.4 /usr/bin/qemu-img systemtap-sdt-devel gettext-devel fuse-devel >= 2.8.6 libnl-devel systemd-units polkit-devel >= 0.112 perl libwsman-devel >= 2.2.3 wireshark-devel >= 1.12.1 /usr/sbin/qcow-create
+docker-config
+golang(golang.org/x/crypto/bcrypt)
+readline-devel zlib-devel
+python-oslo-messaging
+glusterfs-devel >= 3.4.1
+python2-os-service-types
+kernel-devel
+puppet-nfv python2-devel
+filesystem-scripts systemd-devel
+pciutils-devel
+net-snmp-devel
+puppet-smapi python2-devel
+binutils
+lttng-ust-devel
+EXAMPLE_0001
+python-keystoneauth1 python2-mock python-requests-kerberos python3-lxml python2-six python2-pep8 python2-sphinx python-pep8 python3-oslotest python2-oauthlib python3-oauthlib python2-fixtures git python2-pbr >= 2.0.0 python2-os-service-types python3-requests-mock >= 1.1 python-betamax >= 0.7.0 python2-lxml python3-betamax >= 0.7.0 python3-devel python2-setuptools python3-os-testr python3-oslo-utils python3-fixtures >= 1.3.1 python-lxml python2-openstackdocstheme python3-sphinx python2-iso8601 python2-pyyaml python3-setuptools python2-fixtures >= 1.3.1 python2-requests python2-oslo-utils PyYAML python2-os-testr python-requests-mock >= 1.1 python3-pbr >= 2.0.0 python2-stevedore python2-devel python2-oslotest python2-requests-kerberos python2-mox3 python2-oslo-config python3-PyYAML python2-requests-mock >= 1.1
+python-crypto
+mtce-storage systemd systemd-devel
+perl-version
+perl-XML-XPath
+boost-devel
+swtpm selinux-policy-devel automake autoconf bash coreutils libtool sed gnutls >= 3.1.0 gnutls-devel gnutls-utils libtasn1-devel libtasn1 libtasn1-tools openssl-devel expect bash net-tools nss-devel socat python-twisted libtpms-devel >= 0.6.0 fuse-devel glib2-devel gmp-devel kernel-modules-extra
+io-scheduler
+dbus-devel
+perl-podlators
+python2-openstacksdk
+python-nose-exclude
+pytz
+enable-dev-patch
+python3-reno
+perl
+wireshark-devel >= 2.1.0
+golang(github.com/AdRoll/goamz/aws)
+python-stevedore
+python2-munch
+i40e-kmod kernel%{?bt_ext}-devel, redhat-rpm-config, perl, openssl
+snappy-devel
+python2-futurist
+python-anyjson
+python-XStatic-Hogan
+python-openstack-doc-tools
+krb5-devel
+golang(github.com/Sirupsen/logrus)
+check-devel
+python2-XStatic-Font-Awesome
+module-init-tools
+/usr/bin/qemu-img
+python2-glanceclient
+python3-jsonschema
+avahi-devel
+git
+python3-tools
+python2-XStatic-mdi
+cryptsetup
+netcf-devel >= 0.1.8
+mtce-control systemd systemd-devel
+libarchive libarchive-devel
+systemd = 219-62.el7
+gcc-c++
+golang-dep golang
+python2-XStatic-termjs
+perl(Socket)
+golang(github.com/gorilla/mux)
+junit
+polkit >= 0.112
+python2-openstackdocstheme
+etcd libpcap-devel systemd %{?go_compiler:compiler(go-compiler)}%{!?go_compiler:golang}
+puppet-network python2-devel
+python-pankoclient python-tools python3-tools python3-pbr python-osc-lib python-babel git python-pbr python-sphinx python2-devel python-oslo-sphinx python2-wheel python-setuptools python2-pip python-openstackdocstheme python-openstack-doc-tools python3-devel python3-setuptools
+libcap-devel
+python2-requestsexceptions
+puppet-create_resources python2-devel
+python3-openstackclient
+systemd-devel >= 185
+autoconf
+perl(Getopt::Long)
+python-Cython
+EXAMPLE_RR
+pytest
+python2-oslotest
+python3-os-testr
+python
+sm-api python python2-wheel python-setuptools python2-pip systemd util-linux systemd-devel
+python-pbr >= 1.8
+brlapi-devel
+libpng-devel
+nova-utils
+libtasn1-devel libtasn1
+parted
+mlx4-config systemd-devel chkconfig
+haproxy-config
+golang(golang.org/x/net/context)
+/usr/bin/pod2man
+json-c-devel
+python-sphinx
+audit-libs-devel
+libpciaccess-devel >= 0.10.9
+python-requests-kerberos
+fuse-devel >= 2.8.6
+python3-pep8
+openstack-macros
+expect bash net-tools nss-devel socat python-twisted
+automake autoconf libtool bash coreutils
+python-sphinx >= 1.1.3
+python2-hacking
+python-d2to1
+expat-devel
+redhat-rpm-config
+RR_CONTROLLER
+python2-keyring >= 5.5.1
+uuid
+cppcheck
+python-os-testr
+python2-XStatic-Angular-FileUpload
+libpcap-devel
+polkit-devel >= 0.112
+sm gcc glib2-devel systemd-devel sm-common-dev sqlite-devel json-c-devel glibc openssl-devel sm-db-dev fm-common-dev systemd json-c mtce-dev libuuid-devel
+openstack-helm openstack-helm-infra helm
+make
+python-keystonemiddleware
+btrfs-progs
+FastCGI-devel
+pixman-devel
+python-retrying
+SUITE_B_PATCH_B
+pxe-network-installer syslinux grub2-efi-x64-pxeboot grub2
+python3-tinyrpc
+SUITE_B_PATCH_D
+libjpeg-devel
+librados2-devel
+python-cryptography
+python-smartpm python-devel rpm python gettext
+python3-routes
+golang(gopkg.in/check.v1)
+golang(github.com/bugsnag/bugsnag-go)
+pkgconfig
+golang(github.com/gorilla/handlers)
+libxio-devel
+python-osc-lib
+nfs-utils
+puppet-patching python2-devel
+puppet-sysinv python2-devel
+golang >= 1.6
+selinux-policy-devel
+kernel%{?bt_ext}-devel, redhat-rpm-config, perl, tpm-kmod%{?bt_ext}-symbols, openssl
+python-openstacksdk python2-mock python2-jsonschema python3-pbr >= 2.0.0 python2-munch python3-requests-mock python2-testscenarios python-dogpile-cache git python2-wheel python2-decorator python2-sphinx python3-jmespath python2-requestsexceptions python2-iso8601 >= 0.1.11 python2-netifaces python3-iso8601 >= 0.1.11 python3-stestr python-decorator python3-jsonschema python2-ipaddress python-netifaces python2-devel python-ipaddress python2-subunit python2-pbr >= 2.0.0 python3-testtools python2-os-service-types python3-keystoneauth1 python2-oslotest python2-testrepository python2-dogpile-cache python3-munch python3-devel python3-os-service-types python2-jsonpatch >= 1.6 python2-futures python3-requestsexceptions python3-decorator python2-openstackdocstheme python-requests-mock python3-jsonpatch >= 1.6 python3-netifaces python3-testrepository python2-keystoneauth1 python3-dogpile-cache python2-testtools python2-requests-mock python3-appdirs python3-subunit python3-deprecation python2-appdirs python2-jmespath python2-stestr python2-glanceclient python2-deprecation python2-pip python3-glanceclient python3-mock python3-testscenarios python3-oslotest
+libnl-devel
+ryu-manager
+python2-pbr
+wireshark-devel >= 1.12.1
+build-info-dev
+golang(github.com/garyburd/redigo/redis)
+python-lefthandclient python2-devel python2-wheel python-setuptools python2-pip
+python2-keystoneclient
+platform-kickstarts perl(Getopt::Long) perl perl(POSIX)
+python-oslo-sphinx
+libblkid-devel >= 2.17
+python2-pyOpenSSL >= 17.1.0
+python2-scss >= 1.3.4
+polkit-devel >= 0.93
+libtool
+python-cephclient ceph python python2-wheel python2-pip
+python-msgpack
+nss-devel
+openldap-config
+tss2 openssl-devel
+python-oslotest
+python-oslo-serialization
+drbd udev flex systemd-devel
+iptables
+python-ipaddress
+python-pecan
+puppet-drbd python2-devel
+python2-tools
+python-devel >= 2.6
+rsync-config
+python-osprofiler
+python3-devel
+python2-requests-kerberos
+golang(golang.org/x/oauth2/jwt)
+golang(github.com/Sirupsen/logrus/formatters/logstash)
+glib2-devel
+INSVC_STORAGE
+ima-evm-utils-devel
+gperftools-devel
+python3-oslo-log
+pkgconfig(systemd)
+centos-release-config
+grub2
+golang(google.golang.org/api/storage/v1)
+python2-iso8601
+keyutils-libs-devel
+usbredir-devel >= 0.7.1
+python2-fixtures >= 1.3.1
+python2-keystoneauth1
+python3-prettytable
+cgcs-patch systemd-units python2-wheel python-setuptools systemd-devel python2-pip
+scrub
+fcgi-devel
+python3-cinderclient
+checkpolicy
+python2-appdirs
+cmake
+openssl-devel
+worker-utils systemd-devel
+tss2-devel
+i40evf-kmod kernel%{?bt_ext}-devel, redhat-rpm-config, perl, openssl
+python2-pip
+python3-coverage
+golang(golang.org/x/oauth2/google)
+python-virtualenv
+python2-jsonschema
+python2-sphinxcontrib-apidoc
+nss-devel >= 3.12.9-2
+python2-XStatic-bootswatch
+perl(Time::HiRes)
+update-motd
+spectre-meltdown-checker
+nspr-devel
+python2-wheel
+bluez-libs-devel
+python-yaml
+ixgbevf-kmod kernel%{?bt_ext}-devel kernel%{?bt_ext}-devel, redhat-rpm-config, perl, openssl
+patch-alarm python2-wheel python-setuptools python2-pip
+SUITE_B_PATCH_C
+mtce-common-dev >= 1.0
+python-netifaces
+golang(github.com/spf13/cobra)
+python3-keystoneauth1
+python2-d2to1
+go-md2man
+libsemanage-devel
+python2-prettytable
+python2-novaclient >= 1:9.1.0
+kernel%{?bt_ext}-devel
+valgrind-devel
+libcap-ng-devel
+python3-osc-lib-tests
+xfsprogs-devel
+platform-util python2-wheel python-setuptools python2-pip
+python-gnocchiclient python2-pbr python2-babel python3-tools python3-pbr python2-ujson python2-osc-lib python3-devel python2-cliff >= 2.10 python2-futurist python2-sphinx_rtd_theme python2-six python2-devel python3-setuptools python2-wheel python2-dateutil python2-pip python2-tools python2-keystoneauth1 python2-sphinx python2-setuptools
+fm-api python2-wheel python-setuptools python2-pip
+fm-api-doc
+influxdb-extensions
+vm-topology python python2-wheel python-setuptools python-keyring libvirt python2-pip
+puppet-dnsmasq python2-devel
+python2-testtools
+syslog-ng-config systemd
+python2-XStatic-JSEncrypt
+openstack-helm-infra helm
+iscsi-initiator-utils-config
+python2-oslo-i18n
+audit-config
+python2-testresources
+perl(Fcntl)
+openldap-devel
+golang(google.golang.org/cloud)
+openssl
+openldap2-devel
+dpkg gcc ncurses-static gcc-c++ perl-version
+python-XStatic-jquery-ui
+requests-toolbelt python2-wheel python-setuptools python2-pip
+mariadb procps bison pam-devel perl(Env) zlib-devel perl(Sys::Hostname) systemtap-sdt-devel perl(File::Temp) perl(Symbol) Judy-devel ncurses-devel perl(Time::HiRes) krb5-devel boost-devel openssl-devel perl(Socket) openssl libaio-devel perl cmake compat-openssl10-devel perl(Exporter) selinux-policy-devel libedit-devel perl(IPC::Open3) libarchive libarchive-devel perl-generators perl(Data::Dumper) multilib-rpm-config perl(Fcntl) perl(Memoize) perl(Getopt::Long) gcc-c++ time perl(Test::More)
+python-openstackdocstheme
+device-mapper-devel
+python2-iso8601 >= 0.1.11
+nfv python2-wheel python-setuptools python2-pip
+snmp-ext net-snmp-devel fm-common-dev libuuid-devel
+python3-stestr
+dnsmasq >= 2.41
+python2-oauthlib
+golang(github.com/docker/libtrust)
+libbz2-devel
+libssh-devel >= 0.7.0
+python3-pip
+python-oslo-middleware
+python-betamax >= 0.7.0
+golang(gopkg.in/yaml.v2)
+bash-completion >= 2.0
+sm-common-dev
+lua-devel >= 5.1
+RR_COMPUTE
+golang(github.com/Azure/azure-sdk-for-go/storage)
+libtasn1-devel
+golang(golang.org/x/oauth2)
+rabbitmq-server-config
+python3-testrepository
+python3-oslo-sphinx
+systemd-units
+expect
+glusterfs-devel
+puppet-postgresql python2-devel
+kubectl
+python3-formencode
+kubernetes rsync systemd golang >= 1.2-7 go-md2man golang >=  1.10.2 go-bindata
+inventory python-oslo-db python-retrying python-oslo-versionedobjects python-stevedore python-oslo-policy python-psutil python-keystoneauth1 python-neutronclient python-oslo-config python-pbr python-oslo-i18n python-six python-setuptools python-jsonpatch systemd-devel python-requests python-oslotest python-oslo-serialization python-webob python-osprofiler python-oslo-db-tests cgts-client python-os-testr python-oslo-log python-oslo-messaging python-oslo-utils python-oslo-context python-oslo-middleware python-oslo-rootwrap python-wsme systemd python-oslo-concurrency python-sqlalchemy python-keystonemiddleware python-mock python-pecan python-oslo-service
+python3-d2to1
+lldpd pkgconfig systemd json-c-devel systemd-devel systemd-units net-snmp-devel readline-devel pciutils-devel libevent-devel libxml2-devel openssl-devel
+python-jsonschema >= 2.0.0
+python2-oslo-policy
+babeltrace-devel
+puppet-fm python2-devel
+python3-lxml
+python2-testscenarios
+python-routes >= 1.12.3
+python-oslo-i18n
+openvswitch-config
+python-django-nose
+python2-pep8
+sudo-config
+numad
+librdmacm-devel
+sharutils
+golang(github.com/ncw/swift)
+gcc
+python-requests
+python-keyring >= 5.5.1
+puppet-filemapper python2-devel
+python2-os-client-config
+python2-pbr >= 2.0.0
+python-babel
+yajl-devel
+python-oslo-rootwrap
+perl(Memoize)
+python3-requests-mock >= 1.1
+python-tools
+json-c
+python2-ujson
+glusterfs-api-devel >= 3.6.0
+python2-XStatic-Angular-Schema-Form
+libudev-devel
+golang
+kernel-modules-extra
+hdparm
+puppet-manifests
+mtce postgresql libssh2 expect json-c json-c-devel libssh2-devel libuuid-devel fm-common-dev libevent-devel fm-mgr fm-common mtce-common-dev >= 1.0 cppcheck openssl openssl-devel libevent systemd-devel
+libaio-devel
+python-psutil
+/usr/bin/openssl
+mozilla-nss-devel
+python2-cliff >= 2.10
+netcf-devel >= 0.2.2
+python2-simplejson
+mtce-guest openssl json-c json-c-devel mtce-common-dev >= 1.0 libuuid-devel fm-common-dev libevent-devel fm-common cppcheck libuuid openssl-devel libevent systemd-devel
+rsync
+integrity-kmod kernel%{?bt_ext}-devel, redhat-rpm-config, perl, tpm-kmod%{?bt_ext}-symbols, openssl
+fm-rest-api python-oslo-log python2-wheel python-setuptools python-oslo-messaging python-oslo-db systemd python2-pip python-oslo-middleware python-oslo-config
+tpm2-openssl-engine tss2-devel openssl openssl-devel
+collectd-extensions systemd-devel
+python2-oslo-config
+btrfsprogs
+python-mock
+python2-XStatic-Angular >= 1:1.5.8.0
+python-ironicclient python2-devel python2-wheel python2-pbr >= 2.0.0 python2-pip python3-setuptools python3-pbr >= 2.0.0 python3-devel python2-setuptools
+golang(google.golang.org/api/googleapi)
+python-simplejson
+go-bindata
+python3-requests-mock
+udev
+ebtables
+namespace-utils
+libcurl-devel
+lvm2
+RR_ALLNODES
+python-greenlet
+python3-os-service-types
+python-django-appconf
+python3-repoze-lru
+python-heatclient python2-oslo-serialization python2-openstackdocstheme python2-six python2-babel python2-iso8601 python2-wheel python2-sphinxcontrib-apidoc python2-requests python2-keystoneauth1 python2-sphinx python2-prettytable python2-oslo-utils python2-pbr python3-pbr python2-osc-lib git python2-oslo-i18n python2-devel python2-cliff python2-pip python3-setuptools python2-swiftclient python3-devel python2-setuptools
+python2-dogpile-cache
+python-requests-mock >= 1.1
+python-jsonpatch
+ncurses-static
+sheepdog
+systemd-rpm-macros
+python3-fixtures >= 1.3.1
+python-barbicanclient python2-oslo-utils python2-pbr python3-pbr python2-openstackdocstheme git python2-oslo-i18n python2-devel python2-wheel python2-pip python3-setuptools python2-sphinx python3-devel python2-setuptools python2-prettytable
+libexpat-devel
+python2-oslo-concurrency
+python2-pyyaml
+python3-fixtures
+puppet-dcorch python2-devel
+python-cliff
+wrs-ssl openssl
+A
+stx-ocf-scripts
+EXAMPLE_SYSINV
+python3-appdirs
+python2-os-testr
+python3-subunit
+kubeadm
+golang(github.com/stevvooe/resumable/sha256)
+mtce-compute systemd systemd-devel
+popt-devel
+python2-devel
+distributedcloud-client python-oslo-db python-oslo-policy python-oslo-versionedobjects python-oslo-config git python-oslo-i18n python-routes >= 1.12.3 python2-wheel python-setuptools systemd python2-pip python-sphinxcontrib-httpdomain python-sphinx python-oslo-serialization python2-devel pyOpenSSL python-oslo-log python-oslo-messaging python-jsonschema >= 2.0.0 python-babel python-oslo-context python-oslo-middleware python-oslo-rootwrap python-pbr >= 1.8 python-oslo-concurrency python-keystonemiddleware python-oslo-utils python-oslo-service
+puppet-puppi python2-devel
+sysinv-agent systemd-devel
+controllerconfig python2-wheel python-setuptools python2-pip
+rpm ima-evm-utils-devel libdb-devel lua-devel >= 5.1 ima-evm-utils nss-softokn-freebl-devel %{bdbname}-devel libacl-devel automake libselinux-devel libtool libattr-devel gettext-devel python-devel >= 2.6 ncurses-devel elfutils-libelf-devel xz-devel >= 4.999.8 nss-devel elfutils-devel >= 0.112 autoconf lua-devel file-devel gawk redhat-rpm-config libarchive-devel nspr-devel readline-devel zlib-devel popt-devel libsemanage-devel fakechroot popt-devel >= 1.10.2 libcap-devel bzip2-devel >= 0.9.0c-2 dbus-devel openssl-devel binutils-devel zlib-devel
+memcached-custom
+systemd-devel
+radvd
+sqlite-devel
+golang >=  1.10.2
+python-tinyrpc
+elfutils-devel >= 0.112
+EXAMPLE_0002
+texi2html
+pciutils
+nfscheck
+perl(POSIX)
+iptables-config
+SUITE_B_KERNEL
+python3-requests
+python3-oslo-config
+python2-openstackclient
+python-XStatic-Bootstrap-Datepicker
+libcacard-devel
+mtce-common postgresql libssh2 expect json-c json-c-devel libssh2-devel libuuid-devel fm-common-dev libevent-devel fm-mgr fm-common cppcheck openssl openssl-devel libevent systemd-devel
+pylint
+gettext
+python-reno
+python3-debtcollector
+python-cinderclient python2-pbr python-d2to1 python3-pbr python3-d2to1 git python-sphinx python2-devel python2-wheel python2-d2to1 python2-pip python-openstackdocstheme python3-setuptools python3-devel python2-setuptools python-reno
+ceph-devel
+snmp-audittrail net-snmp-devel fm-common-dev uuid libuuid-devel uuid-devel
+nss-softokn-freebl-devel
+qat17 libudev-devel pciutils perl openssl zlib-devel openssl-devel boost-devel kernel%{?bt_ext}-devel
+libselinux-devel
+python-setuptools pytest python2-devel python3-pytest python-wheel python3-mock python3-pip python-pip python-mock python3-wheel python3-devel
+python3-msgpack
+python-XStatic-JQuery-Migrate
+postgresql-devel
+python3-hacking
+ixgbe-kmod kernel%{?bt_ext}-devel kernel%{?bt_ext}-devel, redhat-rpm-config, perl, openssl
+python2-XStatic-Jasmine
+python3-pbr >= 2.0.0
+golang(github.com/AdRoll/goamz/cloudfront)
+python2-deprecation
+python-warlock
+golang(github.com/denverdino/aliyungo/oss)
+EXAMPLE_VIM
+procps
+gnutls >= 3.1.0 gnutls-devel gnutls-utils
+python2-six
+lighttpd-config
+python-XStatic-Magic-Search
+build-info
+libopenssl-devel
+puppet-mtce python2-devel
+golang(github.com/stevvooe/resumable)
+python3-requestsexceptions
+openssh-config
+python-fmclient python2-pip python2-wheel git python-pbr >= 2.0.0 python-setuptools
+playbookconfig
+fontawesome-fonts-web >= 4.1.0
+leveldb-devel > 1.2
+fakechroot
+python-wsme
+logmgmt python2-wheel python-setuptools systemd-devel python2-pip
+sysinv systemd python2-pip python2-wheel python-setuptools python-pbr
+python2-jsonpatch >= 1.6
+python2-warlock
+python3-oslo-utils
+python2-XStatic-Bootstrap-SCSS
+python-neutronclient python3-testscenarios python3-osc-lib-tests python2-osc-lib-tests python2-osc-lib >= 1.10.0 python2-testscenarios python2-openstackdocstheme python2-keystoneclient python2-wheel python2-oslo-utils python3-testrepository python2-sphinx python3-testtools python2-testrepository python2-testtools python3-oslotest python2-pbr python3-pbr python2-os-client-config git openstack-macros python2-keystoneauth1 python2-devel python2-oslo-serialization python2-oslotest python2-cliff python2-pip python3-setuptools python2-reno python3-devel python2-setuptools
+EXAMPLE_MTCE
+tsconfig python2-wheel python-setuptools python2-pip
+fm-doc fm-api-doc python-yaml fm-common-doc
+systemtap-sdt-devel
+libnl3-devel
+python2-requests
+python3-six
+kubelet
+lzo-devel snappy-devel
+python-routes
+mtce-dev
+registry-token-server systemd golang >= 1.6
+setup-config
+libfdt-devel >= 1.4.2
+python2-sphinx_rtd_theme
+e1000e-kmod kernel%{?bt_ext}-devel, redhat-rpm-config, perl, openssl
+fm-common-dev
+docker-distribution golang(github.com/Sirupsen/logrus/formatters/logstash) golang(github.com/garyburd/redigo/redis) golang(google.golang.org/api/googleapi) golang(golang.org/x/crypto/bcrypt) golang(github.com/gorilla/mux) golang(github.com/ncw/swift/swifttest) golang(golang.org/x/net/context) golang(github.com/Azure/azure-sdk-for-go/storage) golang(github.com/AdRoll/goamz/s3) golang(golang.org/x/oauth2) systemd golang(github.com/AdRoll/goamz/aws) golang(github.com/mitchellh/mapstructure) golang(github.com/noahdesu/go-ceph/rados) golang(github.com/ncw/swift) golang(github.com/Sirupsen/logrus) golang(github.com/bugsnag/bugsnag-go) golang(github.com/gorilla/handlers) golang(github.com/stevvooe/resumable) golang(github.com/stevvooe/resumable/sha256) golang(github.com/docker/libtrust) %{?go_compiler:compiler(go-compiler)}%{!?go_compiler:golang} golang(github.com/stevvooe/resumable/sha512) golang(github.com/AdRoll/goamz/cloudfront) golang(golang.org/x/oauth2/google) golang(github.com/yvasiyarov/gorelic) golang(github.com/denverdino/aliyungo/oss) golang(google.golang.org/cloud) golang(gopkg.in/check.v1) golang(google.golang.org/cloud/storage) golang(google.golang.org/api/storage/v1) golang(github.com/spf13/cobra) golang(gopkg.in/yaml.v2) golang(golang.org/x/oauth2/jwt)
+python-lesscpy
+python-oslo-utils
+librbd1-devel
+python-magnumclient python2-mock python3-osprofiler python3-oslo-utils python3-oslo-log python2-testtools python2-oslo-serialization python2-openstackdocstheme python3-oslo-i18n python3-oslo-serialization python2-wheel python2-decorator python3-fixtures python2-requests python2-keystoneauth1 python3-prettytable python3-openstackclient python3-testtools python2-sphinx python2-prettytable python2-oslo-utils python2-pbr python2-oslo-log python-decorator python2-stevedore python3-pbr python3-stevedore python2-os-client-config python2-fixtures git openstack-macros python2-oslo-i18n python2-devel python3-keystoneauth1 python2-openstackclient python3-requests python2-pip python3-setuptools python3-mock python2-osprofiler python3-devel python2-setuptools
+gdbm
+collect-engtools systemd
+python3-oslo-serialization
+B
+systemd
+libtpms-devel >= 0.6.0 fuse-devel glib2-devel gmp-devel
+parted-devel
+golang(github.com/noahdesu/go-ceph/rados)
+util-linux
+spice-server-devel >= 0.12.0
+python3-wheel
+python-nose
+Cython
+RR_STORAGE
+python2-XStatic-objectpath
+python3-pytest
+python-pbr >= 2.0.0
+glusterfs-api-devel >= 3.4.1
+libuuid-devel
+INSVC_CONTROLLER
+%{?go_compiler:compiler(go-compiler)}%{!?go_compiler:golang}
+libedit-devel
+fm-common-doc
+python2-lxml
+python2-reno
+time
+python-pint
+sm-client python python2-wheel python-setuptools python2-pip
+libdb-devel
+python-repoze-lru
+puppet-nslcd python2-devel
+libattr-devel
+SUITE_B_PATCH_E
+python3-netifaces
+xz-devel >= 4.999.8
+puppet-sshd python2-devel
+python-coverage
+python3-dogpile-cache
+python2-cinderclient
+SUITE_B_PATCH_A
+systemd-config systemd = 219-62.el7
+cgts-client python-pbr python2-pip python2-wheel git python-setuptools
+python3-oslo-i18n
+python3-jmespath
+uuid-devel
+popt-devel >= 1.10.2
+lsb-release
+python3-PyYAML
+/usr/sbin/qcow-create
+python-keystoneauth1 >= 3.1.0
+python3-babel
+golang(github.com/ncw/swift/swifttest)
+libxml2-devel
+python-oslo-versionedobjects
+python-pecan >= 1.0.0
+python-novaclient python2-oslo-utils python2-pbr python2-openstackdocstheme python3-pbr python2-oslo-serialization git openstack-macros python2-keystoneauth1 python2-devel python2-wheel python2-sphinxcontrib-apidoc python2-pip python3-setuptools python2-sphinx python3-devel python2-setuptools python2-prettytable
+python3-webob
+LARGE
+python-django-horizon python-nose-exclude python2-XStatic-bootswatch systemd-devel python2-neutronclient python2-keystoneclient python-XStatic-jquery-ui python2-XStatic-Angular-Bootstrap python2-oslo-serialization python-pint python-netaddr python-anyjson python-XStatic-Hogan python-django-nose python2-wheel python2-XStatic-Angular >= 1:1.5.8.0 python2-django-pyscss >= 2.0.2 python-iso8601 python-XStatic-Spin python-pep8 python-nose python-sphinx >= 1.1.3 python2-XStatic-mdi python2-XStatic-Font-Awesome python-XStatic-Angular-lrdragndrop python2-XStatic-objectpath python-pbr >= 2.0.0 python2-devel python-XStatic-jQuery python-XStatic-Magic-Search git python2-oslo-policy python-django-appconf python2-XStatic-Angular-FileUpload fontawesome-fonts-web >= 4.1.0 python-XStatic-JQuery-quicksearch python-XStatic-Bootstrap-Datepicker python-XStatic-Rickshaw pytz python2-XStatic-JSEncrypt python-osprofiler gettext python2-XStatic-termjs python2-XStatic-tv4 python2-babel python2-scss >= 1.3.4 python2-XStatic-smart-table python2-XStatic-Bootstrap-SCSS python2-glanceclient python-mox3 python2-XStatic-D3 python2-XStatic python2-XStatic-roboto-fontface python2-oslo-concurrency python2-XStatic-Angular-Schema-Form systemd python-six >= 1.10.0 python2-oslo-utils python2-cinderclient python2-openstackdocstheme python2-swiftclient python-XStatic-JQuery-Migrate python-semantic_version python-selenium python2-XStatic-Jasmine python-django cgts-client python2-oslo-i18n python-XStatic-JQuery-TableSorter python2-XStatic-Angular-Gettext python2-novaclient >= 1:9.1.0 python2-pip python-lesscpy python2-oslo-config python2-django-compressor >= 2.0 python-setuptools
+starlingx-dashboard python2-pip python2-wheel python-setuptools python-pbr
+elfutils-libelf-devel
+python-oslo-db-tests
+drbd-kernel kernel%{?bt_ext}-devel kernel%{?bt_ext}-devel, redhat-rpm-config, perl, openssl
+net-snmp-config
+python2-netifaces
+python3-oslotest
+libfdt gcc flex bison
+python2-ipaddress
+python-six
+libgcrypt-devel
+python-oslo-context
+python-oslo-log
+python-debtcollector
+golang(github.com/yvasiyarov/gorelic)
+perl(Symbol)
+libcap-ng-devel >= 0.5.0
+python2-swiftclient
+dnsmasq-config
+python2-futures
+bison
+perl(File::Temp)
+python-mox3
+fuse-devel
+python3-jsonpatch >= 1.6
+python2-babel
+nova-api-proxy python2-wheel python-setuptools python2-pip
+python2-dateutil
+python-ryu python3-debtcollector python3-nose python3-paramiko python3-eventlet python-repoze-lru python-lxml python3-lxml python3-webob python-oslo-config python3-sphinx python-sphinx python-eventlet python3-repoze-lru python2-wheel python-tinyrpc python3-msgpack python-webob python3-greenlet python-msgpack python-coverage python-formencode python-nose python-paramiko python-greenlet python-routes python3-pep8 python3-formencode python3-tinyrpc python3-devel python3-oslo-config python2-devel python-debtcollector python-pep8 python3-mock python2-pip python3-setuptools python3-coverage pylint python-mock python3-routes python-setuptools
+file-devel
+python-sphinxcontrib-httpdomain
+python2-requests-mock
+python3-keyring >= 5.5.1
+python-requests-mock
+golang(github.com/stevvooe/resumable/sha512)
+compat-openssl10-devel
+python2-jmespath
+python2-stevedore
+java-devel
+ldapscripts
+iasl
+python3-setuptools
