@@ -5,34 +5,28 @@ import os
 from pyrpm.spec import Spec # Other options?
 import ipdb
 
-files = glob.glob('./**/*.spec', recursive=True)
+specfiles = glob.glob('./**/*.spec', recursive=True)
 
 G = nx.DiGraph()
 count=0
-for ff in files:
-    with open(ff) as spec:
-        # Create RPM Spec Object
-        ss = Spec.from_file(ff)
-        # Get from path useful information
-        packagespec = ff.split('/')[-1].split('.')[0] # get name of spec...
-        attr_path = ff
-        attr_project = ff.split('/stx/')[-1].split('/')[0] # get name of project
-        # Parse each of the packages in a spec file
-        for pkg in ss.packages:
-            G.add_node(pkg.name, path=attr_path, project=attr_project)
-            for br in pkg.build_requires:
-                G.add_node(br, path=attr_path, project=attr_project)
-                G.add_edge(pkg.name, br)
-            if ss.name == pkg.name:
-                count = count +1
-                for br in ss.build_requires:
-                    G.add_node(br, path=attr_path, project=attr_project)
-                    G.add_edge(ss.name, br)
+for specfile in specfiles:
+    # Create RPM Spec Object
+    sp = Spec.from_file(specfile)
+    # Get from path useful information
+    stx_project = specfile.split('/stx/')[-1].split('/')[0]
+    # Parse each of the packages in a spec file
+    for pkg in sp.packages:
+        G.add_node(pkg.name, path=specfile, project=stx_project)
+        for br in pkg.build_requires:
+            G.add_node(br, path=specfile, project=stx_project)
+            G.add_edge(pkg.name, br)
+        if sp.name == pkg.name:
+            count = count +1
+            for br in sp.build_requires:
+                G.add_node(br, path=specfile, project=stx_project)
+                G.add_edge(sp.name, br)
 
-
-
-pos=nx.spring_layout(G)
-# Generating some results
+# Generating results
 try:
     os.mkdir('results')
 except FileExistsError as e:
