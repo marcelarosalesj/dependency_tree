@@ -8,10 +8,9 @@ from networkx.algorithms.traversal.depth_first_search import dfs_edges
 import argparse
 
 parser = argparse.ArgumentParser(description='StarlingX Packages Dependency Graph')
-parser.add_argument('-g', '--generate',
-                    help='Generate XML and Adjacency List Files',
-                    action='store_true',
-                    default=False)
+parser.add_argument('-g','--generate', nargs='?',
+                    help='Generate XML buildtime or runtime',
+                    default='buildtime')
 parser.add_argument('-s', '--search', nargs='?',
                     help='Search for Package Build RequirementsDependencies')
 parser.add_argument('-i', '--input', nargs='?',
@@ -20,7 +19,6 @@ parser.add_argument('-v', '--verbose',
                     help='Increase output verbosity',
                     action='count',
                     default=0)
-
 
 def generate_graph_files(verbose):
     specfiles = glob.glob('./**/*.spec', recursive=True)
@@ -87,7 +85,7 @@ def main():
     Main tool
     """
     args = parser.parse_args()
-    if args.generate:
+    if args.generate == 'buildtime':
         G = generate_graph_files(args.verbose)
         # Generating results
         try:
@@ -96,6 +94,8 @@ def main():
             print('W: results directory already exists. Files will be overwritten.')
         nx.write_graphml_xml(G, "results/xml")
         nx.write_adjlist(G, 'results/adjlist')
+    if args.generate == 'runtime':
+        print("runtime not implemented yet")
     elif args.search:
         if args.input:
             G = nx.read_graphml(args.input)
