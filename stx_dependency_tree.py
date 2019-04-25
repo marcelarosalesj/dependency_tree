@@ -104,7 +104,7 @@ def search_dependencies(to_search, G, verbose):
     """
     Print dependencies
     """
-    for edge in dfs_edges(G, 'controllerconfig'):
+    for edge in dfs_edges(G, to_search):
         print(edge)
         if verbose == 1:
             print(G.node[edge[0]])
