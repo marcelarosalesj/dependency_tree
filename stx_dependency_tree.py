@@ -10,7 +10,8 @@ import argparse
 parser = argparse.ArgumentParser(description='StarlingX Packages Dependency Graph')
 parser.add_argument('-g','--generate', nargs='?',
                     help='Generate XML buildtime or runtime',
-                    default='buildtime')
+                    default='buildtime',
+                    const='buildtime')
 parser.add_argument('-s', '--search', nargs='?',
                     help='Search for Package Build RequirementsDependencies')
 parser.add_argument('-i', '--input', nargs='?',
@@ -20,8 +21,9 @@ parser.add_argument('-v', '--verbose',
                     action='count',
                     default=0)
 
-def generate_graph_files(verbose):
-    specfiles = glob.glob('./**/*.spec', recursive=True)
+specfiles = glob.glob('./**/*.spec', recursive=True)
+
+def generate_graph_buildtime(verbose):
     G = nx.DiGraph()
     for specfile in specfiles:
         sp = Spec.from_file(specfile)
@@ -68,6 +70,35 @@ def generate_graph_files(verbose):
                 G.add_edge(pkg.name, br.name)
     return G
 
+def generate_graph_runtime(verbose):
+    G = nx.DiGraph()
+    for specfile in specfiles:
+        sp = Spec.from_file(specfile)
+        stx_project = specfile.split('/stx/')[-1].split('/')[0]
+        for pkg in sp.packages:
+            if not G.has_node(pkg.name):
+                G.add_node(pkg.name,
+                           path=specfile,
+                           project=stx_project,
+                           ntype='stx_patched')
+            else:
+                if G.node[pkg.name]['ntype'] != 'stx_patched':
+                    G.node[pkg.name]['path'] = specfile
+                    G.node[pkg.name]['project'] = stx_project
+                    G.node[pkg.name]['ntype'] = 'stx_patched'
+
+            if len(pkg.requires) and verbose == 1:
+                print("Package with extra Rs: {} in {}".format(pkg.name, specfile))
+
+            requires = sp.requires + pkg.requires
+            for r in requires:
+                if not G.has_node(r.name):
+                    G.add_node(r.name,
+                               path=specfile,
+                               project=stx_project,
+                               ntype='non_stx_patched')
+                G.add_edge(pkg.name, r.name)
+    return G
 
 def search_dependencies(to_search, G, verbose):
     """
@@ -80,30 +111,32 @@ def search_dependencies(to_search, G, verbose):
             print(G.node[edge[1]])
             print('----------')
 
+def write_xml_graph(G, name):
+    # Generating results
+    try:
+        os.mkdir('results')
+    except FileExistsError as e:
+        print('W: results directory already exists. Files will be overwritten.')
+    nx.write_graphml_xml(G, "results/{}".format(name))
+
+
 def main():
     """
     Main tool
     """
     args = parser.parse_args()
+    print(args)
     if args.generate == 'buildtime':
-        G = generate_graph_files(args.verbose)
-        # Generating results
-        try:
-            os.mkdir('results')
-        except FileExistsError as e:
-            print('W: results directory already exists. Files will be overwritten.')
-        nx.write_graphml_xml(G, "results/xml")
-        nx.write_adjlist(G, 'results/adjlist')
-    if args.generate == 'runtime':
-        print("runtime not implemented yet")
-    elif args.search:
+        G = generate_graph_buildtime(args.verbose)
+        write_xml_graph(G, 'builtime.xml')
+    elif args.generate == 'runtime':
+        G = generate_graph_runtime(args.verbose)
+        write_xml_graph(G, 'runtime.xml')
+
+    if args.search:
         if args.input:
             G = nx.read_graphml(args.input)
-        else:
-            G = generate_graph_files(args.verbose)
         search_dependencies(args.search, G, args.verbose)
-    else:
-        print("Nothing to be done")
 
 if __name__ == '__main__':
     main()
