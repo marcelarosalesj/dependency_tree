@@ -1,2 +1,5 @@
 *.dot
 *.ps
+stx-tools
+cgcs-root
+.repo
