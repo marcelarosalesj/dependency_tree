@@ -28,6 +28,7 @@ def generate_graph_buildtime(verbose):
     for specfile in specfiles:
         sp = Spec.from_file(specfile)
         stx_project = specfile.split('/stx/')[-1].split('/')[0]
+
         for pkg in sp.packages:
             # Create Package Node
             if not G.has_node(pkg.name):
@@ -50,7 +51,6 @@ def generate_graph_buildtime(verbose):
                     G.node[pkg.name]['path'] = specfile
                     G.node[pkg.name]['project'] = stx_project
                     G.node[pkg.name]['ntype'] = 'stx_patched'
-
             """
             Create BuildRequires Nodes and link them to the Package Node.
             Each Package Node must be linked to the Spec's BuildRequires
@@ -111,14 +111,14 @@ def search_dependencies(to_search, G, verbose):
             print(G.node[edge[1]])
             print('----------')
 
-def write_xml_graph(G, name):
+def write_graph(G, name):
     # Generating results
     try:
         os.mkdir('results')
     except FileExistsError as e:
         print('W: results directory already exists. Files will be overwritten.')
-    nx.write_graphml_xml(G, "results/{}".format(name))
-
+    nx.write_graphml_xml(G, "results/{}.xml".format(name))
+    nx.drawing.nx_pydot.write_dot(G, "results/{}.dot".format(name))
 
 def main():
     """
@@ -128,11 +128,10 @@ def main():
     print(args)
     if args.generate == 'buildtime':
         G = generate_graph_buildtime(args.verbose)
-        write_xml_graph(G, 'builtime.xml')
+        write_graph(G, 'buildtime')
     elif args.generate == 'runtime':
         G = generate_graph_runtime(args.verbose)
-        write_xml_graph(G, 'runtime.xml')
-
+        write_graph(G, 'runtime')
     if args.search:
         if args.input:
             G = nx.read_graphml(args.input)
