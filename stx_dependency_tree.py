@@ -8,10 +8,8 @@ from networkx.algorithms.traversal.depth_first_search import dfs_edges
 import argparse
 
 parser = argparse.ArgumentParser(description='StarlingX Packages Dependency Graph')
-parser.add_argument('-g','--generate', nargs='?',
-                    help='Generate XML buildtime or runtime',
-                    default='buildtime',
-                    const='buildtime')
+parser.add_argument('-g','--generate', nargs=1,
+                    help='Generate XML and dot. buildtime or runtime')
 parser.add_argument('-s', '--search', nargs='?',
                     help='Search for Package Build RequirementsDependencies')
 parser.add_argument('-i', '--input', nargs='?',
@@ -23,7 +21,7 @@ parser.add_argument('-v', '--verbose',
 
 specfiles = glob.glob('./**/*.spec', recursive=True)
 
-def generate_graph_buildtime(verbose):
+def generate_graph(verbose=0, graphtype='buildtime'):
     G = nx.DiGraph()
     for specfile in specfiles:
         sp = Spec.from_file(specfile)
@@ -47,57 +45,49 @@ def generate_graph_buildtime(verbose):
                 This case is when the node was previously created by another
                 spec because it's a BuildRequires. Let's update its attributes.
                 """
-                if G.node[pkg.name]['ntype'] != 'stx_patched':
+                if G.node[pkg.name]['ntype'] == 'non_stx_patched':
                     G.node[pkg.name]['path'] = specfile
                     G.node[pkg.name]['project'] = stx_project
                     G.node[pkg.name]['ntype'] = 'stx_patched'
-            """
-            Create BuildRequires Nodes and link them to the Package Node.
-            Each Package Node must be linked to the Spec's BuildRequires
-            and to it's own BuildRequires (if any).
-            """
-            if len(pkg.build_requires) and verbose == 1:
-                print("Package with extra BRs: {} in {}".format(pkg.name, specfile))
+            # Create BuildRequires or Requires Nodes
+            if graphtype == 'buildtime':
+                """
+                Create BuildRequires Nodes and link them to the Package Node.
+                Each Package Node must be linked to the Spec's BuildRequires
+                and to it's own BuildRequires (if any).
+                """
+                if len(pkg.build_requires) and verbose == 1:
+                    print("Package with extra BRs: {} in {}".format(pkg.name, specfile))
 
-            build_requires = sp.build_requires + pkg.build_requires
-            for br in build_requires:
-                if not G.has_node(br.name):
-                    #If the Node does not exist already, it will create it.
-                    G.add_node(br.name,
-                               path=specfile,
-                               project=stx_project,
-                               ntype='non_stx_patched')
-                G.add_edge(pkg.name, br.name)
-    return G
+                build_requires = sp.build_requires + pkg.build_requires
+                for br in build_requires:
+                    if not G.has_node(br.name):
+                        #If the Node does not exist already, it will create it.
+                        G.add_node(br.name,
+                                   path=specfile,
+                                   project=stx_project,
+                                   ntype='non_stx_patched')
+                    G.add_edge(pkg.name, br.name)
+            elif graphtype == 'runtime':
+                """
+                Create Requires Nodes and link them to the Package Node.
+                Each Package Node must be linked to the Spec's Requires
+                and to it's own Requires (if any).
+                """
+                if len(pkg.requires) and verbose == 1:
+                    print("Package with extra Rs: {} in {}".format(pkg.name, specfile))
 
-def generate_graph_runtime(verbose):
-    G = nx.DiGraph()
-    for specfile in specfiles:
-        sp = Spec.from_file(specfile)
-        stx_project = specfile.split('/stx/')[-1].split('/')[0]
-        for pkg in sp.packages:
-            if not G.has_node(pkg.name):
-                G.add_node(pkg.name,
-                           path=specfile,
-                           project=stx_project,
-                           ntype='stx_patched')
+                requires = sp.requires + pkg.requires
+                for r in requires:
+                    if not G.has_node(r.name):
+                        #If the Node does not exist already, it will create it.
+                        G.add_node(r.name,
+                                   path=specfile,
+                                   project=stx_project,
+                                   ntype='non_stx_patched')
+                    G.add_edge(pkg.name, r.name)
             else:
-                if G.node[pkg.name]['ntype'] != 'stx_patched':
-                    G.node[pkg.name]['path'] = specfile
-                    G.node[pkg.name]['project'] = stx_project
-                    G.node[pkg.name]['ntype'] = 'stx_patched'
-
-            if len(pkg.requires) and verbose == 1:
-                print("Package with extra Rs: {} in {}".format(pkg.name, specfile))
-
-            requires = sp.requires + pkg.requires
-            for r in requires:
-                if not G.has_node(r.name):
-                    G.add_node(r.name,
-                               path=specfile,
-                               project=stx_project,
-                               ntype='non_stx_patched')
-                G.add_edge(pkg.name, r.name)
+                print('Not valid option: ', graphtype)
     return G
 
 def search_dependencies(to_search, G, verbose):
@@ -126,12 +116,9 @@ def main():
     """
     args = parser.parse_args()
     print(args)
-    if args.generate == 'buildtime':
-        G = generate_graph_buildtime(args.verbose)
-        write_graph(G, 'buildtime')
-    elif args.generate == 'runtime':
-        G = generate_graph_runtime(args.verbose)
-        write_graph(G, 'runtime')
+    if args.generate:
+        G = generate_graph(args.verbose, args.generate[0])
+        write_graph(G, args.generate)
     if args.search:
         if args.input:
             G = nx.read_graphml(args.input)
