@@ -18,6 +18,8 @@ parser.add_argument('-v', '--verbose',
                     help='Increase output verbosity',
                     action='count',
                     default=0)
+parser.add_argument('--starlingx', dest='starlingx', action='store_true',
+                    help='Print patched starlingx projects')
 
 specfiles = glob.glob('./**/*.spec', recursive=True)
 
@@ -110,6 +112,17 @@ def write_graph(G, name):
     nx.write_graphml_xml(G, "results/{}.xml".format(name))
     nx.drawing.nx_pydot.write_dot(G, "results/{}.dot".format(name))
 
+def print_starlingx_projects(G):
+    """
+    Look for nodes with attribute ntype=stx_patched
+    """
+    count = 0
+    for n, attrdict in G.node.items():
+        if attrdict['ntype'] == 'stx_patched':
+            count = count + 1
+            print(n, attrdict)
+    print('nodes with stx_patched attribute: {}'.format(count))
+
 def main():
     """
     Main tool
@@ -130,6 +143,10 @@ def main():
     # Search Dependencies
     if args.search:
         search_dependencies(args.search, G, args.verbose)
+    # Print Stx patched projects
+    if args.starlingx:
+        print('StarlingX patched projects')
+        print_starlingx_projects(G)
 
 if __name__ == '__main__':
     main()
