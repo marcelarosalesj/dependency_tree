@@ -116,12 +116,19 @@ def main():
     """
     args = parser.parse_args()
     print(args)
+    # Input Graph
     if args.generate:
+        print('Generating {} graph'.format(args.generate[0]))
         G = generate_graph(args.verbose, args.generate[0])
-        write_graph(G, args.generate)
+        write_graph(G, args.generate[0])
+    elif args.input:
+        print('Input graph {}'.format(args.input))
+        G = nx.read_graphml(args.input)
+    else:
+        print('It was not provide any graph. Use --generate or --input.')
+        exit(1)
+    # Search Dependencies
     if args.search:
-        if args.input:
-            G = nx.read_graphml(args.input)
         search_dependencies(args.search, G, args.verbose)
 
 if __name__ == '__main__':
