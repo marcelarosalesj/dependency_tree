@@ -20,6 +20,10 @@ parser.add_argument('-v', '--verbose',
                     default=0)
 parser.add_argument('--starlingx', dest='starlingx', action='store_true',
                     help='Print patched starlingx projects')
+parser.add_argument('--roots', dest='roots', action='store_true',
+                    help='Print roots packages')
+parser.add_argument('--leaves', dest='leaves', action='store_true',
+                    help='Print leaves packages')
 
 specfiles = glob.glob('./**/*.spec', recursive=True)
 
@@ -123,6 +127,47 @@ def print_starlingx_projects(G):
             print(n, attrdict)
     print('nodes with stx_patched attribute: {}'.format(count))
 
+def print_stx_leaves(G):
+    """
+    Print stx roots
+    """
+    H = G.reverse()
+    #H = G
+    nodes_stx_patched = [x for x,y in H.nodes(data=True) if y['ntype']=='stx_patched']
+    nodes_degree_zero = [n for n,d in H.in_degree() if d==0]
+    a_set = set(nodes_stx_patched)
+    b_set = set(nodes_degree_zero)
+    if a_set & b_set:
+        ab_set = a_set & b_set
+        print(ab_set)
+        print(len(ab_set))
+        for i in ab_set:
+            print('>>> {}'.format(i))
+            search_dependencies(i, H, verbose=0)
+
+    else:
+        print('Nothing to show.')
+
+def print_stx_roots(G):
+    """
+    Print stx roots
+    """
+    H = G
+    nodes_stx_patched = [x for x,y in H.nodes(data=True) if y['ntype']=='stx_patched']
+    nodes_degree_zero = [n for n,d in H.in_degree() if d==0]
+    a_set = set(nodes_stx_patched)
+    b_set = set(nodes_degree_zero)
+    if a_set & b_set:
+        ab_set = a_set & b_set
+        print(ab_set)
+        print(len(ab_set))
+        for i in ab_set:
+            print('>>> {}'.format(i))
+            search_dependencies(i, H, verbose=0)
+
+    else:
+        print('Nothing to show.')
+
 def main():
     """
     Main tool
@@ -147,6 +192,14 @@ def main():
     if args.starlingx:
         print('StarlingX patched projects')
         print_starlingx_projects(G)
+    # Print Stx roots packages
+    if args.roots:
+        print('StarlingX roots packages')
+        print_stx_roots(G)
+    # Print Stx leades packages
+    if args.leaves:
+        print('StarlingX leaves packages')
+        print_stx_leaves(G)
 
 if __name__ == '__main__':
     main()
