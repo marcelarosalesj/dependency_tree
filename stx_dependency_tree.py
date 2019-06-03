@@ -181,7 +181,12 @@ def main():
         write_graph(G, args.generate[0])
     elif args.input:
         print('Input graph {}'.format(args.input))
-        G = nx.read_graphml(args.input)
+        try:
+            G = nx.read_graphml(args.input)
+        except FileNotFoundError as e:
+            print('{} not found'.format(args.input))
+            exit(1)
+
     else:
         print('It was not provide any graph. Use --generate or --input.')
         exit(1)
